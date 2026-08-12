@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Daf Study — Tractate Sukkah</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 font-size=%2290%22><text y=%22.9em%22>📜</text></svg>" />
+  <link rel="stylesheet" href="assets/css/site.css" />
+</head>
+<body data-page="library">
+  <div id="site-nav"></div>
+
+  <div class="wrap wide">
+    <header class="masthead">
+      <div class="eyebrow"><he>מסכת סוכה</he>TRACTATE SUKKAH</div>
+      <h1>Daf Study</h1>
+      <p class="subtitle">Learn each amud, glance back over the back-and-forth, then quiz yourself — plus a separate track for Aramaic vocabulary and a map of how the whole masechta fits together.</p>
+    </header>
+
+    <section>
+      <div class="section-head"><span class="section-num">→</span><h2>Jump in</h2><div class="section-dash"></div></div>
+      <div class="card-grid">
+        <a class="card" href="quizzes.html">
+          <div class="card-eyebrow">Quizzes</div>
+          <h3>Practice &amp; milestone quizzes</h3>
+          <p>Every amud's quiz, plus bigger cumulative quizzes as you cover more ground.</p>
+        </a>
+        <a class="card" href="aramaic.html">
+          <div class="card-eyebrow">Aramaic</div>
+          <h3>Vocabulary drills</h3>
+          <p>Bite-sized, Duolingo-style drills on the words that actually show up in the daf.</p>
+        </a>
+        <a class="card" href="curriculum.html">
+          <div class="card-eyebrow">Curriculum</div>
+          <h3>Progression map</h3>
+          <p>How the ideas across Sukkah build on each other, amud by amud.</p>
+        </a>
+      </div>
+    </section>
+
+    <div id="library-root"></div>
+  </div>
+
+  <div id="site-footer"></div>
+
+  <script type="module" src="assets/js/nav.js"></script>
+  <script type="module">
+    import { mountLibrary } from "./assets/js/render-library.js";
+    mountLibrary();
+  </script>
+</body>
+</html>

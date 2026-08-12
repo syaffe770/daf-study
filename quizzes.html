@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Quizzes — Daf Study</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 font-size=%2290%22><text y=%22.9em%22>📜</text></svg>" />
+  <link rel="stylesheet" href="assets/css/site.css" />
+</head>
+<body data-page="quizzes">
+  <div id="site-nav"></div>
+
+  <div class="wrap wide">
+    <header class="masthead">
+      <div class="eyebrow">QUIZZES</div>
+      <h1>All quizzes</h1>
+      <p class="subtitle">Practice quizzes per amud, bigger milestone quizzes across a range, and your score history.</p>
+    </header>
+
+    <section>
+      <div class="section-head"><span class="section-num">01</span><h2>Practice quizzes</h2><div class="section-dash"></div></div>
+      <div class="card-grid" id="practice-root"></div>
+    </section>
+
+    <section>
+      <div class="section-head"><span class="section-num">02</span><h2>Milestone quizzes</h2><div class="section-dash"></div></div>
+      <div class="card-grid" id="milestone-root"></div>
+    </section>
+
+    <section>
+      <div class="section-head"><span class="section-num">03</span><h2>Score history</h2><div class="section-dash"></div></div>
+      <div id="history-root"></div>
+    </section>
+  </div>
+
+  <div id="site-footer"></div>
+
+  <script type="module" src="assets/js/nav.js"></script>
+  <script type="module">
+    import { mountQuizzesHub } from "./assets/js/render-quizzes.js";
+    mountQuizzesHub();
+  </script>
+</body>
+</html>

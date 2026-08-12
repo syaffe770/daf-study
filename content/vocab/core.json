@@ -1,0 +1,19 @@
+{
+  "id": "core",
+  "title": "Core Gemara Aramaic — every word verified against Sukkah 2a–2b",
+  "words": [
+    { "id": "pesula", "he": "פְּסוּלָה", "translit": "pesula", "meaning": "Unfit / invalid", "daf": "2a" },
+    { "id": "machshir", "he": "מַכְשִׁיר", "translit": "machshir", "meaning": "He deems it fit", "daf": "2a" },
+    { "id": "kshera", "he": "כְּשֵׁרָה", "translit": "kshera", "meaning": "Fit / valid", "daf": "2b" },
+    { "id": "mena-hanei-milei", "he": "מְנָא הָנֵי מִילֵּי", "translit": "mena hanei milei", "meaning": "From where are these matters derived?", "daf": "2a" },
+    { "id": "ela-meata", "he": "אֶלָּא מֵעַתָּה", "translit": "ela me'ata", "meaning": "If that's so... (introduces a challenge by extension)", "daf": "2a" },
+    { "id": "amar-leih", "he": "אֲמַר לֵיהּ", "translit": "amar leih", "meaning": "He said to him", "daf": "2a" },
+    { "id": "dirat-arai", "he": "דִּירַת עֲרַאי", "translit": "dirat arai", "meaning": "A temporary dwelling", "daf": "2a" },
+    { "id": "dirat-keva", "he": "דִּירַת קֶבַע", "translit": "dirat keva", "meaning": "A permanent dwelling", "daf": "2a" },
+    { "id": "keman", "he": "כְּמַאן", "translit": "keman", "meaning": "In accordance with whose opinion?", "daf": "2b" },
+    { "id": "machloket", "he": "מַחְלוֹקֶת", "translit": "machloket", "meaning": "A dispute", "daf": "2b" },
+    { "id": "meitivi", "he": "מֵיתִיבִי", "translit": "meitivi", "meaning": "He raised an objection (introduces a Beraita)", "daf": "2b" },
+    { "id": "amru-lo", "he": "אָמְרוּ לוֹ", "translit": "amru lo", "meaning": "They said to him (a challenge follows)", "daf": "2b" },
+    { "id": "vehalo", "he": "וַהֲלֹא", "translit": "va-halo", "meaning": "But isn't it that...? (rhetorical pushback)", "daf": "2b" }
+  ]
+}

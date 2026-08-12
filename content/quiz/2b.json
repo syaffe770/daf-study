@@ -1,0 +1,26 @@
+{
+  "id": "2b-practice",
+  "daf": "2b",
+  "title": "Sukkah 2b — Practice Quiz",
+  "source": "Questions and correct answers taken directly from the Dafyomi Advancement Forum quiz for Sukkah 2 (dafyomi.co.il/sukah/quiz/su-qz-002.htm), questions 4–6.",
+  "questions": [
+    {
+      "q": "A sukkah whose walls reach the sechach may be valid even higher than 20 amos.",
+      "options": ["True", "True, even if the walls don't reach the sechach", "False", "Machlokes A&B", "Machlokes all of the above"],
+      "correct": 3,
+      "explain": "The dispute is only where the walls don't reach the sechach — if the walls do reach the sechach, it's kosher even above 20 amos. That leniency follows Rabbi Yoshiya's report of Rabbah's reasoning specifically, which is why it's marked a machloket rather than a flat true."
+    },
+    {
+      "q": "A sukkah is 8×8 tefachim and 21 amos high — is it kosher?",
+      "options": ["Yes", "No", "Machlokes Tannaim", "Machlokes Amoraim", "Machlokes C&D"],
+      "correct": 4,
+      "explain": "Rav Huna and Rav Chanan bar Rabah disagree about exactly this case: one holds the height-dispute applies only right at the bare minimum sukkah size (so 8×8 tefachim is already fit regardless of height); the other holds the dispute runs all the way up to 4×4 amos (so 8×8 tefachim is still within the disputed range). Since the real question is which of those two framings is correct, the answer is \"Machlokes C&D.\""
+    },
+    {
+      "q": "A katan she'eino tzarich l'imo (a minor who no longer needs his mother) must use a sukkah.",
+      "options": ["True, d'Oraisa", "True, d'Rabanan", "False", "Machlokes A&B", "Machlokes A&C"],
+      "correct": 1,
+      "explain": "This point comes up defending Queen Helene's proof: such a minor's sukkah obligation is only rabbinic (derabanan), not Torah law — which is exactly why R' Yehuda needed his second point, that she followed the Sages in everything."
+    }
+  ]
+}

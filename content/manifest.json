@@ -1,0 +1,59 @@
+{
+  "masechta": "Sukkah",
+  "masechtaHe": "מסכת סוכה",
+  "dapim": [
+    {
+      "daf": 2,
+      "label": "Daf 2",
+      "theme": "The Mishnah's four conditions; three reasons for the 20-amos line, three exceptions, then R' Yehuda's proof",
+      "amudim": [
+        { "id": "2a", "amud": "a", "title": "Why Twenty Amos? — Three Reasons", "status": "available" },
+        { "id": "2b", "amud": "b", "title": "Three Exceptions, Then Queen Helene's Sukkah", "status": "available" }
+      ]
+    },
+    { "daf": 3, "label": "Daf 3", "theme": "Coming soon", "amudim": [
+      { "id": "3a", "amud": "a", "title": "Coming soon", "status": "locked" },
+      { "id": "3b", "amud": "b", "title": "Coming soon", "status": "locked" }
+    ]},
+    { "daf": 4, "label": "Daf 4", "theme": "Coming soon", "amudim": [
+      { "id": "4a", "amud": "a", "title": "Coming soon", "status": "locked" },
+      { "id": "4b", "amud": "b", "title": "Coming soon", "status": "locked" }
+    ]},
+    { "daf": 5, "label": "Daf 5", "theme": "Coming soon", "amudim": [
+      { "id": "5a", "amud": "a", "title": "Coming soon", "status": "locked" },
+      { "id": "5b", "amud": "b", "title": "Coming soon", "status": "locked" }
+    ]},
+    { "daf": 6, "label": "Daf 6", "theme": "Coming soon", "amudim": [
+      { "id": "6a", "amud": "a", "title": "Coming soon", "status": "locked" },
+      { "id": "6b", "amud": "b", "title": "Coming soon", "status": "locked" }
+    ]},
+    { "daf": 7, "label": "Daf 7", "theme": "Coming soon", "amudim": [
+      { "id": "7a", "amud": "a", "title": "Coming soon", "status": "locked" },
+      { "id": "7b", "amud": "b", "title": "Coming soon", "status": "locked" }
+    ]},
+    { "daf": 8, "label": "Daf 8", "theme": "Coming soon", "amudim": [
+      { "id": "8a", "amud": "a", "title": "Coming soon", "status": "locked" },
+      { "id": "8b", "amud": "b", "title": "Coming soon", "status": "locked" }
+    ]},
+    { "daf": 9, "label": "Daf 9", "theme": "Coming soon", "amudim": [
+      { "id": "9a", "amud": "a", "title": "Coming soon", "status": "locked" },
+      { "id": "9b", "amud": "b", "title": "Coming soon", "status": "locked" }
+    ]},
+    { "daf": 10, "label": "Daf 10", "theme": "Coming soon", "amudim": [
+      { "id": "10a", "amud": "a", "title": "Coming soon", "status": "locked" },
+      { "id": "10b", "amud": "b", "title": "Coming soon", "status": "locked" }
+    ]},
+    { "daf": 11, "label": "Daf 11", "theme": "Coming soon", "amudim": [
+      { "id": "11a", "amud": "a", "title": "Coming soon", "status": "locked" },
+      { "id": "11b", "amud": "b", "title": "Coming soon", "status": "locked" }
+    ]},
+    { "daf": 12, "label": "Daf 12", "theme": "Coming soon", "amudim": [
+      { "id": "12a", "amud": "a", "title": "Coming soon", "status": "locked" },
+      { "id": "12b", "amud": "b", "title": "Coming soon", "status": "locked" }
+    ]}
+  ],
+  "quizzes": {
+    "practice": ["2a", "2b"],
+    "milestone": []
+  }
+}

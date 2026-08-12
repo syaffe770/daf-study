@@ -1,0 +1,26 @@
+{
+  "id": "2a-practice",
+  "daf": "2a",
+  "title": "Sukkah 2a — Practice Quiz",
+  "source": "Questions and correct answers taken directly from the Dafyomi Advancement Forum quiz for Sukkah 2 (dafyomi.co.il/sukah/quiz/su-qz-002.htm), questions 1–3.",
+  "questions": [
+    {
+      "q": "According to the Mishnah, if the sechach of the sukkah is higher than 20 amos, the sukkah is unfit (pesulah).",
+      "options": ["True", "False", "Safeik (uncertain)", "Machlokes A&B", "Machlokes A&C"],
+      "correct": 3,
+      "explain": "The Mishnah records a dispute: the Tana Kama holds it's unfit (option A, \"True\"); Rabbi Yehuda holds it's fit (option B, \"False\"). So the honest answer is the machloket between those two, not a flat true or false."
+    },
+    {
+      "q": "Why in Eiruvin are we taught to repair an over-height mavoy (alleyway), while here we're taught that an over-height sukkah is simply unfit?",
+      "options": ["Sukkah is d'Oraisa — i.e. it was always unfit", "Sukkah has too many details to go into all at once, otherwise we would", "Talmid to'eh (a mistaken student's version)", "Kashya (an unresolved difficulty)", "Machlokes A&B"],
+      "correct": 4,
+      "explain": "The Gemara actually gives two answers, not one: a sukkah is Torah law so it's simply stated as unfit, and/or a sukkah has too many detailed requirements to spell out a fix. Since both are genuinely offered, the answer is both A and B."
+    },
+    {
+      "q": "Why can't a sukkah be higher than 20 amos?",
+      "options": ["It can.", "A person must know he is sitting in a sukkah.", "It must be able to be a dirah arai (temporary dwelling).", "We must be in the tzel sukkah (shade of the sukkah).", "Machlokes all of the above"],
+      "correct": 4,
+      "explain": "All three reasons are genuinely given: Rabbah (awareness), Rava (temporary dwelling), Rebbi Zeira (shade). It's a three-way machloket, not any single one of them."
+    }
+  ]
+}
