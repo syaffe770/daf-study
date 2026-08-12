@@ -1,0 +1,50 @@
+{
+  "id": "3a",
+  "daf": 3,
+  "amud": "a",
+  "masechta": "Sukkah",
+  "ref": "Sukkah 3a",
+  "title": "Closing Helene's Case, Then: How Small Can a Sukkah Be?",
+  "subtitle": "The kitoniyyot resolution, then Beit Shammai and Beit Hillel disagree about a sukkah's minimum footprint.",
+  "sources": "Gemara text: Sefaria (William Davidson Edition). Structure and quiz questions 1-2 cross-checked against the Dafyomi Advancement Forum (dafyomi.co.il) overview, points-to-ponder, Tosfos summary, and quiz for Sukkah 3.",
+
+  "before": [
+    "2b ended mid-thought on whether Rabbi Yoshiya's opinion (walls reaching the sechach) actually fits Queen Helene's sukkah. This amud closes that out — then pivots to a new question entirely: how small can a kosher sukkah actually be?",
+    "A second dispute follows right behind it, only loosely about sukkah at all — the Gemara asks what makes any structure legally count as a \"house,\" and spends real time on it before circling back to the main topic."
+  ],
+
+  "flow": [
+    { "type": "step", "label": "Gemara closes the Helene case", "sub": "her sons sat in the main sukkah; she used small side-rooms (\"kitoniyyot\") for privacy — so it proves nothing either way about a small sukkah's height limit", "tone": "accent" },
+    { "type": "step", "label": "New question: how small can a kosher sukkah be?", "sub": "Rav Shmuel bar Yitzchak rules like Beit Shammai — a rare exception" },
+    { "type": "branch", "label": "Beit Shammai vs. Beit Hillel", "items": [
+      { "label": "Beit Shammai", "sub": "must hold his head, most of his body, and his table", "tone": "gold" },
+      { "label": "Beit Hillel", "sub": "head and most of the body only — table not required", "tone": "gold" }
+    ]},
+    { "type": "note", "label": "Gemara tests whether this is really about size at all", "sub": "or about where a person sits in a large sukkah, with his table left inside the house" },
+    { "type": "step", "label": "Resolved: they disagree about both", "sub": "the minimum footprint of a small sukkah, and where one may sit in a large one", "tone": "accent" },
+    { "type": "note", "label": "Tangent begins: what makes a structure a \"house\"?", "sub": "a beraita lists everything a sub-4×4-amah structure is exempt from — continues on 3b" }
+  ],
+  "flowCaption": "One case closes, one machloket opens and gets a two-part resolution, and a new tangent begins.",
+
+  "opinions": [
+    { "who": "Rabba bar Rav Adda, then Rav Ashi", "stance": "svara", "stanceClass": "svara", "claim": "Helene's sukkah had small side-rooms (\"kitoniyyot\") off a large central room. Rav Ashi refines it further: the dispute is specifically about those small compartments, not the whole sukkah.", "basis": "Answers why the Elders raised no objection to what looked like a small sukkah." },
+    { "who": "Beit Shammai", "stance": "strict", "stanceClass": "strict", "claim": "A kosher sukkah must be large enough to hold a person's head, most of his body, <i>and</i> his table.", "basis": "Cited in a beraita; ruled like, exceptionally, by Rav Shmuel bar Yitzchak." },
+    { "who": "Beit Hillel", "stance": "lenient", "stanceClass": "lenient", "claim": "A kosher sukkah only needs to hold a person's head and most of his body — his table is not required.", "basis": "Cited in the same beraita." },
+    { "who": "Rav Shmuel bar Yitzchak", "stance": "svara", "stanceClass": "svara", "claim": "Rules like Beit Shammai here — against the general principle that halachah follows Beit Hillel. When Rabbi Abba expresses astonishment, he confirms: yes, Beit Shammai, and don't budge from it.", "basis": "A recognized exception to the Beit Shammai/Beit Hillel default." },
+    { "who": "Rav Nachman bar Yitzchak", "stance": "svara", "stanceClass": "svara", "claim": "Objects to the assumption: maybe Beit Shammai and Beit Hillel aren't disputing minimum size at all — maybe it's about a large sukkah where one sits at the entrance with his table left inside the house.", "basis": "Challenges via the mishnah's precise wording." },
+    { "who": "Mar Zutra", "stance": "svara", "stanceClass": "svara", "claim": "The mishnah says \"unfit\"/\"fit\" — not \"he did not fulfill his obligation\"/\"he fulfilled it.\" That language shows the dispute really is about the sukkah's own status, supporting that it is about size.", "basis": "A close reading of the mishnah's exact wording." }
+  ],
+
+  "script": [
+    { "speaker": "Gemara closes Helene's case", "gloss": "The Rabbis hold her sons sat in a full, valid sukkah; she herself often sat in small side-rooms for modesty, and the Elders said nothing because her sons weren't in those rooms. Rabbi Yehuda holds her sons did sometimes sit there with her — and the Elders still said nothing, so a small sukkah over 20 amos is fine too. Either way, no clean proof survives about a small sukkah specifically." },
+    { "speaker": "Rav Shmuel bar Yitzchak", "speakerHe": "אָמַר רַב שְׁמוּאֵל בַּר יִצְחָק", "emphasis": true, "quote": "הֲלָכָה, צְרִיכָה שֶׁתְּהֵא מַחְזֶקֶת רֹאשׁוֹ וְרוּבּוֹ וְשׁוּלְחָנוֹ.", "gloss": "The halachah is that a sukkah must be large enough to hold one's head, most of the body, and his table." },
+    { "speaker": "Rabbi Abba, astonished", "quote": "כְּמַאן, כְּבֵית שַׁמַּאי?", "gloss": "In accordance with whom — Beit Shammai? (Halachah almost never follows Beit Shammai over Beit Hillel.)" },
+    { "speaker": "Rav Shmuel bar Yitzchak", "quote": "אֶלָּא כְּמַאן?!", "gloss": "Then according to whom else should I rule? Yes — Beit Shammai, and that's correct here." },
+    { "speaker": "Challenge", "speakerHe": "מַתְקֵיף לַהּ רַב נַחְמָן בַּר יִצְחָק", "gloss": "How do we even know Beit Shammai and Beit Hillel are arguing about a small sukkah's minimum size? Perhaps it's about a large sukkah — where someone sits at the entrance with his table inside the adjacent house. Beit Shammai worry he'll be drawn after his table (ending up mostly outside the sukkah); Beit Hillel aren't concerned." },
+    { "speaker": "Gemara tests this", "gloss": "The mishnah's own language — \"Beit Shammai deem it unfit, Beit Hillel deem it fit\" — looks like it's describing the sukkah's status, not the person's. That fits Rav Nachman's reading better than a dispute about minimum size." },
+    { "speaker": "Reopened", "gloss": "But don't they also disagree about a small sukkah's size directly? Two conflicting beraitot are cited — one (in the name of Rabbi Yehuda HaNasi) requires 4×4 amos and mentions \"his table\"; another attributes to \"the Rabbis\" a head-and-most-of-body standard, with no mention of a table. The contradiction resolves if one beraita reflects Beit Shammai and the other Beit Hillel — so they do disagree about size." },
+    { "speaker": "Mar Zutra", "gloss": "The mishnah's wording confirms this a second way: it says \"unfit\"/\"fit,\" about the sukkah's status — not \"he did not fulfill his obligation\"/\"he fulfilled it,\" about the person's conduct. That points to a dispute over the structure's own minimum size." },
+    { "speaker": "Resolution", "emphasis": true, "gloss": "Actually, Beit Shammai and Beit Hillel disagree about two separate things: the minimum footprint of a small sukkah, <i>and</i> where one may sit in a large sukkah relative to his table. The mishnah's text is read as covering both cases at once." },
+    { "speaker": "Tangent begins", "quote": "בַּיִת שֶׁאֵין בּוֹ אַרְבַּע אַמּוֹת עַל אַרְבַּע אַמּוֹת — פָּטוּר מִן הַמְּזוּזָה, וּמִן הַמַּעֲקֶה, וְאֵינוֹ מִטַּמֵּא בִּנְגָעִים, וְאֵינוֹ נֶחְלָט בְּבָתֵּי עָרֵי חוֹמָה...", "gloss": "Apropos the 4-amos measure, the Gemara asks who taught a beraita listing everything a house smaller than 4×4 amos is exempt from: a mezuzah, a roof parapet, becoming ritually impure with tzaraat, and the special sale rules for houses in walled cities — a list that continues onto 3b." }
+  ]
+}

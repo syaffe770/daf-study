@@ -1,8 +1,12 @@
 {
   "id": "core",
-  "title": "Core Gemara Aramaic — every word verified against Sukkah 2a–2b",
+  "title": "Core Gemara Aramaic — every word verified against Sukkah 2a–3b",
   "words": [
     { "id": "pesula", "he": "פְּסוּלָה", "translit": "pesula", "meaning": "Unfit / invalid", "daf": "2a" },
+    { "id": "mai-taama", "he": "מַאי טַעְמָא", "translit": "mai ta'ama", "meaning": "What is the reason?", "daf": "3b" },
+    { "id": "matkif-lah", "he": "מַתְקֵיף לַהּ", "translit": "matkif lah", "meaning": "He strongly objects / raises a challenge", "daf": "3a" },
+    { "id": "leolam", "he": "לְעוֹלָם", "translit": "le'olam", "meaning": "Actually / rather (introduces a resolution)", "daf": "3a" },
+    { "id": "ika-deamri", "he": "אִיכָּא דְּאָמְרִי", "translit": "ika de'amri", "meaning": "Some say (introduces an alternate version)", "daf": "3a" },
     { "id": "machshir", "he": "מַכְשִׁיר", "translit": "machshir", "meaning": "He deems it fit", "daf": "2a" },
     { "id": "kshera", "he": "כְּשֵׁרָה", "translit": "kshera", "meaning": "Fit / valid", "daf": "2b" },
     { "id": "mena-hanei-milei", "he": "מְנָא הָנֵי מִילֵּי", "translit": "mena hanei milei", "meaning": "From where are these matters derived?", "daf": "2a" },

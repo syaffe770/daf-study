@@ -1,0 +1,20 @@
+{
+  "id": "3a-practice",
+  "daf": "3a",
+  "title": "Sukkah 3a — Practice Quiz",
+  "source": "Questions and correct answers taken directly from the Dafyomi Advancement Forum quiz for Sukkah 3 (dafyomi.co.il/sukah/quiz/su-qz-003.htm), questions 1–2.",
+  "questions": [
+    {
+      "q": "Assuming a sukkah's minimum size is \"his head, most of his body, and his table\" — does \"kitoniyyot\" (small side-rooms) answer why the Elders said nothing about Queen Helene's sukkah?",
+      "options": ["Yes", "No", "Safeik (uncertain)", "Machlokes A&B", "Machlokes A&C"],
+      "correct": 3,
+      "explain": "Rashi cites both readings and leans toward \"No\" as more likely. But the Gemara's own back-and-forth — Rabba bar Rav Adda's proposal, then Rav Ashi's refinement of it — leaves it as a live dispute between the two, which is why the marked answer is \"Machlokes A&B.\""
+    },
+    {
+      "q": "Beit Shammai and Beit Hillel argue about a ________.",
+      "options": ["Small sukkah with no room for his table", "A room for his table inside the house — that isn't actually there", "Both", "Neither", "Machlokes C&D"],
+      "correct": 2,
+      "explain": "The Gemara's resolution is that they disagree about two separate things at once: the minimum footprint of a small sukkah, and where one may sit in a large sukkah relative to his table."
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "id": "3b-practice",
+  "daf": "3b",
+  "title": "Sukkah 3b — Practice Quiz",
+  "source": "Questions and correct answers taken directly from the Dafyomi Advancement Forum quiz for Sukkah 3 (dafyomi.co.il/sukah/quiz/su-qz-003.htm), questions 3–6.",
+  "questions": [
+    {
+      "q": "A house that doesn't have an area of 4×4 amos is exempt from...",
+      "options": ["Mezuzah", "The roof parapet (maakeh)", "Becoming impure with tzaraat", "The special sale rules for walled-city houses", "All of the above"],
+      "correct": 4,
+      "explain": "All of these halachot are tied to verses that specifically say \"house\" — so none apply to a structure too small to legally count as one."
+    },
+    {
+      "q": "A house that doesn't have an area of 4×4 amos can still be used for __________.",
+      "options": ["Me'arvin (eiruvei chatzeirot — joining a courtyard)", "Mishtatfin (participating generally)", "Placing an eiruv in it", "Shittuf (merging an alleyway)", "All of the above"],
+      "correct": 3,
+      "explain": "It can't hold the food for eiruvei chatzeirot — not fit for residence. But it can hold the food for shittufei mevoyos (merging an alleyway), since for that purpose it's no worse than an ordinary open courtyard."
+    },
+    {
+      "q": "One partner may force the other to divide a 4×7 house.",
+      "options": ["True — as long as it starts out 4×4", "True, even at 7×7 tefachim", "True, even at 6×7 tefachim", "False", "Machlokes A&D"],
+      "correct": 3,
+      "explain": "The Gemara reattributes this: such a structure doesn't have the din of division like a courtyard at all. Courtyard division runs on separate mechanics (Rav Huna: by entrance ratio; Rav Chisda: 4 amos flat per entrance, then split the rest) — not a simple forced division."
+    },
+    {
+      "q": "Partners are dividing a courtyard. Reuven has 3 entrances, Shimon has 2 — how much of the courtyard does Reuven get?",
+      "options": ["50%", "60%", "Each takes a 4×4 entrance and divides the balance", "Machlokes A&B", "Machlokes B&C"],
+      "correct": 4,
+      "explain": "Rav Huna divides purely by entrance ratio (3:2 → 60%, option B). Rav Chisda gives each entrance a flat 4 amos first, then splits the remainder evenly (option C). The real answer is that it's disputed between those two mechanisms."
+    }
+  ]
+}

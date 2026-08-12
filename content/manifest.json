@@ -11,10 +11,15 @@
         { "id": "2b", "amud": "b", "title": "Three Exceptions, Then Queen Helene's Sukkah", "status": "available" }
       ]
     },
-    { "daf": 3, "label": "Daf 3", "theme": "Coming soon", "amudim": [
-      { "id": "3a", "amud": "a", "title": "Coming soon", "status": "locked" },
-      { "id": "3b", "amud": "b", "title": "Coming soon", "status": "locked" }
-    ]},
+    {
+      "daf": 3,
+      "label": "Daf 3",
+      "theme": "Closing Queen Helene's case; how small a sukkah can be; a tangent on what makes a structure a \"house\"",
+      "amudim": [
+        { "id": "3a", "amud": "a", "title": "Closing Helene's Case, Then: How Small Can a Sukkah Be?", "status": "available" },
+        { "id": "3b", "amud": "b", "title": "What Makes a House a House — Then Back to Sukkah", "status": "available" }
+      ]
+    },
     { "daf": 4, "label": "Daf 4", "theme": "Coming soon", "amudim": [
       { "id": "4a", "amud": "a", "title": "Coming soon", "status": "locked" },
       { "id": "4b", "amud": "b", "title": "Coming soon", "status": "locked" }
@@ -53,7 +58,7 @@
     ]}
   ],
   "quizzes": {
-    "practice": ["2a", "2b"],
+    "practice": ["2a", "2b", "3a", "3b"],
     "milestone": []
   }
 }

@@ -1,0 +1,45 @@
+{
+  "id": "3b",
+  "daf": 3,
+  "amud": "b",
+  "masechta": "Sukkah",
+  "ref": "Sukkah 3b",
+  "title": "What Makes a House a House — Then Back to Sukkah",
+  "subtitle": "Finishing the 4-amos digression, and the point it was all for: a sukkah, being temporary, doesn't need nearly as much.",
+  "sources": "Gemara text: Sefaria (William Davidson Edition). Structure and quiz questions 3-6 cross-checked against the Dafyomi Advancement Forum (dafyomi.co.il) quiz for Sukkah 3. The closing point continues onto 4a.",
+
+  "before": [
+    "3a opened a tangent: what makes a structure legally count as a \"house\"? This amud finishes that list, then delivers the actual point of the detour — even though a permanent house needs 4×4 amos to count as a dwelling, a sukkah is temporary, so the Rabbis allow it to be smaller.",
+    "The amud closes with the tangent's own engine room: courtyard-division mechanics between neighbors with different numbers of entrances. It ends on a fresh question for the main sukkah topic, picked up on 4a — does piling cushions and blankets on the floor count as lowering an over-height sukkah?"
+  ],
+
+  "flow": [
+    { "type": "step", "label": "List continues", "sub": "also exempt from counting toward a city's boundary, and from forced division among heirs or partners" },
+    { "type": "step", "label": "Attribution question: is this list Rabbi Yehuda HaNasi's alone, or the Rabbis' too?" },
+    { "type": "step", "label": "Key resolution: even the Rabbis agree", "sub": "a permanent house needs 4 amos to count as a dwelling — a sukkah, being temporary, doesn't", "tone": "accent" },
+    { "type": "branch", "label": "Eiruv vs. shittuf", "items": [
+      { "label": "Eiruvei chatzeirot", "sub": "not placed in a sub-4-amos house", "tone": "bad" },
+      { "label": "Shittufei mevoyos", "sub": "can be placed there — no worse than an open courtyard", "tone": "good" }
+    ]},
+    { "type": "step", "label": "Courtyard division depends on doorways", "sub": "Rav Huna: split by ratio of entrances · Rav Chisda: 4 amos flat per entrance first, then split the rest evenly" },
+    { "type": "note", "label": "Nafka mina to come, on 4a", "sub": "does piling cushions and blankets on the floor lower an over-height sukkah? Spoiler: no — the intent to leave them isn't lasting" }
+  ],
+  "flowCaption": "The tangent resolves back into the sukkah theme, then its own mechanics run to the end of the amud.",
+
+  "opinions": [
+    { "who": "The Rabbis (Chachamim)", "stance": "svara", "stanceClass": "svara", "claim": "Even they agree a house needs 4×4 amos to count as a dwelling — but that's specific to a permanent residence. A sukkah, being a temporary dwelling, doesn't need nearly that much.", "basis": "<he>לְעִנְיַן סוּכָּה דְּדִירַת עֲרַאי הִיא, אֲבָל לְגַבֵּי בַּיִת דְּדִירַת קֶבַע הוּא</he> — the tangent's actual payoff." },
+    { "who": "Rav Huna", "stance": "svara", "stanceClass": "svara", "claim": "A courtyard is divided among its residents in proportion to how many entrances each of them has.", "basis": "<he>חָצֵר לְפִי פְּתָחֶיהָ מִתְחַלֶּקֶת</he>." },
+    { "who": "Rav Chisda", "stance": "svara", "stanceClass": "svara", "claim": "Each entrance first gets a flat 4 amos off the top; only what's left over is split evenly among the residents.", "basis": "A different mechanism for the same courtyard-division question." }
+  ],
+
+  "script": [
+    { "speaker": "List continues", "quote": "וְאֵין עוֹשִׂין אוֹתוֹ עִיבּוּר בֵּין שְׁתֵּי עֲיָירוֹת, וְאֵין הָאַחִין וְהַשּׁוּתָּפִין חוֹלְקִין בּוֹ.", "gloss": "A sub-4-amos house also can't count toward joining two cities for Shabbat-boundary purposes, and brothers or partners can't force its division — it's too small to divide." },
+    { "speaker": "Gemara asks", "gloss": "Is this beraita's author Rabbi Yehuda HaNasi alone (who elsewhere requires 4 amos even for a sukkah), and not the Rabbis?" },
+    { "speaker": "Resolution", "emphasis": true, "quote": "לְעִנְיַן סוּכָּה — דְּדִירַת עֲרַאי הִיא ... אֲבָל לְגַבַּי בַּיִת — דְּדִירַת קֶבַע הוּא, אֲפִילּוּ רַבָּנַן מוֹדוּ.", "gloss": "Even the Rabbis could hold this: they only require less than 4 amos for a <b>sukkah</b>, which is a temporary dwelling. For a <b>house</b>, a permanent dwelling, even the Rabbis agree it needs a full 4×4 amos to count as a livable house at all." },
+    { "speaker": "Reason-by-reason", "gloss": "The Gemara works through the list: mezuzah, parapet, tzaraat-impurity, and the walled-city sale rules all depend on Torah verses that specifically say \"house\" — so they don't apply to a structure too small to count as one." },
+    { "speaker": "Eiruv vs. shittuf", "gloss": "A sub-4-amos house can't hold the food for <i>eiruvei chatzeirot</i> (joining a courtyard's households) — it isn't fit for residence. But it <i>can</i> hold the food for <i>shittufei mevoyos</i> (merging an alleyway's courtyards), since for that purpose it's no worse than an ordinary open courtyard." },
+    { "speaker": "On dividing it", "gloss": "Brothers or partners can't force a sub-4-amos house to be divided the way a courtyard is divided — that whole division framework simply doesn't apply to something this small." },
+    { "speaker": "Courtyard mechanics", "speakerHe": "רַב הוּנָא / רַב חִסְדָּא", "gloss": "How is a shared courtyard actually divided among residents? Rav Huna: proportionally, by how many entrances each resident has onto it. Rav Chisda: each entrance first gets a flat 4 amos, and only the remaining space is split evenly." },
+    { "speaker": "Looking ahead", "gloss": "The Gemara returns to the sukkah's own height law: if a sukkah is more than 20 amos high and someone piles cushions and blankets on the floor to bring it under the line, that reduction doesn't count — continued on 4a." }
+  ]
+}
