@@ -87,6 +87,23 @@ The 3rd element of each option's array is `1` for the correct option (the
 Hebrew-encoded feedback text (`\uXXXX` escapes) worth decoding for the
 `explain` field.
 
+## Adding Aramaic vocab
+
+`content/vocab/core.json` is a flat list — add a new entry anywhere in the
+`words` array:
+
+```json
+{ "id": "short-id", "he": "הָאָרָמִית", "translit": "transliteration", "meaning": "English meaning", "daf": "2a" }
+```
+
+- `id` — unique, kebab-case
+- `daf` — which amud it's from (`"2a"`, `"3b"`, etc.), or `"general"` if it's
+  not tied to one
+- Source the meaning from Aramaic that actually appears in a `quote` field in
+  `content/daf/*.json` (safest — nothing new to verify), or from a real
+  dictionary/reference if it's a word not yet in our content. Don't guess a
+  meaning from memory.
+
 ## Score tracking
 
 `assets/js/store.js` saves quiz scores to `localStorage` by default (private
