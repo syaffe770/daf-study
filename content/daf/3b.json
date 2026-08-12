@@ -6,7 +6,7 @@
   "ref": "Sukkah 3b",
   "title": "What Makes a House a House — Then Back to Sukkah",
   "subtitle": "Finishing the 4-amos digression, and the point it was all for: a sukkah, being temporary, doesn't need nearly as much.",
-  "sources": "Gemara text: Sefaria (William Davidson Edition). Structure and quiz questions 3-6 cross-checked against the Dafyomi Advancement Forum (dafyomi.co.il) quiz for Sukkah 3. The closing point continues onto 4a.",
+  "sources": "Gemara text: Sefaria (William Davidson Edition). Structure and quiz questions 3-6 cross-checked against the Dafyomi Advancement Forum (dafyomi.co.il) quiz for Sukkah 3. The closing point continues onto 4a. Tosfos: dafyomi.co.il's \"Point by Point Summary of Tosfos\" (Yaakov Montrose, Kollel Iyun Hadaf).",
 
   "before": [
     "3a opened a tangent: what makes a structure legally count as a \"house\"? This amud finishes that list, then delivers the actual point of the detour — even though a permanent house needs 4×4 amos to count as a dwelling, a sukkah is temporary, so the Rabbis allow it to be smaller.",
@@ -41,5 +41,24 @@
     { "type": "answer", "speaker": "On dividing it", "gloss": "Brothers or partners can't force a sub-4-amos house to be divided the way a courtyard is divided — that whole division framework simply doesn't apply to something this small." },
     { "type": "opinion", "speaker": "Courtyard mechanics", "speakerHe": "רַב הוּנָא / רַב חִסְדָּא", "gloss": "How is a shared courtyard actually divided among residents? Rav Huna: proportionally, by how many entrances each resident has onto it. Rav Chisda: each entrance first gets a flat 4 amos, and only the remaining space is split evenly." },
     { "type": "source", "speaker": "Looking ahead", "gloss": "The Gemara returns to the sukkah's own height law: if a sukkah is more than 20 amos high and someone piles cushions and blankets on the floor to bring it under the line, that reduction doesn't count — continued on 4a." }
+  ],
+
+  "tosfos": [
+    {
+      "dh": "תוספות ד״ה ואין עושין",
+      "dhEn": "v'Ain Osin",
+      "summary": "The Rashbam and Rabbeinu Tam argue about the correct text of the Gemara, in a passage about extending a town's Shabbos boundary (techum) with a small house.",
+      "points": [
+        { "type": "question", "label": "(a) Question", "he": "תימה האי בית מאי עבידתיה לר״מ דאמר פרק כיצד מעברין (עירובין דף נז. ושם)...", "en": "What role does this \"house\" actually play? Per Rebbi Meir (Eruvin 57a), a karfef (70+ amos) is added to each city's techum regardless — the cities could end up sharing a techum without this house at all. Same for the Rabbanan's view per Rav Huna. Per Chiya bar Rav (one karfef for both cities together), that karfef doesn't need a house either. If so, why does the beraita even mention \"two cities\"? Shouldn't it just say a house under 4 amos can't extend a city's techum on its own?" },
+        { "type": "answer", "label": "(b) Text #1 — Rashbam", "he": "ואומר רשב״ם דגרסינן הכא ואין עושין עיבור לעיר וכן משמע בירושלמי...", "en": "Our text should actually read \"we do not make it an extension to the city\" [singular] — which also matches the Yerushalmi's wording, \"a connection to the city.\"" },
+        { "type": "answer", "label": "(c) Text #2 — Rabbeinu Tam", "he": "ור״ת מקיים גירסת הספרים ומפרש דאין נותנין לזה הבית דין עיבור...", "en": "Upholds the standard text: we don't give this house the status of \"extension between two cities,\" because per the Rabbanan a single city on its own gets no karfef at all — they only ever said a karfef applies between two cities (57a)." },
+        { "type": "answer", "label": "1. Text #2 (cont.)", "sub": true, "he": "ואם היה לזה הבית ד׳ אמות היה לו דין עיר אחת לתת לו קרפף כמו לעיר...", "en": "If the house did have 4 amos, it would count as its own \"city,\" entitled to a karfef — meaning the house and its neighboring city would get two karfefs (per Rav Huna), or one shared karfef (per Chiya bar Rav)." },
+        { "type": "answer", "label": "2. Text #2 (cont.)", "sub": true, "he": "דעל כרחך לאו דוקא נקטי רבנן שתי עיירות דהוא הדין עיר ובית...", "en": "The Rabbanan aren't being precise in saying \"two cities\" specifically — they're echoing Rebbi Meir's \"city\" language; the same applies to a city and a house." },
+        { "type": "answer", "label": "3. Text #2 (cont.)", "sub": true, "he": "דהא לחייא בר רב דאמר קרפף אחד לשתיהן על כרחך לא נקטי רבנן שתי עיירות דווקא...", "en": "Per Chiya bar Rav's version, they clearly must include a city-and-house pairing too — that's exactly how small houses within 70+ amos of a city work (Eruvin 21a)." },
+        { "type": "answer", "label": "4. Text #2 (cont.)", "sub": true, "he": "ומיהו אין נראה שיחשב בית כעיר לגמרי ליתן קרפף לבית אחד בפני עצמו...", "en": "Still, a house shouldn't be treated as fully equivalent to a city — enough to grant a karfef to a single standalone house, or two separate karfefs to two standalone houses with no city involved at all." },
+        { "type": "answer", "label": "5. Text #2 (cont.)", "sub": true, "he": "ואף על פי שלחייא בר רב אליבא דרבנן הוי בית כעיר לגמרי...", "en": "This is despite the fact that, per Chiya bar Rav's reading of the Rabbanan, two such houses without a city WOULD together get one shared karfef." },
+        { "type": "answer", "label": "i. Proof", "sub": true, "he": "דאי לאו הכי עיר שאין לה חומה במה יתחברו הבתים ליחשב אחת...", "en": "Otherwise, how would the individual houses of an unwalled city even combine into \"one city,\" if not because each is \"swallowed\" within 70+ amos of the next? There's no reason to require the houses to literally touch." }
+      ]
+    }
   ]
 }

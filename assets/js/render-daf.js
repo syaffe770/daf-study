@@ -82,6 +82,20 @@ function renderFlow(flow, title, caption, num) {
     </section>`;
 }
 
+function renderTosfosCTA(dafId, count, num) {
+  return `
+    <section id="tosfos-cta">
+      <div class="section-head"><span class="section-num">${num}</span><h2>Tosfos</h2><div class="section-dash"></div></div>
+      <div class="card" style="display:flex;align-items:center;justify-content:space-between;gap:1rem;flex-wrap:wrap;">
+        <div>
+          <h3 style="margin:0 0 0.3rem;">Tosfos — ${esc(dafId)}</h3>
+          <p>${count} comment${count === 1 ? "" : "s"}, point by point — questions, answers, and textual notes.</p>
+        </div>
+        <a class="btn btn-primary" href="tosfos.html?id=${encodeURIComponent(dafId)}">View Tosfos →</a>
+      </div>
+    </section>`;
+}
+
 function renderSources(sources) {
   if (!sources) return "";
   return `<p class="note" style="max-width:none; margin-top:2.5rem;"><b>Sources —</b> ${esc(sources)}</p>`;
@@ -166,6 +180,7 @@ export async function mountDafPage() {
     if (d.flow?.length) { sections.push({ num: String(n).padStart(2, "0"), id: "after", title: flowTitle }); html += renderFlow(d.flow, flowTitle, d.flowCaption || "The shape of the sugya on this amud.", n); n++; }
     if (d.opinions?.length) { sections.push({ num: String(n).padStart(2, "0"), id: "opinions", title: "The opinions, side by side" }); html += renderOpinions(d.opinions, n); n++; }
     if (d.script?.length) { sections.push({ num: String(n).padStart(2, "0"), id: "script", title: "The back-and-forth, turn by turn" }); html += renderScript(d.script, n); n++; }
+    if (d.tosfos?.length) { sections.push({ num: String(n).padStart(2, "0"), id: "tosfos-cta", title: "Tosfos" }); html += renderTosfosCTA(id, d.tosfos.length, n); n++; }
     sections.push({ num: String(n).padStart(2, "0"), id: "quiz-cta", title: "Test yourself" });
     html += renderQuizCTA(id, n);
     n++;

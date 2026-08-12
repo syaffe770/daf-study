@@ -6,7 +6,7 @@
   "ref": "Sukkah 3a",
   "title": "Closing Helene's Case, Then: How Small Can a Sukkah Be?",
   "subtitle": "The kitoniyyot resolution, then Beit Shammai and Beit Hillel disagree about a sukkah's minimum footprint.",
-  "sources": "Gemara text: Sefaria (William Davidson Edition). Structure and quiz questions 1-2 cross-checked against the Dafyomi Advancement Forum (dafyomi.co.il) overview, points-to-ponder, Tosfos summary, and quiz for Sukkah 3.",
+  "sources": "Gemara text: Sefaria (William Davidson Edition). Structure and quiz questions 1-2 cross-checked against the Dafyomi Advancement Forum (dafyomi.co.il) overview, points-to-ponder, Tosfos summary, and quiz for Sukkah 3. Tosfos: dafyomi.co.il's \"Point by Point Summary of Tosfos\" (Yaakov Montrose, Kollel Iyun Hadaf).",
 
   "before": [
     "2b ended mid-thought on whether Rabbi Yoshiya's opinion (walls reaching the sechach) actually fits Queen Helene's sukkah. This amud closes that out — then pivots to a new question entirely: how small can a kosher sukkah actually be?",
@@ -46,5 +46,52 @@
     { "type": "answer", "speaker": "Mar Zutra", "gloss": "The mishnah's wording confirms this a second way: it says \"unfit\"/\"fit,\" about the sukkah's status — not \"he did not fulfill his obligation\"/\"he fulfilled it,\" about the person's conduct. That points to a dispute over the structure's own minimum size." },
     { "type": "resolution", "speaker": "Resolution", "emphasis": true, "gloss": "Actually, Beit Shammai and Beit Hillel disagree about two separate things: the minimum footprint of a small sukkah, <i>and</i> where one may sit in a large sukkah relative to his table. The mishnah's text is read as covering both cases at once." },
     { "type": "source", "speaker": "Tangent begins", "quote": "בַּיִת שֶׁאֵין בּוֹ אַרְבַּע אַמּוֹת עַל אַרְבַּע אַמּוֹת — פָּטוּר מִן הַמְּזוּזָה, וּמִן הַמַּעֲקֶה, וְאֵינוֹ מִטַּמֵּא בִּנְגָעִים, וְאֵינוֹ נֶחְלָט בְּבָתֵּי עָרֵי חוֹמָה...", "gloss": "Apropos the 4-amos measure, the Gemara asks who taught a beraita listing everything a house smaller than 4×4 amos is exempt from: a mezuzah, a roof parapet, becoming ritually impure with tzaraat, and the special sale rules for houses in walled cities — a list that continues onto 3b." }
+  ],
+
+  "tosfos": [
+    {
+      "dh": "תוספות ד״ה לא נצרכה",
+      "dhEn": "Lo Nitzrachah",
+      "summary": "Why Rashi's question about fitting seven sons into seven tefachim isn't really a question.",
+      "points": [
+        { "type": "question", "label": "(a) Implied Question", "he": "מה שדחק בקונטרס לרב חנן בר רבה מה ראיה לרבי יהודה הא אי אפשר לשבעה בנים בשבעה טפחים...", "en": "Rashi gave a forced explanation of the Gemara's proof per Rav Chanan bar Rabah, bothered that Helene's seven sons clearly couldn't fit in seven tefachim. But is that really a question?" },
+        { "type": "answer", "label": "(b) Answer", "he": "דדילמא ארוכה טובא אבל לא היתה רחבה שבעה טפחים ובניה באותו אורך הוו יתבי", "en": "The sukkah could have been very long without being seven tefachim wide — her children sat along its length, not its width." }
+      ]
+    },
+    {
+      "dh": "תוספות ד״ה דאמר לך",
+      "dhEn": "d'Amar Lecha",
+      "summary": "The six places halachah follows Beit Shammai, and how that fits the story of Rebbi Yochanan HaChorani.",
+      "points": [
+        { "type": "answer", "label": "(a) Opinion", "he": "בסדר רב עמרם פסק בששה מקומות הלכה כב״ש", "en": "Seder Rav Amram rules that halachah follows Beit Shammai in six places: (1) our case — a sukkah must hold his head, most of his body, and his table; (2) Menachos 40a — whether a linen sheet needs tzitzit; (3) how many strings; (4) how long they hang below the corner; (5) Berachos 51b — cleaning the table before washing for bentching; (6) the story of Rabbah bar bar Chana finding a golden dove (and a student finding a purse) after following Beit Shammai, versus a student eaten by a lion after following Beit Hillel." },
+        { "type": "question", "label": "(b) Question", "he": "וקצת קשה הא דקאמר התם בכוליה פירקין הלכה כב״ה בר מהך", "en": "But that Gemara in Berachos says the whole chapter follows Beit Hillel except for the table-cleaning case — doesn't that seem to exclude \"returning to bentch where you ate\"?" },
+        { "type": "answer", "label": "(c) Answer", "he": "ושמא משום דב״ה נמי מודו דלכתחילה מיהא עבדינן כב״ש", "en": "Perhaps Beit Hillel agree that lechatchilah one should go back to where he ate to bentch." },
+        { "type": "question", "label": "(d) Implied Question", "he": "ועל מה שפסק בהך דהכא כב״ש אין להקשות מהא דאמרינן פ״ק דברכות (דף יא.)...", "en": "Don't challenge Rav Amram's ruling from Berachos (11a), where Rav Yosef says \"one who acts like Beit Shammai has done nothing\" — proven from the story of Rebbi Yochanan HaChorani, who sat with his head and most of his body in the sukkah but his table in the house. The elders of Beit Shammai told him he'd never fulfilled the mitzvah his whole life, and the halachah follows Rebbi Yochanan HaChorani." },
+        { "type": "answer", "label": "(e) Answer", "he": "דההיא פלוגתא בסוכה גדולה כדמסקינן דבתרתי פליגי...", "en": "That machloket concerns a large sukkah — the Gemara later concludes there are two separate disputes, and there halachah follows Beit Hillel. Our Gemara concerns the minimum size of a small sukkah, where halachah follows Beit Shammai." },
+        { "type": "question", "label": "(f) Question #1", "he": "מיהו שמעתין דהתם תימה היכי דייק מינה דעשה כב״ש לא עשה ולא כלום...", "en": "But that Berachos Gemara is still difficult — how does it deduce \"acting like Beit Shammai accomplishes nothing\" when the story shows Rebbi Yochanan HaChorani acting like Beit Hillel?" },
+        { "type": "question", "label": "(g) Question #2", "he": "ועוד וכי צריך ראיה על זה היכא דהלכה כב״ה שאם עשה כב״ש לא עשה ולא כלום", "en": "And do we even need proof that acting like Beit Shammai fails, once we already know halachah follows Beit Hillel?" },
+        { "type": "answer", "label": "(h) Answer", "he": "וצ״ל דאיצטריך התם לאיתויי היכא דב״ה מחמירים מדרבנן...", "en": "It must be teaching something narrower: where Beit Hillel adds a rabbinic stringency while Beit Shammai leaves it at the Torah level, one doesn't even fulfill the Torah-level obligation by following Beit Shammai." },
+        { "type": "answer", "label": "1. Proof", "sub": true, "he": "כדאשכחן לב״ש היכא דיתיב אפיתחא דמטללתא דגזרי שמא ימשך אחר שולחנו...", "en": "This is proven by Beit Shammai's own words to Rebbi Yochanan HaChorani — \"you never fulfilled the mitzvah at all,\" meaning not even min ha'Torah. And from Beit Shammai's case, we learn the same applies to Beit Hillel." }
+      ]
+    },
+    {
+      "dh": "תוספות ד״ה בית",
+      "dhEn": "Bayis",
+      "summary": "More consequences of not being a legal \"house.\"",
+      "points": [
+        { "type": "note", "label": "(a) Observation", "he": "בירושלמי חשיב שאין טובל למעשר והנודר מן הבית מותר ליכנס בו", "en": "The Yerushalmi adds: it doesn't make produce liable to become tevel for maaseros, and someone who vows not to benefit from \"houses\" may still enter this tiny structure. It could also have mentioned the law of a betrothed girl caught \"at the entrance to her father's house\" — which wouldn't apply here either." }
+      ]
+    },
+    {
+      "dh": "תוספות ד״ה ואין",
+      "dhEn": "v'Ain",
+      "summary": "Why a sub-4-amos house isn't fit for an eiruv even according to Shmuel.",
+      "points": [
+        { "type": "answer", "label": "(a) Explanation", "he": "דלא חזי לדירה", "en": "It's not fit to live in." },
+        { "type": "question", "label": "(b) Implied Question", "he": "ואפי׳ לשמואל דאמר פרק מי שהוציאוהו (עירובין דף מט. ושם) עירוב משום קנין", "en": "This is true even according to Shmuel (Eruvin 49a), who holds an eiruv works through a legal acquisition (kinyan), not through dwelling. If it doesn't depend on dwelling, why should \"not fit to live in\" matter to him at all?" },
+        { "type": "answer", "label": "(c) Answer", "he": "לא מיקנו רשותייהו בשביל בית דלא חזי לדירה", "en": "People don't hand over their rights for a house that isn't fit to live in." },
+        { "type": "answer", "label": "1. Proof", "sub": true, "he": "ודכוותיה אשכחן התם שמואל גופיה דאמר בית שמניחין בו עירוב אין צריך ליתן פת...", "en": "Similarly, Shmuel himself says the owner of the house holding the eiruv doesn't need to contribute bread to it — because everyone effectively \"lives\" there — even though he holds eiruv works via kinyan." }
+      ]
+    }
   ]
 }

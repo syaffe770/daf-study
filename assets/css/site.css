@@ -349,6 +349,31 @@ svg .he-text { font-family: var(--hebrew); }
 .gloss-text { color: var(--ink-soft); font-size: 0.95rem; }
 @media (max-width: 520px) { .turn { grid-template-columns: 1fr; gap: 0.3rem; } }
 
+/* ---------------- Tosfos ---------------- */
+.tosfos-list { display: flex; flex-direction: column; gap: 0.7rem; }
+details.tosfos-card { background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); }
+details.tosfos-card summary {
+  cursor: pointer; list-style: none; padding: 1rem 1.3rem; display: flex; flex-direction: column; gap: 0.3rem;
+}
+details.tosfos-card summary::-webkit-details-marker { display: none; }
+.tosfos-head-row { display: flex; align-items: baseline; gap: 0.7rem; flex-wrap: wrap; }
+.tosfos-dh { font-family: var(--hebrew); direction: rtl; font-size: 1.05rem; }
+.tosfos-dh-en { font-family: var(--sans); font-size: 0.78rem; color: var(--gold-strong); text-transform: uppercase; letter-spacing: 0.04em; }
+.tosfos-summary { color: var(--ink-soft); font-size: 0.92rem; margin: 0; }
+.tosfos-toggle { margin-inline-start: auto; font-family: var(--sans); font-size: 0.75rem; color: var(--ink-faint); }
+details.tosfos-card[open] .tosfos-toggle::after { content: "hide"; }
+details.tosfos-card:not([open]) .tosfos-toggle::after { content: "show points"; }
+.tosfos-points { padding: 0 1.3rem 1.2rem; border-top: 1px dashed var(--line); margin-top: 0.2rem; }
+.tosfos-point { padding: 0.8rem 0; border-bottom: 1px solid var(--line-soft); border-inline-start: 3px solid var(--line); padding-inline-start: 0.8rem; margin-top: 0.8rem; }
+.tosfos-point:last-child { border-bottom: none; }
+.tosfos-point.sub { margin-inline-start: 1.4rem; opacity: 0.94; }
+.tosfos-point.type-question { border-inline-start-color: var(--warn); }
+.tosfos-point.type-answer { border-inline-start-color: var(--good); }
+.tosfos-point.type-note { border-inline-start-color: var(--ink-faint); }
+.tosfos-point-label { font-family: var(--sans); font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--gold-strong); display: block; margin-bottom: 0.35rem; }
+.tosfos-point .quote { font-size: 0.98rem; margin-bottom: 0.35rem; }
+.tosfos-point p.en { margin: 0; font-size: 0.94rem; color: var(--ink); }
+
 /* ---------------- Review / reveal questions ---------------- */
 .qlist { display: flex; flex-direction: column; gap: 0.6rem; }
 details.q { background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); padding: 0.2rem 0; }

@@ -6,7 +6,7 @@
   "ref": "Sukkah 2a",
   "title": "Why Twenty Amos? — Three Reasons",
   "subtitle": "The opening Mishnah, and three sages' three different sources for the same height limit.",
-  "sources": "Mishnah + Gemara text: Sefaria (William Davidson Edition). Structure cross-checked against the Dafyomi Advancement Forum (dafyomi.co.il) overview, points-to-ponder, and Talmud Navigator for Sukkah 2.",
+  "sources": "Mishnah + Gemara text: Sefaria (William Davidson Edition). Structure cross-checked against the Dafyomi Advancement Forum (dafyomi.co.il) overview, points-to-ponder, and Talmud Navigator for Sukkah 2. Tosfos: dafyomi.co.il's \"Point by Point Summary of Tosfos\" (Yaakov Montrose, Kollel Iyun Hadaf).",
 
   "mishnah": {
     "he": "סוּכָּה שֶׁהִיא גְּבוֹהָה לְמַעְלָה מֵעֶשְׂרִים אַמָּה — פְּסוּלָה. וְרַבִּי יְהוּדָה מַכְשִׁיר. וְשֶׁאֵינָהּ גְּבוֹהָה עֲשָׂרָה טְפָחִים, וְשֶׁאֵין לָהּ שָׁלֹשׁ דְּפָנוֹת, וְשֶׁחֲמָתָהּ מְרוּבָּה מְצִלָּתָהּ — פְּסוּלָה.",
@@ -47,5 +47,54 @@
     { "type": "opinion", "speaker": "Rava", "emphasis": true, "quote": "בַּסֻּכֹּת תֵּשְׁבוּ שִׁבְעַת יָמִים", "gloss": "The Torah says: for all seven days, leave your permanent residence and sit in a temporary one. Up to 20 amos, a person can make his residence a temporary one; above that height, he can't — it becomes a permanent residence instead." },
     { "type": "challenge", "speaker": "Abaye challenges", "quote": "אֶלָּא מֵעַתָּה, עָשָׂה מְחִיצוֹת שֶׁל בַּרְזֶל וְסִיכֵּךְ עַל גַּבָּן, הָכִי נָמֵי דְּלָא הָוֵי סוּכָּה?", "gloss": "If that's so, then one who builds walls of iron and roofs over them should also not have a valid sukkah — but no one holds that." },
     { "type": "resolution", "speaker": "Rava answers", "quote": "עַד עֶשְׂרִים אַמָּה דְּאָדָם עוֹשֶׂה דִּירָתוֹ דִּירַת עֲרַאי, כִּי עָבֵיד לֵיהּ דִּירַת קֶבַע — נָמֵי נָפֵיק. לְמַעְלָה מֵעֶשְׂרִים אַמָּה ... כִּי עָבֵיד לֵיהּ דִּירַת עֲרַאי — נָמֵי לָא נָפֵיק.", "gloss": "Up to 20 amos — the height where a person normally builds a temporary residence — even building it sturdily like a permanent one still fulfills the mitzvah. Above 20 amos — where a person normally builds a permanent residence — even building it flimsily like a temporary one does not." }
+  ],
+
+  "tosfos": [
+    {
+      "dh": "תוספות ד״ה סוכה",
+      "dhEn": "Sukah",
+      "summary": "Why the Gemara doesn't ask the same question about hadassim (myrtle branches).",
+      "points": [
+        { "type": "question", "label": "(a) Implied Question", "he": "והא דלא פריך מאי שנא גבי הדס דתני פסולה ותקנתא...", "en": "The Gemara does not ask why hadassim are different, seeing as the Mishnah there (32b) says a hadas is invalid and then teaches how to fix it — \"Or if its berries were more than its leaves, it is invalid; if he lessened the berries, it is valid\" — unlike our Mishnah, which just says the sukkah is invalid with no fix given." },
+        { "type": "answer", "label": "(b) Answer #1", "he": "דלא פריך אלא מסוכה ומבוי שדינם שוה לענין גבוה...", "en": "Our Gemara only asks the question about sukkah and mavoy, because their laws are similar regarding height, and even so each uses different terminology." },
+        { "type": "answer", "label": "(c) Answer #2", "he": "ועוד דגבי הדס אצטריך למיתני תקנתא...", "en": "Additionally, by hadassim the Mishnah needed to state the fix — otherwise one might think that since it grew invalid to begin with, there's no way to fix it." }
+      ]
+    },
+    {
+      "dh": "תוספות ד״ה דאורייתא",
+      "dhEn": "d'Oraisa",
+      "summary": "Why the Mishnah says sukkah is \"invalid\" rather than \"lessen it,\" and how that squares with a similar teaching about Chanukah candles.",
+      "points": [
+        { "type": "answer", "label": "(a) Explanation #1", "he": "דאי הוה תני ימעט חיישינן דילמא טעי איניש...", "en": "If the Mishnah said \"he should lessen it,\" one might mistakenly think it's fine lechatchilah not to, and b'dieved it's still valid. The Tana was careful with his wording lest a person come to transgress a Torah prohibition, so he wrote \"invalid\" — even though that's a less pleasant term than \"he should lessen it.\" For mavoy, which is only rabbinic, he wasn't concerned, so he used the nicer term." },
+        { "type": "answer", "label": "i. Proof", "sub": true, "he": "כדאשכחן בריש פסחים (דף ג.)...", "en": "This is as we find in Pesachim (3a), that the Torah twists its own language rather than say something indelicate." },
+        { "type": "note", "label": "(b) Observation", "he": "ובקונטרס לא פירש כן", "en": "Rashi does not give this explanation." },
+        { "type": "answer", "label": "(c) Explanation #2", "he": "אי נמי יש לומר דלשון ימעט משמע חומרא דרבנן...", "en": "Alternatively, \"he should lessen it\" implies a mere rabbinic stringency, while \"invalid\" implies a Torah-level law." },
+        { "type": "question", "label": "(d) Implied Question", "he": "ובפרק במה מדליקין (שבת דף כב.) דאמרינן נר חנוכה...", "en": "In Shabbos (22a), Rebbi Tanchum says a Chanukah candle placed more than 20 amos high is invalid, like a sukkah and an alleyway — so why does that teaching use \"invalid\" instead of \"he should lessen it,\" per the explanations above?" },
+        { "type": "answer", "label": "(e) Answer #1", "he": "אגב דתנן כסוכה נקט נמי גבי נר חנוכה פסולה", "en": "Since that teaching parallels the Mishnah in Sukkah, Rebbi Tanchum uses \"invalid\" there too." },
+        { "type": "answer", "label": "(f) Answer #2", "he": "א״נ אי הוה תני ימעט הוה משמע כמות שהיתה מדלקת ישפילנה...", "en": "Alternatively, \"lessen it\" would imply lowering the candle while lit — which fails according to the opinion that the mitzvah is fulfilled only by the act of lighting in the proper place. And even per the opinion that placement fulfills the mitzvah, an onlooker might think he's lighting it there for mundane use." }
+      ]
+    },
+    {
+      "dh": "תוספות ד״ה אמר רבה",
+      "dhEn": "Amar Rabah",
+      "summary": "Rabah's view on a sukkah with some sechach hanging down within 20 amos.",
+      "points": [
+        { "type": "question", "label": "(a) Question", "he": "קצת קשה ללישנא קמא דבריש עירובין (דף ג.)...", "en": "This is somewhat difficult against the first version of the Gemara in Eruvin (3a): where some sechach hangs within 20 amos, Rabah says the sukkah is invalid — but the eye can still catch that lower sechach! (Our text does read \"Rabah\" there, not Rava, since Rava there argues and validates it.)" },
+        { "type": "answer", "label": "(b) Answer", "he": "ויש לומר דהא מפרש התם טעמא משום דסוכה דביחיד קא הוי...", "en": "A sukkah is usually built for one individual or family, who won't always remember to check for stray low sechach — sometimes that bit gets removed, leaving the whole sechach above 20 amos (though if it weren't removed, it would be valid min ha'Torah per Rabah). This also fits Ravina's answer there, that the Rabanan were stringent about sukkah specifically because it's a Torah law — implying that min ha'Torah it would be valid." }
+      ]
+    },
+    {
+      "dh": "תוספות ד״ה כי עביד",
+      "dhEn": "Ki Avid",
+      "summary": "How Rava defines a sukkah that \"can be temporary,\" and why rain on Sukkot is a bad omen even if boards could keep it out.",
+      "points": [
+        { "type": "answer", "label": "(a) Explanation", "he": "דאע״ג דיש לפרש קרא בדירה שאינה ראויה אלא לשבעה...", "en": "Even though the verse could be read as excluding only a permanent home, it's really teaching a measure — how tall a sukkah can be, i.e. a height at which it could still be built as a temporary structure." },
+        { "type": "question", "label": "(b) Question", "he": "וא״ת וכיון דלא חיישינן אלא שתהא ראויה לעשותה עראי...", "en": "Since we only require that the sukkah be capable of being temporary — even if this one is actually built permanently — why does the Gemara in Ta'anis (2a) call rain on Sukkot a bad omen? One could just nail boards over it to keep the rain out!" },
+        { "type": "answer", "label": "1. Answer", "sub": true, "he": "ואפילו תימצי לומר דאסור משום גזרת תקרה...", "en": "One might say that's forbidden by the rabbinic decree against roofing with solid boards (as on 14a, regarding R' Meir and R' Yehuda's machloket about board-sechach: if valid, people would say \"what's the difference between this and my own roof\" — and one's house is certainly an invalid sukkah min ha'Torah)." },
+        { "type": "question", "label": "2. Question", "sub": true, "he": "מ״מ כיון דלא אסור אלא מדרבנן לא שייכא למימר שהגשמים סימן קללה", "en": "Even so, that's only a rabbinic-level prohibition — how can rain be called a bad \"omen\" over something only rabbinically forbidden?" },
+        { "type": "answer", "label": "(c) Answer", "he": "וי״ל דנהי דלא חיישינן בדפנות אי עביד להו קבע...", "en": "Even though we don't care if the walls are permanent, since a sukkah is defined mainly by its sechach, it's invalid unless the sechach itself is built in a removable, temporary way." },
+        { "type": "answer", "label": "1. Answer (cont.)", "sub": true, "he": "ומה״ט נמי ניחא לרבי זירא דדריש מדכתי׳ וסוכה תהיה לצל...", "en": "This also explains Rebbi Zeira's opinion: he derives from \"the sukkah shall be for shade\" — but the verse also mentions shelter from flood and rain, so shouldn't sukkot need to be rainproof? Rather, since the sechach must stay removable, it can't be sealed rainproof, or it would become permanent." }
+      ]
+    }
   ]
 }

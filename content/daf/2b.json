@@ -6,7 +6,7 @@
   "ref": "Sukkah 2b",
   "title": "Three Exceptions, Then Queen Helene's Sukkah",
   "subtitle": "Why each sage rejected the other two sources, three width/size exceptions, and R' Yehuda's proof from a real sukkah.",
-  "sources": "Gemara text: Sefaria (William Davidson Edition). Structure cross-checked against the Dafyomi Advancement Forum (dafyomi.co.il) and Talmud Navigator for Sukkah 2. The final point below continues onto 3a.",
+  "sources": "Gemara text: Sefaria (William Davidson Edition). Structure cross-checked against the Dafyomi Advancement Forum (dafyomi.co.il) and Talmud Navigator for Sukkah 2. The final point below continues onto 3a. Tosfos: dafyomi.co.il's \"Point by Point Summary of Tosfos\" (Yaakov Montrose, Kollel Iyun Hadaf).",
 
   "before": [
     "2a gave three reasons — Rabbah, Rebbi Zeira, Rava — for the same 20-amos line. This amud opens by asking why each of them didn't just accept one of the other two verses.",
@@ -56,5 +56,77 @@
     { "type": "resolution", "speaker": "Defense", "quote": "וַהֲלֹא שִׁבְעָה בָּנִים הֲווֹ לָהּ, וְעוֹד: כׇּל מַעֲשֶׂיהָ לֹא עָשְׂתָה אֶלָּא עַל פִּי חֲכָמִים.", "gloss": "Didn't she have seven sons — who required a fit sukkah? And furthermore, everything she did followed the guidance of the Sages." },
     { "type": "question", "speaker": "Gemara asks", "gloss": "Why does R' Yehuda need that second point (\"she followed the Sages\") — wasn't the seven-sons point enough?" },
     { "type": "answer", "speaker": "Answer", "gloss": "If you'd say her sons were all minors (exempt), since she had seven of them, at least one must have reached the age of \"no longer needing his mother\" — obligated by rabbinic law. And if you'd say that obligation is only rabbinic and she may not have followed rabbinic law — that's exactly what the second point answers: she followed the Sages in everything." }
+  ],
+
+  "tosfos": [
+    {
+      "dh": "תוספות ד״ה כרבי זירא לא אמרי",
+      "dhEn": "k'Rebbi Zeira Lo Amri",
+      "summary": "Why the Gemara doesn't dismiss Rebbi Zeira's view the same way it dismisses Rava's.",
+      "points": [
+        { "type": "question", "label": "(a) Implied Question", "he": "הא דלא קאמר משום קושיא דאביי כדקאמר על רבא", "en": "The Gemara doesn't say the others reject Rebbi Zeira's view because of Abaye's question — the way it does for Rava's view. Why not?" },
+        { "type": "answer", "label": "(b) Answer", "he": "משום דרבי זירא שני לאביי שפיר", "en": "Because Rebbi Zeira answered Abaye's question well." }
+      ]
+    },
+    {
+      "dh": "תוספות ד״ה וכיון",
+      "dhEn": "v'Kivan",
+      "summary": "Why sechach is different from a Chanukah candle or a mavoy's beam.",
+      "points": [
+        { "type": "question", "label": "(a) Implied Question", "he": "ולא דמי לנר חנוכה וקורת מבוי דלא חשיב היכר למעלה מעשרים...", "en": "This is unlike a Chanukah candle or a mavoy's beam, which aren't considered \"noticeable\" above 20 amos even though the beam sits atop walls. What's the difference?" },
+        { "type": "answer", "label": "(b) Answer", "he": "דהתם קורה טפח לא שליט בה עינא כמו בסוכה דרחבה טובא", "en": "A beam that's only a tefach wide isn't naturally caught by the eye the way sechach is — sechach is much wider." }
+      ]
+    },
+    {
+      "dh": "תוספות ד״ה יש בה",
+      "dhEn": "Yesh Bah",
+      "summary": "How Rav Huna can say a sukkah wider than 4 amos is always valid, no matter the height.",
+      "points": [
+        { "type": "answer", "label": "(a) Explanation", "he": "לבסוף מסיק דרב הונא סבר מראשו ורובו ושולחנו עד ד׳ אמות פליגי...", "en": "The Gemara concludes Rav Huna holds the machloket is specifically for a sukkah between the bare minimum (head/most of body/table) and 4 amos — wider than 4 amos, it's valid regardless." },
+        { "type": "question", "label": "(b) Question", "he": "ותימה וכי נכשיר ברחבה משהו יתר מד׳ אמות אם היתה גבוהה מעשרים אפילו טובא...", "en": "That's difficult — would we really validate a sukkah just slightly over 4 amos wide even if it's enormously taller than 20 amos? There's certainly no real shade from the sechach at that point!" },
+        { "type": "answer", "label": "(c) Answer #1", "he": "וי״ל דלעולם צריך הרוחב לפי הגובה לפי חשבון ד׳ אמות לעשרים", "en": "The proportion must scale — 4 amos of width for every 20 amos of height. (So a sukkah far taller than 20 amos and only slightly over 4 amos wide would in fact be invalid.)" },
+        { "type": "answer", "label": "(d) Answer #2", "he": "אי נמי קים להו לרבנן דאפילו בגובה אלף אי אפשר שלא יהא כאן צל סכך פורתא...", "en": "Alternatively, the Rabbanan hold that even at 1,000 amos tall, a sukkah wider than 4 amos will always retain at least a little shade from the sechach." },
+        { "type": "answer", "label": "1. Proof", "sub": true, "he": "כדאשכחן בפרק יוה״כ (יומא דף פ:) גבי כותבת הגסה...", "en": "As in Yoma (80b), regarding the amount of food that satisfies a person: \"it satisfies everyone a lot, and satisfies Og King of Bashan [a giant] a little\" — meaning, it satisfies to some degree either way." }
+      ]
+    },
+    {
+      "dh": "תוספות ד״ה כרבי זירא דאמר",
+      "dhEn": "k'Rebbi Zeira d'Amar",
+      "summary": "Why Rav Huna's ruling can't be explained as following Rabbah instead.",
+      "points": [
+        { "type": "answer", "label": "(a) Explanation", "he": "אבל כרבה דאמר משום מישלט עינא לא דאפילו רחבה טובא לא שלטא בה עינא", "en": "This certainly can't follow Rabbah, who holds the issue is whether the eye catches the sechach — since even a very wide sukkah still won't be caught by the eye once it's above 20 amos." }
+      ]
+    },
+    {
+      "dh": "תוספות ד״ה כמאן דלא כחד",
+      "dhEn": "k'Man d'Lo k'Chad",
+      "summary": "The reasoning behind Rav Chanan bar Rabah's ruling.",
+      "points": [
+        { "type": "question", "label": "(a) Implied Question", "he": "ודברי רב חנן בר רבה צריכה טעמא", "en": "Rav Chanan bar Rabah's words need their own reasoning — what's behind them?" },
+        { "type": "answer", "label": "(b) Answer", "he": "ויש מפרשים משום דהוה ליה לול של תרנגולין כיון דגביהה וקטינה כולי האי...", "en": "Some explain it's because a very tall, narrow structure resembles a chicken coop — but once it's wider than the bare minimum (head/most of body/table), it's no longer \"chicken coop\"-like and counts as a real sukkah." }
+      ]
+    },
+    {
+      "dh": "תוספות ד״ה הכי גר״ח בשלמא",
+      "dhEn": "Hachi Garas Rach Bishlama",
+      "summary": "A textual note from Rabbeinu Chananel.",
+      "points": [
+        { "type": "note", "label": "(a) Text", "he": "וכתב רבינו חננאל ויש שגורסין פליגא", "en": "Rabbeinu Chananel writes: some texts read \"they do argue\" [rather than the version implying they don't]." }
+      ]
+    },
+    {
+      "dh": "תוספות ד״ה עד ארבעים",
+      "dhEn": "Ad Arbaim",
+      "summary": "Why the Gemara doesn't ask its usual \"redundant number\" question about \"forty or fifty amos.\"",
+      "points": [
+        { "type": "note", "label": "(a) Observation", "he": "כי האי גוונא קתני גבי מבוי בריש עירובין (דף ב:)", "en": "The same phrasing appears regarding mavoy in Eruvin (2b)." },
+        { "type": "question", "label": "(b) Implied Question", "he": "ולא תיקשי דלא דייק הכא השתא חמשים כשרה ארבעים מיבעיא...", "en": "Don't ask why the Gemara doesn't press \"if 50 is valid, why even say 40\" — the way it does elsewhere (Kesuvos 95a, on a widow waiting 2-3 years before claiming support; Bava Kama 118b, on buying \"4 or 5\" sheep or fleece from shepherds)." },
+        { "type": "answer", "label": "(c) Answer", "he": "דהתם ניחא דהוי זו ואין צריך לומר זו משום הכי קשיא ליה", "en": "There, the higher number really is redundant — if 4 is allowed, 5 obviously is too (\"this, and no need to even say that\"). That's not true here: a sukkah valid up to 50 amos is a bigger novelty than one valid up to 40, so both numbers carry real information." },
+        { "type": "question", "label": "(d) Question", "he": "אבל קשיא מההיא דפרק בנות כותים (נדה לז:) גבי קישוי...", "en": "But there IS a similar Gemara that does press this, in Niddah (37b) — R' Meir says a bleeding pattern extends \"even 40 or 50 days,\" and the Gemara there asks \"if 50, why say 40?\" Why doesn't our Gemara ask the same?" },
+        { "type": "answer", "label": "(e) Answer", "he": "ויש לומר דאיכא לשנויי הכא כי ההוא לישנא דמשני בריש מפנין (שבת דף קכז.)...", "en": "One can answer that here it fits the idiom from Shabbos (127a) — people naturally say \"4 or 5\" to mean \"or even more,\" so \"40 or 50\" likewise means \"or even more.\" That doesn't work for the Niddah case, where it's not logical that the bleeding stays permitted indefinitely." },
+        { "type": "answer", "label": "1. Answer (cont.)", "sub": true, "he": "וכן פרק במה אשה יוצאה (שם ס: ושם) גבי סנדל המסומר...", "en": "Similarly, in Shabbos (60b) regarding a sandal \"that still has 4 or 5 nails,\" it's obvious we won't permit more than that. Same with Kesuvos (57a) on staying with one's wife \"2 or 3 years\" without a kesubah." },
+        { "type": "answer", "label": "2. Answer (cont.)", "sub": true, "he": "ועוד התם (דף ס. ושם) גבי יונק תינוק והולך אפילו ארבע וחמש שנים...", "en": "Additionally, when the Gemara in Kesuvos (60a) says a child can nurse for \"4 or 5 years,\" it's possible to say it means \"or even more.\"" }
+      ]
+    }
   ]
 }
