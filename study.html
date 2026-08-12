@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Study Session — Daf Study</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 font-size=%2290%22><text y=%22.9em%22>📜</text></svg>" />
+  <link rel="stylesheet" href="assets/css/site.css" />
+</head>
+<body data-page="daf">
+  <div id="site-nav"></div>
+
+  <div class="wrap">
+    <header class="masthead">
+      <div class="eyebrow">STUDY SESSION</div>
+      <h1 id="h1">Loading…</h1>
+      <p class="subtitle" id="subtitle"></p>
+    </header>
+
+    <div id="study-root"></div>
+  </div>
+
+  <div id="site-footer"></div>
+
+  <script type="module" src="assets/js/nav.js"></script>
+  <script type="module">
+    import { mountStudy } from "./assets/js/study-engine.js";
+    mountStudy();
+  </script>
+</body>
+</html>

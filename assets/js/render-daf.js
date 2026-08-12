@@ -112,6 +112,23 @@ function renderQuizCTA(dafId, num) {
     </section>`;
 }
 
+function renderStudyCTA(dafId, num) {
+  return `
+    <section id="study-cta">
+      <div class="section-head"><span class="section-num">${num}</span><h2>Study it with a partner or solo</h2><div class="section-dash"></div></div>
+      <div class="card" style="display:flex;align-items:center;justify-content:space-between;gap:1rem;flex-wrap:wrap;">
+        <div>
+          <h3 style="margin:0 0 0.3rem;">Guided session — ${esc(dafId)}</h3>
+          <p>Decode (TAPPS), red-team the real challenges, map the machloket, then teach it backward.</p>
+        </div>
+        <div class="btn-row">
+          <a class="btn" href="study.html?id=${encodeURIComponent(dafId)}&mode=solo">Solo →</a>
+          <a class="btn btn-primary" href="study.html?id=${encodeURIComponent(dafId)}&mode=partner">Partner (Havruta) →</a>
+        </div>
+      </div>
+    </section>`;
+}
+
 async function renderDafNav(current) {
   const manifest = await loadManifest();
   const flat = manifest.dapim.flatMap((d) => d.amudim.map((a) => ({ ...a, dafLabel: d.label })));
@@ -151,6 +168,9 @@ export async function mountDafPage() {
     if (d.script?.length) { sections.push({ num: String(n).padStart(2, "0"), id: "script", title: "The back-and-forth, turn by turn" }); html += renderScript(d.script, n); n++; }
     sections.push({ num: String(n).padStart(2, "0"), id: "quiz-cta", title: "Test yourself" });
     html += renderQuizCTA(id, n);
+    n++;
+    sections.push({ num: String(n).padStart(2, "0"), id: "study-cta", title: "Study it with a partner or solo" });
+    html += renderStudyCTA(id, n);
     html += renderSources(d.sources);
 
     root.innerHTML = renderBreakdown(sections) + html;

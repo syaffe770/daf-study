@@ -357,6 +357,20 @@ details.q .answer { padding: 0 1.2rem 1.1rem 2.7rem; color: var(--ink-soft); fon
 .score-tally { display: flex; justify-content: center; gap: 1.6rem; margin: 1.4rem 0; font-family: var(--sans); font-size: 0.85rem; }
 .score-tally b { display: block; font-size: 1.3rem; font-family: var(--serif); color: var(--ink); }
 
+/* ---------------- Study session (Havruta/Yachid) ---------------- */
+.study-topbar { display: flex; align-items: center; justify-content: space-between; gap: 1rem; flex-wrap: wrap; margin-bottom: 1.1rem; }
+.study-phase-pills { display: flex; flex-wrap: wrap; gap: 0.4rem; }
+.study-pill {
+  font-family: var(--sans); font-size: 0.74rem; padding: 0.25rem 0.65rem; border-radius: 20px;
+  background: var(--surface-2); color: var(--ink-faint); border: 1px solid var(--line);
+}
+.study-pill.active { background: var(--accent); color: var(--accent-ink); border-color: var(--accent); }
+.study-pill.done { color: var(--good); border-color: var(--good); }
+.study-method { background: var(--surface-2); border: 1px dashed var(--line); border-radius: var(--radius); padding: 0.9rem 1.1rem; margin-bottom: 1.3rem; }
+.study-method-name { font-family: var(--sans); font-size: 0.85rem; font-weight: 600; color: var(--gold-strong); }
+.role-badge { font-family: var(--sans); font-size: 0.82rem; color: var(--ink-soft); margin-top: 0.5rem; }
+.study-shell { max-width: none; }
+
 /* ---------------- Aramaic drill (Duolingo-ish) ---------------- */
 .drill-shell { background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); padding: 2rem 1.7rem; text-align: center; }
 .drill-word { font-family: var(--hebrew); direction: rtl; font-size: 2.4rem; margin-bottom: 0.4rem; }
