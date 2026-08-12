@@ -1,5 +1,5 @@
 import { loadQuiz, qs } from "./content.js";
-import { saveScore, whoAmI } from "./store.js";
+import { saveScore } from "./store.js";
 
 function esc(s) {
   return String(s ?? "").replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
@@ -128,7 +128,6 @@ export async function mountQuiz() {
       revealed: state.revealed,
       skipped: state.skipped,
       total,
-      profile: whoAmI(),
     });
     const pct = Math.round((state.correct / total) * 100);
     root.innerHTML = `

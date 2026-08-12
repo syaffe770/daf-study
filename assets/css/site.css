@@ -141,6 +141,33 @@ button { font-family: var(--sans); }
   .site-nav .links { gap: 0.9rem; font-size: 0.8rem; }
 }
 
+/* ---------------- Sign-in modal (local profiles, no OAuth) ---------------- */
+.auth-overlay {
+  position: fixed; inset: 0; z-index: 999;
+  background: color-mix(in srgb, var(--ink) 45%, transparent);
+  display: flex; align-items: center; justify-content: center; padding: 1.5rem;
+}
+.auth-modal {
+  background: var(--bg); border: 1px solid var(--line); border-radius: var(--radius);
+  padding: 1.8rem 1.9rem; max-width: 360px; width: 100%;
+  box-shadow: 0 20px 60px color-mix(in srgb, var(--ink) 30%, transparent);
+}
+.auth-profiles { display: flex; flex-wrap: wrap; gap: 0.6rem; margin-bottom: 1.2rem; }
+.auth-profile-btn {
+  font-family: var(--sans); font-size: 0.95rem; font-weight: 600; letter-spacing: 0.03em;
+  padding: 0.6rem 1rem; border-radius: var(--radius); border: 1px solid var(--line);
+  background: var(--surface); color: var(--ink); cursor: pointer;
+}
+.auth-profile-btn:hover { border-color: var(--gold); color: var(--gold-strong); }
+.auth-divider { display: flex; align-items: center; gap: 0.7rem; margin: 1rem 0; font-family: var(--sans); font-size: 0.75rem; color: var(--ink-faint); }
+.auth-divider::before, .auth-divider::after { content: ""; flex: 1; height: 1px; background: var(--line); }
+.auth-new { display: flex; flex-direction: column; gap: 0.6rem; }
+.auth-new input {
+  font-family: var(--sans); font-size: 0.92rem; padding: 0.6rem 0.8rem;
+  border: 1px solid var(--line); border-radius: var(--radius); background: var(--surface); color: var(--ink);
+}
+.auth-error { color: var(--bad); font-family: var(--sans); font-size: 0.82rem; margin: 0; min-height: 1em; }
+
 /* ---------------- Page header ---------------- */
 header.masthead {
   text-align: center;
@@ -378,6 +405,10 @@ details.q .answer { padding: 0 1.2rem 1.1rem 2.7rem; color: var(--ink-soft); fon
 .drill-options { display: grid; grid-template-columns: 1fr 1fr; gap: 0.7rem; max-width: 480px; margin: 0 auto; }
 @media (max-width: 480px) { .drill-options { grid-template-columns: 1fr; } }
 .streak-pill { display: inline-flex; align-items: center; gap: 0.4rem; font-family: var(--sans); font-size: 0.82rem; color: var(--gold-strong); background: var(--surface-2); border: 1px solid var(--line); border-radius: 20px; padding: 0.3rem 0.8rem; }
+.vocab-stats-row { display: flex; justify-content: center; gap: 2rem; margin-top: 1.2rem; font-family: var(--sans); }
+.vocab-stats-row > div { text-align: center; }
+.vocab-stats-row b { display: block; font-size: 1.3rem; font-family: var(--serif); color: var(--ink); }
+.vocab-stats-row span { font-size: 0.76rem; color: var(--ink-faint); }
 
 /* ---------------- Curriculum map ---------------- */
 .map-track { display: flex; flex-direction: column; gap: 0; position: relative; padding-inline-start: 2.2rem; }

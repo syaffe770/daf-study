@@ -18,6 +18,16 @@
     { "id": "machloket", "he": "מַחְלוֹקֶת", "translit": "machloket", "meaning": "A dispute", "daf": "2b" },
     { "id": "meitivi", "he": "מֵיתִיבִי", "translit": "meitivi", "meaning": "He raised an objection (introduces a Beraita)", "daf": "2b" },
     { "id": "amru-lo", "he": "אָמְרוּ לוֹ", "translit": "amru lo", "meaning": "They said to him (a challenge follows)", "daf": "2b" },
-    { "id": "vehalo", "he": "וַהֲלֹא", "translit": "va-halo", "meaning": "But isn't it that...? (rhetorical pushback)", "daf": "2b" }
+    { "id": "vehalo", "he": "וַהֲלֹא", "translit": "va-halo", "meaning": "But isn't it that...? (rhetorical pushback)", "daf": "2b" },
+    { "id": "ela", "he": "אֶלָּא", "translit": "ela", "meaning": "Rather / but", "daf": "3a" },
+    { "id": "nami", "he": "נָמֵי", "translit": "nami", "meaning": "Also / too", "daf": "2b" },
+    { "id": "mai-shena", "he": "מַאי שְׁנָא", "translit": "mai shena", "meaning": "What's different [about this case]?", "daf": "2a" },
+    { "id": "ibaeis-eima", "he": "אִיבָּעֵית אֵימָא", "translit": "ibaeit eima", "meaning": "If you wish, say instead... (introduces an alternative answer)", "daf": "2a" },
+    { "id": "ika", "he": "אִיכָּא", "translit": "ika", "meaning": "There is", "daf": "2a" },
+    { "id": "leika", "he": "לֵיכָּא", "translit": "leika", "meaning": "There is not", "daf": "2a" },
+    { "id": "im-ken", "he": "אִם כֵּן", "translit": "im ken", "meaning": "If so", "daf": "2b" },
+    { "id": "shema-mina", "he": "שָׁמְעַתְּ מִינַּהּ", "translit": "shema mina", "meaning": "Learn/deduce from this", "daf": "2b" },
+    { "id": "kushya", "he": "קוּשְׁיָא", "translit": "kushya", "meaning": "A difficulty / strong question", "daf": "2b" },
+    { "id": "halacha", "he": "הֲלָכָה", "translit": "halacha", "meaning": "The accepted law", "daf": "3a" }
   ]
 }

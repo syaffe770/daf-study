@@ -1,12 +1,17 @@
 // Score / progress storage. Defaults to localStorage (per-device).
+// Multiple people can share one device via lightweight local "profiles"
+// (email + initials, no OAuth, no password) — see profiles section below.
 // If assets/js/firebase-config.js sets FIREBASE_CONFIG.enabled = true,
-// scores also sync to Firestore so two people can share one score list.
-// See README.md "Turning on shared scores" for setup.
+// scores also sync to Firestore so two people can share one score list
+// across devices. See README.md "Turning on shared scores" for setup.
 
 const LS_KEYS = {
-  whoami: "daf-study:whoami",
+  profiles: "daf-study:profiles",
   scores: "daf-study:scores",
   vocab: "daf-study:vocab",
+};
+const SS_KEYS = {
+  active: "daf-study:active-initials",
 };
 
 function readLS(key, fallback) {
@@ -21,12 +26,40 @@ function writeLS(key, value) {
   localStorage.setItem(key, JSON.stringify(value));
 }
 
-// ---------- who is using this device right now ----------
-export function whoAmI() {
-  return readLS(LS_KEYS.whoami, null);
+// ---------- local profiles (no OAuth — just email + initials, this device only) ----------
+export function listProfiles() {
+  return readLS(LS_KEYS.profiles, []);
 }
-export function setWhoAmI(name) {
-  writeLS(LS_KEYS.whoami, name);
+
+export function createProfile(email, initials) {
+  const clean = initials.trim().toUpperCase().slice(0, 4);
+  if (!clean) return { ok: false, error: "Initials can't be empty." };
+  const all = listProfiles();
+  if (all.some((p) => p.initials === clean)) {
+    return { ok: false, error: `"${clean}" is already taken on this device — try adding a letter.` };
+  }
+  const profile = { email: email.trim(), initials: clean, createdAt: Date.now() };
+  all.push(profile);
+  writeLS(LS_KEYS.profiles, all);
+  return { ok: true, profile };
+}
+
+export function getActiveProfile() {
+  const initials = sessionStorage.getItem(SS_KEYS.active);
+  if (!initials) return null;
+  return listProfiles().find((p) => p.initials === initials) || null;
+}
+
+export function setActiveProfile(initials) {
+  sessionStorage.setItem(SS_KEYS.active, initials);
+}
+
+export function signOut() {
+  sessionStorage.removeItem(SS_KEYS.active);
+}
+
+function activeInitialsOrGuest() {
+  return getActiveProfile()?.initials || "GUEST";
 }
 
 // ---------- Firebase (optional, off until configured) ----------
@@ -54,10 +87,10 @@ async function getFirebase() {
   }
 }
 
-// ---------- quiz scores ----------
+// ---------- quiz scores (also used for completed Aramaic drill sessions) ----------
 export async function saveScore(entry) {
-  // entry: { quizId, daf, title, correct, revealed, skipped, total, profile }
-  const record = { ...entry, ts: Date.now() };
+  // entry: { quizId, daf, title, correct, revealed, skipped, total }
+  const record = { ...entry, profile: activeInitialsOrGuest(), ts: Date.now() };
   const all = readLS(LS_KEYS.scores, []);
   all.push(record);
   writeLS(LS_KEYS.scores, all);
@@ -92,22 +125,28 @@ export function getLocalScores() {
 }
 
 export function bestScoreFor(quizId) {
-  const mine = readLS(LS_KEYS.scores, []).filter((s) => s.quizId === quizId);
+  const mine = readLS(LS_KEYS.scores, []).filter(
+    (s) => s.quizId === quizId && s.profile === activeInitialsOrGuest()
+  );
   if (!mine.length) return null;
   return mine.reduce((best, s) => (s.correct / s.total > best.correct / best.total ? s : best));
 }
 
-// ---------- aramaic vocab mastery ----------
+// ---------- aramaic vocab mastery (scoped per profile, so shared devices don't mix stats) ----------
+function vocabStoreKey() {
+  return `${LS_KEYS.vocab}:${activeInitialsOrGuest()}`;
+}
 export function getVocabProgress() {
-  return readLS(LS_KEYS.vocab, {});
+  return readLS(vocabStoreKey(), {});
 }
 export function recordVocabAttempt(wordId, wasCorrect) {
-  const all = readLS(LS_KEYS.vocab, {});
-  const cur = all[wordId] || { seen: 0, correct: 0, streak: 0 };
+  const all = getVocabProgress();
+  const cur = all[wordId] || { seen: 0, correct: 0, streak: 0, bestStreak: 0 };
   cur.seen += 1;
   cur.correct += wasCorrect ? 1 : 0;
   cur.streak = wasCorrect ? cur.streak + 1 : 0;
+  cur.bestStreak = Math.max(cur.bestStreak || 0, cur.streak);
   all[wordId] = cur;
-  writeLS(LS_KEYS.vocab, all);
+  writeLS(vocabStoreKey(), all);
   return cur;
 }

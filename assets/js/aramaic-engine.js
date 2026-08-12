@@ -1,5 +1,5 @@
 import { loadVocabSet } from "./content.js";
-import { recordVocabAttempt, getVocabProgress } from "./store.js";
+import { recordVocabAttempt, getVocabProgress, saveScore, getLocalScores } from "./store.js";
 
 function esc(s) {
   return String(s ?? "").replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
@@ -17,12 +17,29 @@ function pick(arr, n) {
 }
 
 const ROUNDS = 10;
+const VOCAB_QUIZ_ID = "aramaic-core";
+
+function renderStats(totalWords) {
+  const mount = document.getElementById("vocab-stats");
+  if (!mount) return;
+  const progress = getVocabProgress();
+  const practiced = Object.keys(progress).length;
+  const bestStreak = Object.values(progress).reduce((m, w) => Math.max(m, w.bestStreak || 0), 0);
+  const sessions = getLocalScores().filter((s) => s.quizId === VOCAB_QUIZ_ID).length;
+  mount.innerHTML = `
+    <div class="vocab-stats-row">
+      <div><b>${sessions}</b><span>session${sessions === 1 ? "" : "s"} done</span></div>
+      <div><b>${bestStreak}</b><span>best streak ever</span></div>
+      <div><b>${practiced}/${totalWords}</b><span>words practiced</span></div>
+    </div>`;
+}
 
 export async function mountAramaic() {
   const root = document.getElementById("drill-root");
   const set = await loadVocabSet("core");
 
   document.getElementById("vocab-count").textContent = `${set.words.length} words in this set`;
+  renderStats(set.words.length);
 
   const session = { i: 0, streak: 0, correct: 0, order: [], answered: false };
   for (let n = 0; n < ROUNDS; n++) session.order.push(set.words[Math.floor(Math.random() * set.words.length)]);
@@ -80,8 +97,22 @@ export async function mountAramaic() {
       session.i += 1;
       renderRound();
     } else {
-      renderSummary();
+      finishSession();
     }
+  }
+
+  async function finishSession() {
+    await saveScore({
+      quizId: VOCAB_QUIZ_ID,
+      daf: "aramaic",
+      title: "Aramaic Vocabulary Drill",
+      correct: session.correct,
+      total: ROUNDS,
+      revealed: 0,
+      skipped: ROUNDS - session.i - 1 > 0 ? ROUNDS - session.i - 1 : 0,
+    });
+    renderStats(set.words.length);
+    renderSummary();
   }
 
   function renderSummary() {
