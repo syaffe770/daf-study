@@ -9,6 +9,7 @@ const LS_KEYS = {
   profiles: "daf-study:profiles",
   scores: "daf-study:scores",
   vocab: "daf-study:vocab",
+  viewMode: "daf-study:view-mode",
 };
 const SS_KEYS = {
   active: "daf-study:active-initials",
@@ -149,4 +150,12 @@ export function recordVocabAttempt(wordId, wasCorrect) {
   all[wordId] = cur;
   writeLS(vocabStoreKey(), all);
   return cur;
+}
+
+// ---------- daf page view mode (Simple / Complicated) ----------
+export function getViewMode() {
+  return readLS(LS_KEYS.viewMode, "simple");
+}
+export function setViewMode(mode) {
+  writeLS(LS_KEYS.viewMode, mode);
 }

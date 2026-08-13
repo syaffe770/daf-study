@@ -1,6 +1,6 @@
 import { loadDaf, loadManifest, qs } from "./content.js";
 import { buildFlowSVG } from "./render-flow.js";
-import { bestScoreFor } from "./store.js";
+import { bestScoreFor, getViewMode, setViewMode } from "./store.js";
 
 function esc(s) {
   return String(s ?? "").replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
@@ -143,6 +143,48 @@ function renderStudyCTA(dafId, num) {
     </section>`;
 }
 
+function renderViewToggle(mode) {
+  return `
+    <div class="view-toggle" role="tablist" aria-label="Page view">
+      <button class="view-toggle-btn ${mode === "simple" ? "active" : ""}" data-mode="simple" role="tab" aria-selected="${mode === "simple"}">Simple</button>
+      <button class="view-toggle-btn ${mode === "complicated" ? "active" : ""}" data-mode="complicated" role="tab" aria-selected="${mode === "complicated"}">Complicated</button>
+    </div>`;
+}
+
+function renderComplicatedStub(d, id) {
+  return `
+    <div class="note" style="max-width:none;">
+      <b>The Complicated view is under construction.</b> This will become a traditional daf layout —
+      Gemara in the center, Rashi and Tosfos alongside — with toggles for nikkud/punctuation display,
+      and click-to-translate on any word. Content for this view is coming once the new text source is in place.
+    </div>
+    <div class="complicated-stub-controls">
+      <span class="chip">Nikkud</span>
+      <span class="chip">Punctuation</span>
+      <span class="chip">Cantillation</span>
+    </div>
+    <div class="complicated-split">
+      <div class="complicated-page">
+        <div class="complicated-pane complicated-pane-rashi">
+          <div class="complicated-pane-label">Rashi</div>
+          <div class="complicated-pane-placeholder">—</div>
+        </div>
+        <div class="complicated-pane complicated-pane-gemara">
+          <div class="complicated-pane-label">Gemara — ${esc(d.ref)}</div>
+          <div class="complicated-pane-placeholder he-line">${d.mishnah ? d.mishnah.he : ""}</div>
+        </div>
+        <div class="complicated-pane complicated-pane-tosfos">
+          <div class="complicated-pane-label">Tosfos</div>
+          <div class="complicated-pane-placeholder">—</div>
+        </div>
+      </div>
+      <div class="complicated-pane complicated-pane-side">
+        <div class="complicated-pane-label">Translation / explanation</div>
+        <p class="gloss-text">Highlight any word in the Gemara, Rashi, or Tosfos on the left to see it here — not wired up yet.</p>
+      </div>
+    </div>`;
+}
+
 async function renderDafNav(current) {
   const manifest = await loadManifest();
   const flat = manifest.dapim.flatMap((d) => d.amudim.map((a) => ({ ...a, dafLabel: d.label })));
@@ -159,6 +201,41 @@ async function renderDafNav(current) {
     </div>`;
 }
 
+function buildSimpleBody(d, id) {
+  let n = 1;
+  let html = "";
+  const sections = [];
+  const flowTitle = "Overview: how this amud is built";
+
+  if (d.mishnah) { sections.push({ num: String(n).padStart(2, "0"), id: "mishnah", title: "The Mishnah" }); html += renderMishnah(d.mishnah); n++; }
+  if (d.before?.length) { sections.push({ num: String(n).padStart(2, "0"), id: "before", title: "Before you learn it" }); html += renderBefore(d.before, n); n++; }
+  if (d.flow?.length) { sections.push({ num: String(n).padStart(2, "0"), id: "after", title: flowTitle }); html += renderFlow(d.flow, flowTitle, d.flowCaption || "The shape of the sugya on this amud.", n); n++; }
+  if (d.opinions?.length) { sections.push({ num: String(n).padStart(2, "0"), id: "opinions", title: "The opinions, side by side" }); html += renderOpinions(d.opinions, n); n++; }
+  if (d.script?.length) { sections.push({ num: String(n).padStart(2, "0"), id: "script", title: "The back-and-forth, turn by turn" }); html += renderScript(d.script, n); n++; }
+  if (d.tosfos?.length) { sections.push({ num: String(n).padStart(2, "0"), id: "tosfos-cta", title: "Tosfos" }); html += renderTosfosCTA(id, d.tosfos.length, n); n++; }
+  sections.push({ num: String(n).padStart(2, "0"), id: "quiz-cta", title: "Test yourself" });
+  html += renderQuizCTA(id, n);
+  n++;
+  sections.push({ num: String(n).padStart(2, "0"), id: "study-cta", title: "Study it with a partner or solo" });
+  html += renderStudyCTA(id, n);
+  html += renderSources(d.sources);
+
+  return renderBreakdown(sections) + html;
+}
+
+function renderBody(d, id, mode) {
+  const root = document.getElementById("daf-root");
+  root.innerHTML = mode === "complicated" ? renderComplicatedStub(d, id) : buildSimpleBody(d, id);
+
+  if (mode !== "complicated") {
+    const best = bestScoreFor(`${id}-practice`);
+    const bestLine = document.getElementById("quiz-best-line");
+    if (best && bestLine) {
+      bestLine.textContent = `Best so far: ${best.correct}/${best.total} correct.`;
+    }
+  }
+}
+
 export async function mountDafPage() {
   const id = qs("id") || "2a";
   const root = document.getElementById("daf-root");
@@ -170,31 +247,21 @@ export async function mountDafPage() {
     document.getElementById("h1").textContent = d.title;
     document.getElementById("subtitle").textContent = d.subtitle || "";
 
-    let n = 1;
-    let html = "";
-    const sections = [];
-    const flowTitle = "Overview: how this amud is built";
-
-    if (d.mishnah) { sections.push({ num: String(n).padStart(2, "0"), id: "mishnah", title: "The Mishnah" }); html += renderMishnah(d.mishnah); n++; }
-    if (d.before?.length) { sections.push({ num: String(n).padStart(2, "0"), id: "before", title: "Before you learn it" }); html += renderBefore(d.before, n); n++; }
-    if (d.flow?.length) { sections.push({ num: String(n).padStart(2, "0"), id: "after", title: flowTitle }); html += renderFlow(d.flow, flowTitle, d.flowCaption || "The shape of the sugya on this amud.", n); n++; }
-    if (d.opinions?.length) { sections.push({ num: String(n).padStart(2, "0"), id: "opinions", title: "The opinions, side by side" }); html += renderOpinions(d.opinions, n); n++; }
-    if (d.script?.length) { sections.push({ num: String(n).padStart(2, "0"), id: "script", title: "The back-and-forth, turn by turn" }); html += renderScript(d.script, n); n++; }
-    if (d.tosfos?.length) { sections.push({ num: String(n).padStart(2, "0"), id: "tosfos-cta", title: "Tosfos" }); html += renderTosfosCTA(id, d.tosfos.length, n); n++; }
-    sections.push({ num: String(n).padStart(2, "0"), id: "quiz-cta", title: "Test yourself" });
-    html += renderQuizCTA(id, n);
-    n++;
-    sections.push({ num: String(n).padStart(2, "0"), id: "study-cta", title: "Study it with a partner or solo" });
-    html += renderStudyCTA(id, n);
-    html += renderSources(d.sources);
-
-    root.innerHTML = renderBreakdown(sections) + html;
-
-    const best = bestScoreFor(`${id}-practice`);
-    const bestLine = document.getElementById("quiz-best-line");
-    if (best && bestLine) {
-      bestLine.textContent = `Best so far: ${best.correct}/${best.total} correct.`;
+    const toggleMount = document.getElementById("view-toggle");
+    let mode = getViewMode();
+    function paintToggle() {
+      toggleMount.innerHTML = renderViewToggle(mode);
+      toggleMount.querySelectorAll(".view-toggle-btn").forEach((btn) => {
+        btn.addEventListener("click", () => {
+          mode = btn.dataset.mode;
+          setViewMode(mode);
+          paintToggle();
+          renderBody(d, id, mode);
+        });
+      });
     }
+    paintToggle();
+    renderBody(d, id, mode);
 
     renderDafNav(id);
   } catch (err) {

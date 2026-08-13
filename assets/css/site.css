@@ -141,6 +141,41 @@ button { font-family: var(--sans); }
   .site-nav .links { gap: 0.9rem; font-size: 0.8rem; }
 }
 
+/* ---------------- Simple / Complicated view toggle ---------------- */
+.view-toggle {
+  display: inline-flex; border: 1px solid var(--line); border-radius: 20px; overflow: hidden;
+  background: var(--surface);
+}
+.view-toggle-btn {
+  font-family: var(--sans); font-size: 0.82rem; padding: 0.4rem 1.1rem; border: none; background: transparent;
+  color: var(--ink-faint); cursor: pointer;
+}
+.view-toggle-btn.active { background: var(--accent); color: var(--accent-ink); }
+.view-toggle-btn:not(.active):hover { color: var(--ink); }
+
+/* ---------------- Complicated view (stub — infrastructure only) ---------------- */
+.complicated-stub-controls { display: flex; gap: 0.6rem; margin: 0 0 1.4rem; }
+.complicated-stub-controls .chip {
+  font-family: var(--sans); font-size: 0.76rem; color: var(--ink-faint); background: var(--surface);
+  border: 1px dashed var(--line); border-radius: 20px; padding: 0.3rem 0.8rem;
+}
+.complicated-split { display: grid; grid-template-columns: 1.6fr 1fr; gap: 1.2rem; align-items: start; }
+@media (max-width: 760px) { .complicated-split { grid-template-columns: 1fr; } }
+.complicated-page {
+  display: grid; grid-template-columns: 1fr 1.4fr 1fr; gap: 1px; background: var(--line);
+  border: 1px solid var(--line); border-radius: var(--radius); overflow: hidden;
+}
+@media (max-width: 560px) { .complicated-page { grid-template-columns: 1fr; } }
+.complicated-pane { background: var(--surface); padding: 1rem; min-height: 220px; }
+.complicated-pane-label {
+  font-family: var(--sans); font-size: 0.68rem; text-transform: uppercase; letter-spacing: 0.05em;
+  color: var(--gold-strong); margin-bottom: 0.6rem;
+}
+.complicated-pane-rashi, .complicated-pane-tosfos { font-family: var(--hebrew); direction: rtl; font-size: 0.95rem; color: var(--ink-faint); }
+.complicated-pane-gemara { font-size: 1.05rem; }
+.complicated-pane-placeholder { color: var(--ink-faint); opacity: 0.6; }
+.complicated-pane-side { background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); padding: 1.2rem; min-height: 220px; }
+
 /* ---------------- Sign-in modal (local profiles, no OAuth) ---------------- */
 .auth-overlay {
   position: fixed; inset: 0; z-index: 999;
