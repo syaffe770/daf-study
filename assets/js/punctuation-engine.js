@@ -47,7 +47,7 @@ export async function mountPunctuation() {
       <div class="btn-row" style="justify-content:space-between; margin-bottom:1.4rem;">
         <span class="gloss-text" style="font-family:var(--sans); font-size:0.8rem;">Sentence ${session.i + 1} / ${order.length}</span>
       </div>
-      <p class="punct-sentence" id="punct-sentence">`;
+      <p class="punct-sentence he" id="punct-sentence" dir="rtl">`;
     parts.forEach((p, idx) => {
       html += esc(p.text);
       if (p.mark !== null) {
