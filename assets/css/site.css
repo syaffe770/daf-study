@@ -430,6 +430,18 @@ details.q .answer { padding: 0 1.2rem 1.1rem 2.7rem; color: var(--ink-soft); fon
 .drill-options { display: grid; grid-template-columns: 1fr 1fr; gap: 0.7rem; max-width: 480px; margin: 0 auto; }
 @media (max-width: 480px) { .drill-options { grid-template-columns: 1fr; } }
 .streak-pill { display: inline-flex; align-items: center; gap: 0.4rem; font-family: var(--sans); font-size: 0.82rem; color: var(--gold-strong); background: var(--surface-2); border: 1px solid var(--line); border-radius: 20px; padding: 0.3rem 0.8rem; }
+
+/* ---------------- Punctuation drill ---------------- */
+.punct-sentence { font-size: 1.2rem; line-height: 2; }
+.punct-blank {
+  display: inline-block; min-width: 1.8rem; margin: 0 0.15rem; padding: 0.05rem 0.5rem;
+  font-family: var(--sans); font-size: 1.1rem; font-weight: 700; color: var(--gold-strong);
+  background: var(--bg); border: 1px dashed var(--gold); border-radius: 3px; cursor: pointer;
+}
+.punct-blank:disabled { cursor: default; }
+.punct-blank.punct-correct { border-style: solid; border-color: var(--good); color: var(--good); background: color-mix(in srgb, var(--good) 12%, var(--bg)); }
+.punct-blank.punct-incorrect { border-style: solid; border-color: var(--bad); color: var(--bad); background: color-mix(in srgb, var(--bad) 12%, var(--bg)); }
+.punct-mark-btn { min-width: 3rem; font-size: 1.2rem; font-weight: 700; }
 .vocab-stats-row { display: flex; justify-content: center; gap: 2rem; margin-top: 1.2rem; font-family: var(--sans); }
 .vocab-stats-row > div { text-align: center; }
 .vocab-stats-row b { display: block; font-size: 1.3rem; font-family: var(--serif); color: var(--ink); }

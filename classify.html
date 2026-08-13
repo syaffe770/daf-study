@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Classify the Move — Daf Study</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 font-size=%2290%22><text y=%22.9em%22>📜</text></svg>" />
+  <link rel="stylesheet" href="assets/css/site.css" />
+</head>
+<body data-page="aramaic">
+  <div id="site-nav"></div>
+
+  <div class="wrap">
+    <header class="masthead">
+      <div class="eyebrow">CLASSIFY THE MOVE</div>
+      <h1>Question, Answer, Proof, Defense, or Attack?</h1>
+      <p class="subtitle">A real line from the Gemara — name what kind of move it's making in the argument.</p>
+      <p class="note" id="vocab-count" style="text-align:center;"></p>
+    </header>
+
+    <div id="drill-root"></div>
+  </div>
+
+  <div id="site-footer"></div>
+
+  <script type="module" src="assets/js/nav.js"></script>
+  <script type="module">
+    import { mountClassify } from "./assets/js/classify-engine.js";
+    mountClassify();
+  </script>
+</body>
+</html>

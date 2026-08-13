@@ -1,0 +1,25 @@
+{
+  "id": "punctuation",
+  "title": "Punctuate the line",
+  "note": "Sentences adapted from our own English text on daf.html and tosfos.html — nothing new authored, just re-used with punctuation stripped out.",
+  "sentences": [
+    { "id": "p1", "template": "A sukkah is a Torah-law obligation{{,}} so the Mishnah teaches it's unfit{{.}}", "source": "2a" },
+    { "id": "p2", "template": "Is that a proof{{?}}", "source": "2b" },
+    { "id": "p3", "template": "She was a woman{{,}} and women are exempt from the sukkah obligation{{.}}", "source": "2b" },
+    { "id": "p4", "template": "Didn't she have seven sons{{?}}", "source": "2b" },
+    { "id": "p5", "template": "If that's so{{,}} then one who builds his sukkah in Ashterot Karnayim should not have a valid sukkah{{.}}", "source": "2a" },
+    { "id": "p6", "template": "What's the reason a sukkah can't be taller than twenty amos{{?}}", "source": "2a" },
+    { "id": "p7", "template": "Up to twenty amos{{,}} a person is aware he's residing in a sukkah{{.}}", "source": "2a" },
+    { "id": "p8", "template": "Above twenty amos{{,}} a person isn't aware{{,}} because the eye doesn't catch sight of it{{.}}", "source": "2a" },
+    { "id": "p9", "template": "What role does this house actually play{{?}}", "source": "3b" },
+    { "id": "p10", "template": "A courtyard is divided among its residents in proportion to how many entrances each of them has{{.}}", "source": "3b" },
+    { "id": "p11", "template": "That's difficult{{.}}", "source": "3a" },
+    { "id": "p12", "template": "Would we really validate a sukkah just slightly over four amos wide{{?}}", "source": "2b tosfos" },
+    { "id": "p13", "template": "Is this ruling in accordance with Beit Shammai{{?}}", "source": "3a" },
+    { "id": "p14", "template": "Rashi does not give this explanation{{.}}", "source": "2a tosfos" },
+    { "id": "p15", "template": "Since a sukkah is usually built for one individual or family{{,}} that person won't always remember to check{{.}}", "source": "2a tosfos" },
+    { "id": "p16", "template": "Even though we don't care if the walls are permanent{{,}} a sukkah is defined mainly by its sechach{{.}}", "source": "2a tosfos" },
+    { "id": "p17", "template": "What's the practical difference between them{{?}}", "source": "2b" },
+    { "id": "p18", "template": "The elders went in and out of it and said nothing{{.}}", "source": "2b" }
+  ]
+}

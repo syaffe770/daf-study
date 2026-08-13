@@ -23,6 +23,10 @@ export async function loadVocabSet(id = "core") {
   return loadJSON(`content/vocab/${id}.json`);
 }
 
+export async function loadDrill(id) {
+  return loadJSON(`content/drills/${id}.json`);
+}
+
 export function qs(name) {
   return new URLSearchParams(window.location.search).get(name);
 }

@@ -122,7 +122,7 @@ export async function mountAramaic() {
         <div class="score-sub">best streak this session: ${session.streak}</div>
         <div class="btn-row" style="justify-content:center; margin-top:1.4rem;">
           <button class="btn btn-primary" id="btn-again">Drill again</button>
-          <a class="btn btn-ghost" href="index.html">Back to library</a>
+          <a class="btn btn-ghost" href="drills.html">Back to drills</a>
         </div>
       </div>`;
     document.getElementById("btn-again").addEventListener("click", () => {

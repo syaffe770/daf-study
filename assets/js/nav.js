@@ -4,7 +4,7 @@ import { ensureSignedIn } from "./auth-ui.js";
 const LINKS = [
   { href: "index.html", key: "library", label: "Library" },
   { href: "quizzes.html", key: "quizzes", label: "Quizzes" },
-  { href: "aramaic.html", key: "aramaic", label: "Aramaic" },
+  { href: "drills.html", key: "aramaic", label: "Drills" },
   { href: "curriculum.html", key: "curriculum", label: "Curriculum" },
 ];
 
