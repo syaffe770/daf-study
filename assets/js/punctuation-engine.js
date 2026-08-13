@@ -2,7 +2,7 @@ import { loadDrill } from "./content.js";
 import { saveScore } from "./store.js";
 
 const MARKS = [",", ".", "?"];
-const ROUNDS = 8;
+const ROUNDS = 5;
 const QUIZ_ID = "punctuation";
 
 function esc(s) {
