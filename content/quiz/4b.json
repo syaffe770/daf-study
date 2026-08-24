@@ -1,0 +1,26 @@
+{
+  "id": "4b-practice",
+  "daf": "4b",
+  "title": "Sukkah 4b — Practice Quiz",
+  "source": "Questions and correct answers taken directly from the Dafyomi Advancement Forum quiz for Sukkah 4 (dafyomi.co.il/sukah/quiz/su-qz-004.htm), questions 4–6.",
+  "questions": [
+    {
+      "q": "For a curved wall (dofen akuma) we allow up to just under 4 amos. What's the allowance for connecting two partial walls to reach 10 tefachim?",
+      "options": ["The same", "Can't be done", "Less than 3 tefachim", "Can only be done on one wall", "Machokes A&B"],
+      "correct": 2,
+      "explain": "Different mechanism, different number: dofen akuma (an existing wall, just reaching it) allows up to 4 amos; forging a wall from nothing needs the much tighter lavud adjacency rule — under 3 tefachim."
+    },
+    {
+      "q": "If one builds a 7×7-tefach, 10-tefachim-tall platform in a sukkah taller than 20 amos, away from the walls (so dofen akuma doesn't apply), can we use \"extend and raise the partitions\" (gud asik mechitzta) to make its own sides into walls?",
+      "options": ["True", "No, gud asik mechitzta can only apply to 1 wall, we need 3", "No, gud asik mechitzta can only affect visible (nikar) walls", "Machlokes A&B", "Machlokes A&C"],
+      "correct": 4,
+      "explain": "Abaye wanted to validate it this way; Rava rejected it, requiring conspicuous partitions that the pillar's sides don't actually have."
+    },
+    {
+      "q": "Four posts with a crossbeam and sechach on top, no walls — is that enough for a valid sukkah?",
+      "options": ["Yes", "No", "Only if the poles are on a roof's edge, so we can apply gud asik mechitzta", "Teiku", "The center case is a machloket; the edge case is disputed among the Amoraim (Rav Huna or Rav Nachman) and a fourth view"],
+      "correct": 4,
+      "explain": "Rabbi Yaakov and the Rabbis disagree over the base case — and then Rav Huna and Rav Nachman disagree about exactly which configuration (center vs. edge of roof) their machloket even covers, with the beraita's own account adding a further layer."
+    }
+  ]
+}

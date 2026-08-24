@@ -20,10 +20,15 @@
         { "id": "3b", "amud": "b", "title": "What Makes a House a House — Then Back to Sukkah", "status": "available" }
       ]
     },
-    { "daf": 4, "label": "Daf 4", "theme": "Coming soon", "amudim": [
-      { "id": "4a", "amud": "a", "title": "Coming soon", "status": "locked" },
-      { "id": "4b", "amud": "b", "title": "Coming soon", "status": "locked" }
-    ]},
+    {
+      "daf": 4,
+      "label": "Daf 4",
+      "theme": "Which floor-fillers lower a too-tall sukkah; a run of platform, pillar, and curved-wall edge-cases; the four-posts machloket",
+      "amudim": [
+        { "id": "4a", "amud": "a", "title": "Nullifying the Height — Straw, Dirt, and a Sagging Sukkah", "status": "available" },
+        { "id": "4b", "amud": "b", "title": "Curved Walls, a Lone Pillar, and Four Posts", "status": "available" }
+      ]
+    },
     { "daf": 5, "label": "Daf 5", "theme": "Coming soon", "amudim": [
       { "id": "5a", "amud": "a", "title": "Coming soon", "status": "locked" },
       { "id": "5b", "amud": "b", "title": "Coming soon", "status": "locked" }
@@ -58,7 +63,7 @@
     ]}
   ],
   "quizzes": {
-    "practice": ["2a", "2b", "3a", "3b"],
+    "practice": ["2a", "2b", "3a", "3b", "4a", "4b"],
     "milestone": []
   }
 }

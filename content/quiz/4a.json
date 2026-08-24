@@ -1,0 +1,26 @@
+{
+  "id": "4a-practice",
+  "daf": "4a",
+  "title": "Sukkah 4a — Practice Quiz",
+  "source": "Questions and correct answers taken directly from the Dafyomi Advancement Forum quiz for Sukkah 4 (dafyomi.co.il/sukah/quiz/su-qz-004.htm), questions 1–3.",
+  "questions": [
+    {
+      "q": "If a sukkah is higher than 20 amos and one fills the space with straw he has no use for, is the sukkah kosher?",
+      "options": ["Yes", "No", "Only if there are no cows around", "Machokes A&B", "Machokes A&C"],
+      "correct": 3,
+      "explain": "This is the Rabbi Yosei / Rabbanan machloket over straw left with no plan to remove it — not a clean yes or no."
+    },
+    {
+      "q": "A sukkah is exactly 10 tefachim tall; bits of sechach that let in more sun than shade hang down below 10 tefachim. Kosher?",
+      "options": ["Yes", "No", "So long as no one is allergic", "As long as they are pretty", "Machlokes A&B"],
+      "correct": 4,
+      "explain": "Abaye wanted to apply the mirror-image of the >20-amos hanging-branches rule; Rava rejected it as a \"sagging residence\" (dirah serucha). The answer is disputed between them, not a flat yes or no."
+    },
+    {
+      "q": "A sukkah higher than 20 amos becomes kosher via a raised platform slightly bigger than the sukkah minimum. This platform needs __________.",
+      "options": ["to touch three walls", "to touch 2, be within 4 amos of the third", "not touch more than one", "need to touch none so long as it is within less than 4 amos of all 3 walls", "Machlokes A&D"],
+      "correct": 3,
+      "explain": "The center-platform case: valid as long as the gap to the wall is under 4 amos in every direction — it doesn't need to physically touch any wall, curved-wall (dofen akuma) covers the gap on all sides."
+    }
+  ]
+}
