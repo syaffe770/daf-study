@@ -29,10 +29,15 @@
         { "id": "4b", "amud": "b", "title": "Curved Walls, a Lone Pillar, and Four Posts", "status": "available" }
       ]
     },
-    { "daf": 5, "label": "Daf 5", "theme": "Coming soon", "amudim": [
-      { "id": "5a", "amud": "a", "title": "Coming soon", "status": "locked" },
-      { "id": "5b", "amud": "b", "title": "Coming soon", "status": "locked" }
-    ]},
+    {
+      "daf": 5,
+      "label": "Daf 5",
+      "theme": "10 tefachim as a real domain; the hunt for the Ark cover's missing measurement; proving sechach sits above the 10 tefachim",
+      "amudim": [
+        { "id": "5a", "amud": "a", "title": "Ten Handbreadths as a Domain, Then the Ark's Missing Measurement", "status": "available" },
+        { "id": "5b", "amud": "b", "title": "From the Ark to the Temple — Landing on 10 Tefachim", "status": "available" }
+      ]
+    },
     { "daf": 6, "label": "Daf 6", "theme": "Coming soon", "amudim": [
       { "id": "6a", "amud": "a", "title": "Coming soon", "status": "locked" },
       { "id": "6b", "amud": "b", "title": "Coming soon", "status": "locked" }
@@ -63,7 +68,7 @@
     ]}
   ],
   "quizzes": {
-    "practice": ["2a", "2b", "3a", "3b", "4a", "4b"],
+    "practice": ["2a", "2b", "3a", "3b", "4a", "4b", "5a", "5b"],
     "milestone": []
   }
 }

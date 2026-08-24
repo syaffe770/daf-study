@@ -1,0 +1,26 @@
+{
+  "id": "5b-practice",
+  "daf": "5b",
+  "title": "Sukkah 5b — Practice Quiz",
+  "source": "Questions and correct answers taken directly from the Dafyomi Advancement Forum quiz for Sukkah 5 (dafyomi.co.il/sukah/quiz/su-qz-005.htm), questions 4–6.",
+  "questions": [
+    {
+      "q": "How do we know the sechach must be above 10 tefachim of interior space — maybe the total height (including the sechach) just needs to be 10 tefachim?",
+      "options": ["We learn from the kaporet and aron", "It says the cherubs' wings screened the kaporet, and they were 10 tefachim high", "Halachah l'Moshe mi'Sinai", "Machlokes A&B", "Machlokes B&C"],
+      "correct": 4,
+      "explain": "For Rabbi Meir's cubit-reckoning, the cherub-wing calculation cleanly proves it. For Rabbi Yehuda's, the math doesn't land on a clean 10, so it has to fall back on orally-transmitted halachah instead. Both routes are live, hence disputed."
+    },
+    {
+      "q": "How were the cherubs' wings positioned?",
+      "options": ["Level with their heads", "Above their heads", "Way above", "Teiku", "Machlokes A&B"],
+      "correct": 1,
+      "explain": "The verse says \"upward\" (not repeated, so not \"way above\") — the wings were spread above the cherubs' heads, which is what lets their span count as \"sechach\" sitting 10 tefachim up."
+    },
+    {
+      "q": "How many tefachim were in the amah shel keilim (the cubit used for measuring vessels)?",
+      "options": ["3", "4", "5", "6", "Machlokes C&D"],
+      "correct": 4,
+      "explain": "Rabbi Yehuda holds the vessel-cubit was 5 tefachim (vs. 6 for a building-cubit); Rabbi Meir holds all cubits were a uniform 6. So the value itself depends on whose position you follow — disputed between 5 and 6."
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "id": "5a-practice",
+  "daf": "5a",
+  "title": "Sukkah 5a — Practice Quiz",
+  "source": "Questions and correct answers taken directly from the Dafyomi Advancement Forum quiz for Sukkah 5 (dafyomi.co.il/sukah/quiz/su-qz-005.htm), questions 1–3.",
+  "questions": [
+    {
+      "q": "\"Hashem neither comes all the way down to Eretz, nor does man ascend all the way up to Shamayim.\"",
+      "options": ["True", "Shechinah came down", "Moshe went up", "Eliyahu went up", "Machlokes C&D"],
+      "correct": 0,
+      "explain": "Every apparent counter-verse is reread as stopping right at the 10-tefachim line — neither side ever actually crosses it."
+    },
+    {
+      "q": "From where do we learn the height (thickness) of the kaporet (Ark cover)?",
+      "options": ["Misgeret, seeing as it was a kli", "Misgeret is the smallest object whose measurement is stated", "Al p'nei ha'kaporet, and panim is a tefach", "Machlokes A&B", "Machlokes B&C"],
+      "correct": 4,
+      "explain": "Two independent derivations survive: the table's border (the smallest measured vessel-dimension in the Mishkan) and Rav Huna's \"face\" wordplay. The answer is genuinely disputed between those two, not settled on one."
+    },
+    {
+      "q": "The misgeret (border) was __________ the Shulchan.",
+      "options": ["Below", "Above", "Safeik (uncertain)", "Teiku", "Machlokes A&B"],
+      "correct": 4,
+      "explain": "Both positions appear in the Gemara's own phrasing (\"according to the one who said it was above...\") — genuinely disputed, not resolved to one side."
+    }
+  ]
+}

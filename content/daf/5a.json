@@ -1,0 +1,73 @@
+{
+  "id": "5a",
+  "daf": 5,
+  "amud": "a",
+  "masechta": "Sukkah",
+  "ref": "Sukkah 5a",
+  "title": "Ten Handbreadths as a Domain, Then the Ark's Missing Measurement",
+  "subtitle": "Why 10 tefachim is a real boundary in the first place, then a long hunt for how tall the Ark's cover actually was.",
+  "sources": "Gemara text: Sefaria (William Davidson Edition). Structure and quiz questions 1-3 cross-checked against the Dafyomi Advancement Forum (dafyomi.co.il) quiz for Sukkah 5. Tosfos: dafyomi.co.il's \"Point by Point Summary of Tosfos\" (Yaakov Montrose, Kollel Iyun Hadaf). The Tzitz discussion continues onto 5b.",
+
+  "before": [
+    "4b ended by asking where the Mishnah's 10-tefachim minimum height comes from. This amud opens with a striking proof: a beraita claiming the Divine Presence never actually descended below 10 tefachim, and Moshe and Eliyahu never actually ascended above it — establishing 10 tefachim up as a genuinely separate domain.",
+    "From there the Gemara chases down one specific number: the Ark of the Covenant was 9 tefachim tall by an explicit verse, but its cover (kaporet) needed one more tefach to reach 10 — and nowhere does the Torah say how thick the cover was. The rest of the amud is that hunt: several failed derivations, then two that work."
+  ],
+
+  "flow": [
+    { "type": "step", "label": "Beraita: the Divine Presence never came below 10 tefachim; Moshe and Eliyahu never rose above it", "sub": "every apparent counter-verse gets reread as \"stayed within 10 tefachim of the boundary\"", "tone": "accent" },
+    { "type": "note", "label": "Payoff: 10 tefachim really is a separate domain", "sub": "so a sukkah under 10 tefachim isn't a domain of its own — that's why it's invalid" },
+    { "type": "step", "label": "Where the 10-tefachim number comes from: Ark (9) + Cover (1) = 10", "sub": "the Ark's own height is explicit in the verse — the cover's thickness is not" },
+    { "type": "branch", "label": "Failed derivations for the cover's thickness", "items": [
+      { "label": "From the smallest Mishkan vessel with a stated measure (the table's border)", "sub": "actually works — the one the Gemara keeps", "tone": "good" },
+      { "label": "From the High Priest's frontplate / a crown", "sub": "rejected — those are ornaments, not vessels, so they can't set a vessel's measure", "tone": "bad" }
+    ]},
+    { "type": "note", "label": "Gemara notices the winning derivation itself has a loose thread", "sub": "was the table's border above the tabletop or below? Only \"below\" cleanly supports the proof — continues onto 5b" }
+  ],
+  "flowCaption": "One clean proof that 10 tefachim is a real domain, then a careful hunt for a single missing measurement.",
+
+  "opinions": [
+    { "who": "Rabbi Yosei (on the Divine Presence)", "stance": "svara", "stanceClass": "svara", "claim": "The Divine Presence never actually descended below 10 tefachim, and Moshe and Eliyahu never actually ascended above it — every verse that looks otherwise stayed within 10 tefachim of the boundary.", "basis": "\"The heavens are the heavens of the Lord, and the earth He gave to the children of man\" (Psalms 115:16) — two distinct domains, split at 10 tefachim." },
+    { "who": "Rav Huna (on the cover's thickness)", "stance": "svara", "stanceClass": "svara", "claim": "An alternative derivation, independent of the table's border: \"upon the face (penei) of the Ark cover\" — and no person's face measures less than a tefach.", "basis": "A verbal analogy (gezerah shavah-style) between \"penei\" here and \"penei\" elsewhere, refined via the cherubs' faces rather than a literal human face." }
+  ],
+
+  "script": [
+    { "type": "source", "speaker": "Beraita", "quote": "מֵעוֹלָם לֹא יָרְדָה שְׁכִינָה לְמַטָּה, וְלֹא עָלוּ מֹשֶׁה וְאֵלִיָּהוּ לַמָּרוֹם.", "gloss": "Rabbi Yosei: the Divine Presence never actually descended below (10 tefachim), and Moshe and Eliyahu never actually ascended above it — the heavens and earth are two distinct domains." },
+    { "type": "challenge", "speaker": "Gemara challenges, repeatedly", "gloss": "Doesn't a verse say God descended onto Mount Sinai? Won't His feet stand on the Mount of Olives? Didn't Moshe go up to God, and Eliyahu ascend in a whirlwind? Each time, the Gemara answers the same way: whatever the verse describes, it stopped at the 10-tefachim line — descending to it, or rising to it, but never crossing." },
+    { "type": "question", "speaker": "One more push", "quote": "מִכׇּל מָקוֹם ״מְאַחֵז פְּנֵי כִּסֵּא״ כְּתִיב!", "gloss": "But a verse says Moshe \"grasped the face of the Throne\" — doesn't that mean he touched something above the 10-tefachim line?" },
+    { "type": "resolution", "speaker": "Answered", "quote": "אִישְׁתַּרְבּוֹבֵי אִישְׁתַּרְבַּב לֵיהּ כִּסֵּא עַד עֲשָׂרָה, וּנְקַט בֵּיהּ.", "gloss": "The Throne itself stretched down to the 10-tefachim line so Moshe could grasp it — he himself never crossed it." },
+    { "type": "step", "speaker": "The number, sourced", "quote": "בִּשְׁלָמָא אָרוֹן תִּשְׁעָה... אֶלָּא כַּפּוֹרֶת טֶפַח, מְנָלַן?", "gloss": "The Ark itself was 9 tefachim tall — stated explicitly (a cubit and a half, Exodus 25:10). But where does the extra tefach for the cover's thickness come from? The Torah never states it." },
+    { "type": "source", "speaker": "First derivation", "quote": "צֵא וּלְמַד מִפָּחוּת שֶׁבַּכֵּלִים... מָה לְהַלָּן טֶפַח, אַף כָּאן טֶפַח.", "gloss": "Learn from the smallest Mishkan vessel-dimension the Torah states: the show-bread table's border (misgeret) is explicitly one tefach — so the cover's thickness is a tefach too. The Gemara adds the principle behind picking the <i>smallest</i> available source: \"if you grasp for more, you grasp nothing; grasp for less, and you have something.\"" },
+    { "type": "challenge", "speaker": "Two rejected alternatives", "gloss": "Why not derive the thickness from the High Priest's golden frontplate (just two fingerbreadths), or from a vessel's decorative crown (no fixed size at all)? Both are rejected: a vessel's measure can only be derived from another vessel's measure — not from an ornament, and not from mere decorative finish." },
+    { "type": "question", "speaker": "A wrinkle in the winning proof", "gloss": "The border-derivation only cleanly works for the view that the table's border sat <i>below</i> the tabletop, supporting it structurally as a real functional part of the vessel. For the view that it sat <i>above</i>, it looks like mere decoration too — continued on 5b." }
+  ],
+
+  "tosfos": [
+    {
+      "dh": "תוספות ד״ה יו״ד ה״א מלמעלה",
+      "dhEn": "Yud Heh Milmala",
+      "summary": "Why spelling out \"Yud-Heh\" isn't a violation, even though it's part of God's name.",
+      "points": [
+        { "type": "answer", "label": "(b) Answer #1", "he": "כיון דאינו מזכירם לשם שם שלם", "en": "Because he isn't saying these letters with intent that they form a complete name." },
+        { "type": "answer", "label": "(c) Answer #2", "he": "ההוגה שם באותיותיו פירש בקונטרס שדורש אותיות של שם בן ארבעים ושתים", "en": "Rashi explains the actual prohibition applies specifically to spelling out the 42-letter name, not this." }
+      ]
+    },
+    {
+      "dh": "תוספות ד״ה מסגרתו למטה היתה",
+      "dhEn": "Misgarto l'Matah Haysah",
+      "summary": "A dense side-discussion (condensed here) about whether the table's border sat above or below it, and what that implies for which wooden objects can become ritually impure.",
+      "points": [
+        { "type": "answer", "label": "(a)-(b) Two readings", "he": "ולא כמו שמפרש ר״ת דלמאן דאמר למטה היתה מחוברת נמי בשלחן", "en": "The Gemara's own wording implies that on the \"below\" view, the border wasn't just decorative — it was a structural rim the tabletop rested on. Rabbeinu Tam reads it differently, tying the question to a separate sugya (Menachos 96b) about when a flippable board can become impure." },
+        { "type": "answer", "label": "(j) Answer", "he": "כל הני לא דמו לדף של נחתום מחמת שהדפין רחבין וראוי להניח עליהן דבר גזרו עליהן", "en": "The resolution: ordinary flat wooden boards stay pure even rabbinically, but a baker's board is wide enough to functionally hold things, so the Sages treated it like a container — which is why it can become impure specifically on the \"border below\" reading." }
+      ]
+    },
+    {
+      "dh": "תוספות ד״ה ואל יוכיח",
+      "dhEn": "v'Al Yochiach",
+      "summary": "Whether the High Priest's frontplate (tzitz) sat on the forehead or higher up on the head — condensed.",
+      "points": [
+        { "type": "answer", "label": "(b) Answer", "he": "אין זה אלא מדרבנן משום דכתיב על מצחו שיעור מצחו", "en": "The earlier \"two fingerbreadths\" measure is only rabbinic, tied to the verse \"on his forehead\" — an average forehead's width." },
+        { "type": "answer", "label": "(c)-(d) The Riva's view", "he": "ריב״א מפרש הציץ היה מונח בראש... דשל כהן הדיוט גדולה משל כהן גדול שהציץ היה דוחה אותה", "en": "The Riva holds the tzitz actually sat higher, on the head rather than the forehead — pointing to why the High Priest's headwear is called by a different term than the ordinary priest's, since the tzitz pushed against it. Continued on 5b." }
+      ]
+    }
+  ]
+}

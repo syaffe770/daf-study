@@ -1,0 +1,85 @@
+{
+  "id": "5b",
+  "daf": 5,
+  "amud": "b",
+  "masechta": "Sukkah",
+  "ref": "Sukkah 5b",
+  "title": "From the Ark to the Temple — Landing on 10 Tefachim",
+  "subtitle": "Rav Huna's alternative proof, then applying the measurement to an actual sukkah: does the sechach's own thickness count?",
+  "sources": "Gemara text: Sefaria (William Davidson Edition). Structure and quiz questions 4-6 cross-checked against the Dafyomi Advancement Forum (dafyomi.co.il) quiz for Sukkah 5. Tosfos: dafyomi.co.il's \"Point by Point Summary of Tosfos\" (Yaakov Montrose, Kollel Iyun Hadaf). The measurements discussion continues onto 6a.",
+
+  "before": [
+    "5a found a working proof for the Ark cover's one-tefach thickness, but noticed it only cleanly fits one view of how the table's border was built. This amud opens with Rav Huna's completely independent proof — sidestepping that whole problem via a wordplay on \"face\" (panim).",
+    "Then the amud turns from \"how tall was the Ark\" to \"does that actually tell us anything about a sukkah\" — and the answer takes real work: the Gemara has to prove the 10 tefachim is measured to the sukkah's <i>floor</i>, not including the thickness of the sechach itself, by reaching all the way to the dimensions of the Temple."
+  ],
+
+  "flow": [
+    { "type": "step", "label": "Rav Huna's proof: \"upon the face of the cover\" — no face is under a tefach", "tone": "accent" },
+    { "type": "note", "label": "Tested against a giant bird's face and a tiny bird's face — both rejected", "sub": "settled instead as a wordplay between \"face\" here and \"face\" elsewhere in the Torah, refined to mean the cherubs' faces specifically" },
+    { "type": "step", "label": "New question: does sukkah's 10-tefachim minimum include the sechach's own thickness, like the Ark's did?" },
+    { "type": "step", "label": "No — proven from the Temple's dimensions instead", "sub": "cherubs stood 1/3 of the building's height; their wingspan, ten tefachim above the ark, is what the Torah itself calls \"sechach\"", "tone": "accent" },
+    { "type": "branch", "label": "But the math only works cleanly for one cubit-size", "items": [
+      { "label": "Rabbi Meir", "sub": "every cubit = 6 tefachim — the math lands exactly on 10", "tone": "good" },
+      { "label": "Rabbi Yehuda", "sub": "building-cubits = 6, vessel-cubits = 5 — the math lands on 11½ instead", "tone": "gold" }
+    ]},
+    { "type": "note", "label": "For Rabbi Yehuda, the Gemara falls back on a different kind of source entirely", "sub": "halachah l'Moshe mi'Sinai — an orally transmitted measure, not derived from any verse" },
+    { "type": "note", "label": "Objection: aren't all measures actually written in the Torah?", "sub": "a verse about the seven species is read as a whole catalog of measures — the wheat-measure case begins, continuing onto 6a" }
+  ],
+  "flowCaption": "One proof settled by wordplay, then a much bigger proof reaching all the way to the Temple's own dimensions.",
+
+  "opinions": [
+    { "who": "Rav Huna", "stance": "svara", "stanceClass": "svara", "claim": "The Ark cover's thickness is a tefach, derived from \"upon the face (penei) of the Ark cover\" — no face is under a tefach.", "basis": "Refined via Rav Acha bar Yaakov into a wordplay between \"penei\" in that verse and \"penei\" describing the cherubs, rather than a literal human face." },
+    { "who": "Rabbi Meir (on cubit-size)", "stance": "svara", "stanceClass": "svara", "claim": "Every cubit used in the Mishkan and Temple, for buildings and vessels alike, was the same \"intermediate\" size — 6 tefachim.", "basis": "Makes the cherub-height calculation land exactly on 10 tefachim for the sukkah's sechach-height derivation." },
+    { "who": "Rabbi Yehuda (on cubit-size)", "stance": "svara", "stanceClass": "svara", "claim": "A building-cubit was 6 tefachim, but a vessel-cubit was only 5.", "basis": "Same verses, different cubit-size tradition — but this reading makes the same calculation land on 11½ tefachim instead of 10, so the sukkah-measure can't actually be derived this way under his view." }
+  ],
+
+  "script": [
+    { "type": "opinion", "speaker": "Rav Huna's proof", "quote": "עַל פְּנֵי הַכַּפּוֹרֶת קֵדְמָה, וְאֵין פָּנִים פָּחוֹת מִטֶּפַח.", "gloss": "\"Upon the face of the Ark cover, on the east\" — and no person's face measures less than a tefach." },
+    { "type": "challenge", "speaker": "Gemara pushes back, twice", "gloss": "Why assume a human face specifically? What about the face of the giant bird bar Yokhani (far bigger), or a sparrow's face (far smaller)? Each time: \"grasp for more, you grasp nothing; grasp for less, you have something\" — so a plain human face is the right middle measure." },
+    { "type": "resolution", "speaker": "Reframed entirely", "quote": "רַב הוּנָא ״פְּנֵי״ ״פְּנֵי״ גָּמַר.", "gloss": "Rav Acha bar Yaakov: Rav Huna's derivation isn't really about a literal face at all — it's a verbal analogy between \"penei\" here and \"penei\" describing Yitzchak's face elsewhere, ultimately anchored (after more rejected options — God's face, a generic cherub's face) to the specific size of the cherubs' own faces, a tefach, known by tradition." },
+    { "type": "question", "speaker": "New question: does this even apply to sukkah cleanly?", "quote": "וּמִמַּאי דַּחֲלָלַהּ עֲשָׂרָה בַּר מִסְּכָכַהּ?", "gloss": "How do we know a sukkah's 10-tefachim minimum excludes the sechach's own thickness? Maybe, like the Ark (measured base-to-top-of-cover), the sukkah's 10 tefachim should include the roofing." },
+    { "type": "source", "speaker": "Answered from the Temple", "quote": "אֶלָּא מִבֵּית עוֹלָמִים גָּמַר... כְּרוּבִים בִּשְׁלִישׁ הַבַּיִת הֵן עוֹמְדִין.", "gloss": "The sukkah measure isn't from the Ark after all — it's from the eternal Temple. The cherubs there stood 10 cubits tall, exactly a third of the Temple's 30-cubit height. Applying the same one-third ratio to the (10-cubit-tall) Mishkan works out the cherubs' own height there, and from there, the height of their outstretched wings above the Ark — which the Torah itself calls \"sechach.\" That's the source that sechach sits at least 10 tefachim up, separate from the space below." },
+    { "type": "question", "speaker": "One more check", "gloss": "How do we know the wings were spread <i>above</i> the cherubs' heads, and not level with them (which would eat into the 10 tefachim)? Because the verse says \"upward.\" And not \"extremely\" high, either — the verse doesn't repeat the word." },
+    { "type": "question", "speaker": "The math has a catch", "quote": "הָנִיחָא לְרַבִּי מֵאִיר... אֶלָּא לְרַבִּי יְהוּדָה... מַאי אִיכָּא לְמֵימַר?", "gloss": "This calculation works cleanly for Rabbi Meir, who holds all cubits were a uniform 6 tefachim. But Rabbi Yehuda holds building-cubits were 6 tefachim while vessel-cubits were only 5 — on his reckoning the math for the Ark-and-cover's height comes out to 8½ tefachim, leaving 11½ for the cherubs, not a clean 10." },
+    { "type": "resolution", "speaker": "Falls back on oral tradition", "quote": "לְרַבִּי יְהוּדָה הִלְכְתָא גְּמִירִי לַהּ... שִׁיעוּרִין, חֲצִיצִין, וּמְחִיצִין — הֲלָכָה לְמֹשֶׁה מִסִּינַי.", "gloss": "For Rabbi Yehuda, the 10-tefachim measure isn't derived from these verses at all — it's a halachah transmitted orally to Moshe at Sinai, in the same category as fixed measures, interpositions, and partitions generally." },
+    { "type": "challenge", "speaker": "Gemara objects", "quote": "שִׁיעוּרִין דְּאוֹרָיְיתָא נִינְהוּ!", "gloss": "But measures aren't purely oral tradition — they're written in the Torah! A verse about the seven species (\"a land of wheat, and barley, and vines...\") is read entirely as a catalog of legal measures." },
+    { "type": "source", "speaker": "First item on that list, cliffhanging into 6a", "quote": "חִטָּה — לְבַיִת הַמְנוּגָּע.", "gloss": "\"Wheat\" sets the measure for a person entering a tzaraat-afflicted house — continued on 6a." }
+  ],
+
+  "tosfos": [
+    {
+      "dh": "תוספות ד״ה קדש למ״ד מלמטה",
+      "dhEn": "Kodesh Lamed Milmata",
+      "summary": "How the two lines of text actually appeared on the tzitz.",
+      "points": [
+        { "type": "answer", "label": "(c) Opinion #2", "he": "אלא יש לפרש זה שלא כנגד זה קדש למ״ד בתחילת שיטה התחתונה ושם בסוף שיטה עליונה", "en": "Not stacked directly on top of each other — rather offset, with \"Kodesh Lamed\" starting the bottom line and God's name ending the top line." }
+      ]
+    },
+    {
+      "dh": "תוספות ד״ה ואל יוכיח",
+      "dhEn": "v'Al Yochiach (continued from 5a)",
+      "summary": "Finishing the case for the tzitz sitting higher on the head rather than the forehead.",
+      "points": [
+        { "type": "answer", "label": "(f) Answer", "he": "היה יכול להניחם במקום שכהן גדול מניח את הציץ", "en": "The ordinary priest could put his tefillin exactly where the High Priest put the tzitz — there's room on the head for both, per Eruvin 95b." },
+        { "type": "answer", "label": "(h) Answer", "he": "ומתרגמינן בין עינוהי... שהכל בגובה של ראש", "en": "The Aramaic translation renders the relevant phrase \"between the eyes\" the same way it's used for tefillin — which sit on top of the head, not the forehead." }
+      ]
+    },
+    {
+      "dh": "תוספות ד״ה תפשת מרובה",
+      "dhEn": "Tafasta Merubah",
+      "summary": "What \"if you grasp for more, you grasp nothing\" actually means, and why it only works for a genuinely finite choice.",
+      "points": [
+        { "type": "question", "label": "(a)-(b) Explanation & Question", "he": "יש מפרשים לפי שמדה מרובה אין לה סוף... וכאן אי אפשר לומר כן", "en": "Some explain the principle applies because the larger option is literally unbounded — but that can't be the reason here, since a face has to fit inside the Mishkan either way, so both options are finite." },
+        { "type": "answer", "label": "(e) Explanation #2", "he": "אם אתה תופש את המועט אין מוציאין אותו מידך שהמועט בכלל המרובה", "en": "The real principle: the smaller amount is always included within the larger one, so it's safe to assume by default — the larger amount needs its own proof before you may claim it." }
+      ]
+    },
+    {
+      "dh": "תוספות ד״ה בשליש הבית",
+      "dhEn": "b'Shlish ha'Bayit",
+      "summary": "A different read than Rashi on where the Temple's upper story actually was.",
+      "points": [
+        { "type": "answer", "label": "(c) Answer", "he": "היינו משפת הכרובים ולמעלה כדאיתא בפ' המוכר פירות (ב״ב צט:)", "en": "The verse's \"twenty cubits\" for the inner sanctuary is measured from the top of the cherubs upward — not, as Rashi holds elsewhere, describing a low attic above the Holy of Holies." }
+      ]
+    }
+  ]
+}
