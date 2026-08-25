@@ -47,10 +47,15 @@
         { "id": "6b", "amud": "b", "title": "Two and a Handbreadth, or Three and a Handbreadth?", "status": "available" }
       ]
     },
-    { "daf": 7, "label": "Daf 7", "theme": "Coming soon", "amudim": [
-      { "id": "7a", "amud": "a", "title": "Coming soon", "status": "locked" },
-      { "id": "7b", "amud": "b", "title": "Coming soon", "status": "locked" }
-    ]},
+    {
+      "daf": 7,
+      "label": "Daf 7",
+      "theme": "Where the token wall goes; borrowing walls from Shabbos-law; the wide list of Tannaim who require a sukkah to feel permanent",
+      "amudim": [
+        { "id": "7a", "amud": "a", "title": "Where Exactly Does the Tefach Go?", "status": "available" },
+        { "id": "7b", "amud": "b", "title": "Roofing Over an Alleyway, Then: Does a Sukkah Need to Feel Permanent?", "status": "available" }
+      ]
+    },
     { "daf": 8, "label": "Daf 8", "theme": "Coming soon", "amudim": [
       { "id": "8a", "amud": "a", "title": "Coming soon", "status": "locked" },
       { "id": "8b", "amud": "b", "title": "Coming soon", "status": "locked" }
@@ -73,7 +78,7 @@
     ]}
   ],
   "quizzes": {
-    "practice": ["2a", "2b", "3a", "3b", "4a", "4b", "5a", "5b", "6a", "6b"],
+    "practice": ["2a", "2b", "3a", "3b", "4a", "4b", "5a", "5b", "6a", "6b", "7a", "7b"],
     "milestone": []
   }
 }

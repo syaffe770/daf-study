@@ -1,0 +1,91 @@
+{
+  "id": "7a",
+  "daf": 7,
+  "amud": "a",
+  "masechta": "Sukkah",
+  "ref": "Sukkah 7a",
+  "title": "Where Exactly Does the Tefach Go?",
+  "subtitle": "Five different answers for positioning the minimal third wall, then whether a sukkah-wall for Shabbos is the same thing as a sukkah-wall for Sukkot.",
+  "sources": "Gemara text: Sefaria (William Davidson Edition). Structure and quiz questions 1-2, 4 cross-checked against the Dafyomi Advancement Forum (dafyomi.co.il) quiz for Sukkah 7. Tosfos: dafyomi.co.il's \"Point by Point Summary of Tosfos\" (Yaakov Montrose, Kollel Iyun Hadaf).",
+
+  "before": [
+    "6b ended with Rav being asked where the token tefach-wide third wall actually gets positioned. This amud runs through five different answers to that one practical question — from silence, to \"opposite the emerging wall,\" to an expanded \"tefach sochek\" near a corner, to requiring an actual doorway-shape (tzuras ha'petach).",
+    "Then it turns to a related but separate question: if that same tefach counts as a wall for sukkah, does it automatically count as a wall for carrying on Shabbos too — even though sukkah-law and Shabbos-law don't usually import rulings from each other so freely?"
+  ],
+
+  "flow": [
+    { "type": "branch", "label": "Five positions for the sukkah made of two parallel walls (\"like an alleyway\")", "items": [
+      { "label": "Rav Kahana/Asi's suggestion", "sub": "opposite the diagonal — Rav stayed silent", "tone": "gold" },
+      { "label": "Shmuel/Levi, and the study hall", "sub": "opposite the gap left by the emerging wall", "tone": "gold" },
+      { "label": "Rabbi Simon / R' Yehoshua ben Levi", "sub": "an expanded tefach, within 3 tefachim of a wall (lavud)", "tone": "gold" },
+      { "label": "Rava (three versions)", "sub": "needs a doorway-shape (tzuras ha'petach) — instead of, in addition to, or regardless of the expanded tefach", "tone": "gold" }
+    ]},
+    { "type": "note", "label": "A harder case: no standing walls at all touch each other", "sub": "needs a real board, over 4 tefachim wide, not just an expanded tefach — the lavud trick alone isn't enough without real walls to anchor to" },
+    { "type": "step", "label": "New question: does a sukkah-qualifying tefach-wall also count for Shabbos carrying?", "tone": "accent" },
+    { "type": "branch", "items": [
+      { "label": "Rava", "sub": "yes — since it's a wall for sukkah, it's a wall for Shabbos too (miggo)", "tone": "good" },
+      { "label": "Abaye challenges", "sub": "a beraita implies Shabbos-during-Sukkot is actually stricter than sukkah generally, not more lenient", "tone": "bad" }
+    ]},
+    { "type": "note", "label": "Resolved: the beraita is comparing ordinary Shabbos to Sukkot-Shabbos, not sukkah-law to Shabbos-law", "sub": "leniency-to-stringency is unremarkable; the reverse direction is what actually needed stating — continues onto 7b" }
+  ],
+  "flowCaption": "A practical question given five different answers, then a separate question about borrowing rulings between sukkah-law and Shabbos-law.",
+
+  "opinions": [
+    { "who": "Rabbi Simon (or Rabbi Yehoshua ben Levi)", "stance": "svara", "stanceClass": "svara", "claim": "An expanded tefach (measured with fingers spread), placed within 3 tefachim of a real wall, works via lavud to effectively become a 4-tefach wall.", "basis": "The lavud principle: anything closer than 3 tefachim to a wall is treated as joined to it." },
+    { "who": "Rava", "stance": "svara", "stanceClass": "svara", "claim": "The two-parallel-walls sukkah is valid only with a doorway-shape (tzuras ha'petach) for the third side — reported in three different versions of exactly how this relates to the expanded-tefach option.", "basis": "A doorway-frame (two side-posts and a crossbeam) counts as a halachic partition in its own right." }
+  ],
+
+  "script": [
+    { "type": "source", "speaker": "First suggestion, unanswered", "quote": "וְיַעֲמִידֶנּוּ כְּנֶגֶד רֹאשׁ תּוֹר?! שְׁתֵיק רַב.", "gloss": "Rav Kahana and Rav Asi suggest positioning the tefach opposite the diagonal line where two walls would converge, like a triangle's third side. Rav had no response." },
+    { "type": "opinion", "speaker": "Shmuel/Levi, and the study hall", "quote": "מַעֲמִידוֹ כְּנֶגֶד הַיּוֹצֵא.", "gloss": "Position it opposite the gap left by the end of one of the standing walls — the standard ruling." },
+    { "type": "opinion", "speaker": "Rabbi Simon (or R' Yehoshua ben Levi)", "quote": "עוֹשֶׂה לוֹ טֶפַח שׂוֹחֵק, וּמַעֲמִידוֹ בְּפָחוֹת מִשְּׁלֹשָׁה טְפָחִים סָמוּךְ לַדּוֹפֶן.", "gloss": "Make it an expanded tefach and position it within 3 tefachim of a real wall — lavud treats it as joined to that wall, effectively widening it." },
+    { "type": "opinion", "speaker": "Rav Yehuda adds", "quote": "סוּכָּה הָעֲשׂוּיָה כְּמָבוֹי — כְּשֵׁרָה, וְאוֹתוֹ טֶפַח מַעֲמִידוֹ לְכׇל רוּחַ שֶׁיִּרְצֶה.", "gloss": "A sukkah built like an alleyway (two parallel full walls) is fit, and that tefach can go on whichever side he wants — it's just a marker at that point." },
+    { "type": "note", "speaker": "The harder case", "quote": "עוֹשֶׂה לוֹ פַּס אַרְבָּעָה וּמַשֶּׁהוּ...", "gloss": "Where there aren't even two properly standard walls to begin with, an expanded tefach isn't enough — it takes a real board, just over 4 tefachim wide, positioned within 3 tefachim of a wall." },
+    { "type": "question", "speaker": "Gemara asks the obvious question", "quote": "וּמַאי שְׁנָא הָתָם דְּקָאָמְרַתְּ סַגִּיא טֶפַח שׂוֹחֵק, וּמַאי שְׁנָא הָכָא דְּקָאָמְרַתְּ בָּעֲיָא פַּס אַרְבָּעָה?", "gloss": "Why does the easier case only need an expanded tefach, but the harder case needs a full 4-tefach board?" },
+    { "type": "answer", "speaker": "Answered", "gloss": "Where two standard walls already exist, a small addition suffices. Where they don't, lavud alone can't manufacture a wall from nothing — it needs a real board to anchor to." },
+    { "type": "opinion", "speaker": "Rava adds a further requirement — three versions", "gloss": "(1) The two-wall sukkah is valid only with a doorway-shape (tzuras ha'petach) for the third side. (2) Some report: it's <i>also</i> valid this way — not rejecting the expanded-tefach option, just offering an alternative. (3) Others report: it <i>also requires</i> a doorway-shape, in addition to the expanded tefach — both together." },
+    { "type": "source", "speaker": "Practical footnote", "gloss": "Rav Ashi found Rav Kahana building both the expanded-tefach wall <i>and</i> a doorway-shape — confirming Rav Kahana held by the third, most stringent version of Rava's ruling." },
+    { "type": "step", "speaker": "New question", "quote": "וְכֵן לְשַׁבָּת, מִגּוֹ דְּהָוְיָא דּוֹפֶן לְעִנְיַן סוּכָּה — הָוְיָא דּוֹפֶן לְעִנְיַן שַׁבָּת.", "gloss": "Rava: since that tefach counts as a wall for sukkah purposes, it also counts as a partition for Shabbos carrying — on Shabbos that falls during Sukkot, at least." },
+    { "type": "challenge", "speaker": "Abaye objects", "quote": "וְהָתַנְיָא: דּוֹפֶן סוּכָּה כְּדוֹפֶן שַׁבָּת... וִיתֵירָה, שַׁבָּת עַל סוּכָּה.", "gloss": "But a beraita explicitly compares the two sets of laws and says Shabbos is <i>more stringent</i> than sukkah (Shabbos partitions need standing sections to outweigh gaps; sukkah doesn't) — implying they're kept separate, not automatically borrowed from each other!" },
+    { "type": "resolution", "speaker": "Reread", "quote": "לָא: יְתֵירָה שַׁבָּת דְעָלְמָא עַל שַׁבָּת דְּסוּכָּה.", "gloss": "No — the beraita is comparing ordinary Shabbos to Shabbos-during-Sukkot specifically, not sukkah-law to Shabbos-law generally. On Sukkot's Shabbos, the miggo does apply." },
+    { "type": "question", "speaker": "One more push, continuing to 7b", "gloss": "If that's the real distinction, shouldn't the beraita also have spelled out the reverse — a case where sukkah-law is more lenient than its own Shabbos? Rava: no novelty is needed for leniency flowing into a stricter law (sukkah's ruling applying to Shabbos); the reverse would be the real chiddush, and that's covered elsewhere — continued on 7b." }
+  ],
+
+  "tosfos": [
+    {
+      "dh": "תוספות ד״ה ויעמידנו",
+      "dhEn": "v'Yamidenu",
+      "summary": "Why the airspace on both sides of the tefach-wall doesn't nullify it, unlike similar cases elsewhere.",
+      "points": [
+        { "type": "question", "label": "(a) Implied Question", "he": "אף על גב דאכיוצא בזה אמר פ' קמא דעירובין... אתי אוירא דהאי גיסא ודהאי גיסא ומבטל ליה", "en": "Elsewhere (Eruvin 10b), airspace on both sides of a narrow object is said to nullify it. Why not here?" },
+        { "type": "answer", "label": "(b) Answer", "he": "הכא דטפח מחיצה דאורייתא והלכתא גמירי לה לא אתי אוירא ומבטל לה", "en": "Here the tefach is a Torah-level wall by transmitted halachah — that status is strong enough that surrounding airspace doesn't nullify it." }
+      ]
+    },
+    {
+      "dh": "תוספות ד״ה ואינה",
+      "dhEn": "v'Einah",
+      "summary": "Why Sukkah's doorway-shape requirement is stricter than the ordinary one used for Eruvin.",
+      "points": [
+        { "type": "question", "label": "(a) Implied Question", "he": "בפ' קמא דעירובין לא יהבינן שיעורא לקנה של צורת פתח... אלא שתהא בריאה כדי לעמוד בה דלת", "en": "In Eruvin, a doorway-shape needs no minimum thickness for its posts — any width holds, as long as it could support a door. Why does Sukkah demand thicker posts?" },
+        { "type": "answer", "label": "(2) Answer", "he": "גבי סוכה החמירו דבעינן מחיצות הניכרות", "en": "Sukkah is held to a higher standard — it requires genuinely recognizable walls." }
+      ]
+    },
+    {
+      "dh": "תוספות ד״ה כולהו",
+      "dhEn": "Kulhu",
+      "summary": "The Tannaim on Abaye's \"dirat keva\" list don't all apply the principle identically — they just share the underlying intuition.",
+      "points": [
+        { "type": "answer", "label": "(a)-(b) Not all the same", "he": "על כרחיך אין שוין דהא רבי בעי ד' אמות ולב\"ש סגי בכדי ראשו ורובו ושולחנו", "en": "They clearly aren't identical positions — Rabbi requires a full 4×4 amos, while Beit Shammai settles for just \"head, most of the body, and table.\" Each applies \"sukkah must resemble a permanent dwelling\" to a different degree." }
+      ]
+    },
+    {
+      "dh": "תוספות ד״ה העושה",
+      "dhEn": "ha'Oseh",
+      "summary": "Whether the beraita about Rabban Gamliel and Rabbi Akiva's machloket even includes the case of a sukkah on a wagon.",
+      "points": [
+        { "type": "note", "label": "(a) Text question", "he": "לקמן בפרק הישן במתני' דקתני כשרה גרסינן בראש העגלה אבל הכא בברייתא... אור\"ת דלא גרסינן ליה", "en": "Rabbeinu Tam and Rabbeinu Chananel's texts omit \"wagon\" from this particular beraita — since the real machloket (per 23a) turns on withstanding an ordinary land-wind versus a sea-wind, which doesn't obviously apply to a wagon at all." },
+        { "type": "note", "label": "Left unresolved", "he": "ומיהו יש לדחות דכי האי גוונא אמר יכולה לעמוד ברוח מצויה דארץ ואינה יכולה לעמוד ברוח מצויה שבראש העגלה", "en": "Tosfos also considers the opposite: the same land/sea-wind distinction could be reframed for a wagon too — leaving the textual question genuinely open." }
+      ]
+    }
+  ]
+}

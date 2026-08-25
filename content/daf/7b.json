@@ -1,0 +1,87 @@
+{
+  "id": "7b",
+  "daf": 7,
+  "amud": "b",
+  "masechta": "Sukkah",
+  "ref": "Sukkah 7b",
+  "title": "Roofing Over an Alleyway, Then: Does a Sukkah Need to Feel Permanent?",
+  "subtitle": "Two more borrowed-wall cases, the sun/shade rule refined, and a wide list of Tannaim united by one requirement — dirat keva.",
+  "sources": "Gemara text: Sefaria (William Davidson Edition). Structure and quiz questions 3, 5-6 cross-checked against the Dafyomi Advancement Forum (dafyomi.co.il) quiz for Sukkah 7. Tosfos: dafyomi.co.il's \"Point by Point Summary of Tosfos\" (Yaakov Montrose, Kollel Iyun Hadaf). The round-sukkah geometry question continues onto 8a.",
+
+  "before": [
+    "7a closed by asking whether sukkah-law ever lends a leniency back to Shabbos-law without needing to say so explicitly. This amud opens with two concrete examples — roofing over an alleyway's side-post, and roofing over the symbolic posts around a well — both borrowed from Shabbos-partition law to validate a sukkah.",
+    "From there the amud pivots to the sun/shade rule (does it matter whether excess sunlight comes through the roofing or through gaps in the walls?), and then to a much bigger unifying idea: a long list of Tannaim who all seem to require a sukkah to feel like a genuinely permanent dwelling — even though the Mishnah's own plain reading calls it dirat arai, a temporary one."
+  ],
+
+  "flow": [
+    { "type": "branch", "label": "Two borrowed-wall cases, both needed", "items": [
+      { "label": "Roofing over an alleyway's side-post (lechi)", "sub": "valid as a sukkah — the post is already a Shabbos-partition", "tone": "good" },
+      { "label": "Roofing over well-posts (pasei ve'eiraot)", "sub": "also valid, even though these are merely symbolic corner-posts, not real walls", "tone": "good" }
+    ]},
+    { "type": "note", "label": "Both cases are necessary", "sub": "each could otherwise be explained away by some other feature the other case lacks" },
+    { "type": "step", "label": "New mishnah clause: more sun than shade is invalid", "tone": "accent" },
+    { "type": "branch", "label": "Does that include sunlight leaking through the walls, or only through the sechach?", "items": [
+      { "label": "The Rabbis", "sub": "only sechach-driven sunlight counts", "tone": "gold" },
+      { "label": "Rabbi Yoshiya", "sub": "wall-gaps count too — derived from the Torah calling the Ark's curtain \"sechach\"", "tone": "gold" }
+    ]},
+    { "type": "step", "label": "Abaye's list: a wide range of Tannaim all seem to require dirat keva", "sub": "the 4-amos minimum, the 20-amos ceiling, the 4-wall count, the wagon/boat machloket, Beit Shammai's minimum size, no roof = invalid, no corners = invalid", "tone": "accent" },
+    { "type": "note", "label": "Rabbi Yochanan: a round, furnace-shaped sukkah needs room for 24 people", "sub": "matches Rabbi's 4x4-amos opinion — but the math looks like double what's actually needed, continuing onto 8a" }
+  ],
+  "flowCaption": "Two more validated shortcuts, a refined sun/shade rule, then the big-picture question of what a sukkah is supposed to feel like.",
+
+  "opinions": [
+    { "who": "Rabbi Yoshiya (on sun/shade)", "stance": "strict", "stanceClass": "strict", "claim": "Excess sunlight invalidates a sukkah whether it comes through the sechach or through gaps in the walls — a wall has to function like sechach in that respect too.", "basis": "The Torah calls the Ark's curtain (a partition, not a roof) \"sechach\" (Exodus 40:3) — so a partition must share the roofing's light-blocking standard." },
+    { "who": "The Rabbis (on sun/shade)", "stance": "lenient", "stanceClass": "lenient", "claim": "Only sunlight coming through the roofing counts toward the sun/shade calculation — wall-gaps are irrelevant.", "basis": "Read \"vesakkota\" (you shall screen) as merely requiring the curtain to be bent slightly so it visually resembles roofing — not as importing roofing's full legal standard." },
+    { "who": "Abaye (surveying the Tannaim)", "stance": "svara", "stanceClass": "svara", "claim": "A wide range of positions — Rabbi, Rabbi Yoshiya, Rabbi Yehuda, Rabbi Shimon, Rabban Gamliel, Beit Shammai, Rabbi Eliezer, and Acherim — all share one underlying intuition: a sukkah should be built and treated like a genuinely permanent dwelling, even though the base-line halachah calls it temporary.", "basis": "Each position is read as applying that same intuition at a different threshold or in a different area (minimum size, maximum height, wall count, mobility, roof, corners)." }
+  ],
+
+  "script": [
+    { "type": "step", "speaker": "First case", "quote": "סִיכֵּךְ עַל גַּבֵּי מָבוֹי שֶׁיֵּשׁ לוֹ לֶחִי — כְּשֵׁרָה.", "gloss": "Roofing placed over an alleyway that already has a side-post (lechi) for Shabbos purposes is a valid sukkah." },
+    { "type": "step", "speaker": "Second case", "quote": "סִיכֵּךְ עַל גַּבֵּי פַּסֵּי בֵירָאוֹת — כְּשֵׁרָה.", "gloss": "Roofing placed over the symbolic corner-posts surrounding a public well (a leniency for festival pilgrims) is also a valid sukkah — even though those posts are far from real walls." },
+    { "type": "note", "speaker": "Why both are needed", "gloss": "The alleyway case alone might be explained by its two genuine full walls. The well-post case alone might be explained by its symbolic \"four walls.\" Neither case proves the general principle without the other." },
+    { "type": "source", "speaker": "New mishnah clause", "quote": "וְשֶׁחֲמָתָהּ מְרוּבָּה מְצִלָּתָהּ — פְּסוּלָה.", "gloss": "Also invalid: a sukkah with more sunlight than shade." },
+    { "type": "source", "speaker": "Beraita specifies", "quote": "חֲמָתָהּ מֵחֲמַת סִיכּוּךְ, וְלֹא מֵחֲמַת דְּפָנוֹת. רַבִּי יֹאשִׁיָּה אוֹמֵר: אַף מֵחֲמַת דְּפָנוֹת.", "gloss": "The sun/shade rule is about sunlight from the roofing, not from the walls. Rabbi Yoshiya disagrees: it includes wall-driven sunlight too." },
+    { "type": "question", "speaker": "Gemara asks his reason", "gloss": "What's Rabbi Yoshiya's source?" },
+    { "type": "source", "speaker": "Answered", "quote": "וְסַכּוֹתָ עַל הָאָרוֹן אֶת הַפָּרוֹכֶת... אַלְמָא מְחִיצָה כִּסְכָךְ בָּעֵינַן.", "gloss": "\"And you shall screen (vesakkota) the Ark with the curtain\" — a curtain is a partition, yet the Torah calls covering it with a curtain \"sekhakha\" (roofing language). This shows a partition must meet the same light-blocking standard as roofing." },
+    { "type": "answer", "speaker": "The Rabbis' reading", "quote": "הַהוּא דְּנִיכּוֹף בַּיהּ פּוּרְתָּא, דְּמִחֲזֵי כִּסְכָךְ.", "gloss": "That verse just means bend the curtain slightly so it visually resembles roofing — not that walls inherit the roofing's full halachic standard." },
+    { "type": "step", "speaker": "Abaye's wide survey", "quote": "רַבִּי, וְרַבִּי יֹאשִׁיָּה, וְרַבִּי יְהוּדָה, וְרַבִּי שִׁמְעוֹן, וְרַבָּן גַּמְלִיאֵל, וּבֵית שַׁמַּאי, וְרַבִּי אֱלִיעֶזֶר, וַאֲחֵרִים — כּוּלְּהוּ סְבִירָא לְהוּ: סוּכָּה דִּירַת קֶבַע בָּעֵינַן.", "gloss": "Abaye: a whole list of Tannaim converge on requiring a sukkah to resemble a permanent dwelling — Rabbi (4×4 amos minimum), Rabbi Yoshiya (walls block sun like sechach), Rabbi Yehuda (validates >20 amos, since permanence is fine), Rabbi Shimon (four walls), Rabban Gamliel (invalidates a wagon/boat sukkah), Beit Shammai (rejects a too-small sukkah), Rabbi Eliezer (requires an actual roof), and Acherim (requires corners, rejecting a round dovecote-shaped sukkah)." },
+    { "type": "note", "speaker": "Rabbi Yochanan, on round sukkahs", "quote": "סוּכָּה הָעֲשׂוּיָה כְּכִבְשָׁן, אִם יֵשׁ בְּהֶקֵּיפָהּ כְּדֵי לֵישֵׁב בָּהּ עֶשְׂרִים וְאַרְבָּעָה בְּנֵי אָדָם — כְּשֵׁרָה.", "gloss": "A furnace-shaped (fully round) sukkah is valid only if its circumference fits 24 people — matching Rabbi's 4×4-amos-square standard, converted to a circle." },
+    { "type": "question", "speaker": "Gemara does the math, continuing to 8a", "quote": "מִכְּדִי, גַּבְרָא בְּאַמְּתָא יָתֵיב... בִּתְרֵיסַר סַגִּי?", "gloss": "Wait — if each person takes up roughly a cubit, and every 3 tefachim of circumference corresponds to about 1 tefach of diameter, the math should only require a 12-person circumference to match a 4-amos square, not 24. Why does Rabbi Yochanan require double? Continued on 8a." }
+  ],
+
+  "tosfos": [
+    {
+      "dh": "תוספות ד״ה סיכך על גבי מבוי",
+      "dhEn": "Sikeich Al Gabei Mavuy",
+      "summary": "Rashi and Tosfos disagree on what kind of alleyway this case is even describing, given that an alleyway only needs rabbinic-level walls while sukkah needs Torah-level ones.",
+      "points": [
+        { "type": "question", "label": "(a) Question", "he": "קשה מה ענין סוכה דבעי מחיצות דאורייתא למבוי דרבנן", "en": "How can a rabbinic-level alleyway wall ever validate a Torah-level sukkah wall?" },
+        { "type": "answer", "label": "(b)-(g) Resolved through several attempts", "he": "וי\"ל דמיירי בלחי טפח... ובקונטרס פי' דמיירי במבוי מפולש... וי\"ל דלעולם מיירי במבוי סתום מג' רוחות", "en": "Tosfos works through several readings before landing on one: the alleyway is closed on three sides, but only roofed near the post — leaving that section of the sukkah with just two real walls plus the tefach-post, the same structure already validated earlier." }
+      ]
+    },
+    {
+      "dh": "תוספות ד״ה סיכך ע״ג פסי ביראות",
+      "dhEn": "Sikeich Al Gabei Pasei Ve'eirot",
+      "summary": "Why the well-post leniency (originally just for festival pilgrims' animals) can validate a sukkah for anyone.",
+      "points": [
+        { "type": "answer", "label": "(c) Answer", "he": "מ\"מ כיון דמדאורייתא שרי בכל ענין אמרינן מגו ואפילו מדרבנן לא אסרי משום מצות סוכה", "en": "Since Torah law permits it unconditionally (the pilgrim-specific restriction is only rabbinic), the miggo argument goes through in full — and the Sages didn't restrict it further given the sukkah mitzvah." }
+      ]
+    },
+    {
+      "dh": "תוספות ד״ה מחיצה",
+      "dhEn": "Mechitzah",
+      "summary": "Rebbi Yoshiya's \"walls must block sun like sechach\" isn't actually connected to the earlier derivation of wall-count from \"ba'sukkot.\"",
+      "points": [
+        { "type": "answer", "label": "(b)-(c) Answer and proof", "he": "דהתם לא דרשינן אלא מייתורא... ותדע דכולהו מודו דלא בעינן למחיצות פסולת גורן ויקב", "en": "That earlier derivation only worked from the extra repetitions of the word — not from any claim that \"sukkot\" itself means walls. Proof: everyone agrees sukkah walls don't need to meet sechach's own material requirements (only actual roofing does)." }
+      ]
+    },
+    {
+      "dh": "תוספות ד״ה אחרים",
+      "dhEn": "Acheirim",
+      "summary": "If Acherim (identified as Rabbi Meir) really holds dirat keva, he likely also holds a sukkah needs a mezuzah during the festival.",
+      "points": [
+        { "type": "note", "label": "(a)-(b) Connecting the dots", "he": "דסוכה דירת קבע בעינן ואחרים היינו ר\"מ... כדמוכח פ\"ק דיומא דמהאי טעמא מחייב רבי יהודה סוכת החג בחג במזוזה", "en": "If a sukkah must feel permanent, that same logic (used explicitly by Rabbi Yehuda in Yoma 10a) would obligate a mezuzah on the sukkah during the festival itself — consistent with treating it as a real dwelling." }
+      ]
+    }
+  ]
+}

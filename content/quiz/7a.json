@@ -1,0 +1,26 @@
+{
+  "id": "7a-practice",
+  "daf": "7a",
+  "title": "Sukkah 7a — Practice Quiz",
+  "source": "Questions and correct answers taken directly from the Dafyomi Advancement Forum quiz for Sukkah 7 (dafyomi.co.il/sukah/quiz/su-qz-007.htm), questions 1–2.",
+  "questions": [
+    {
+      "q": "A sukkah made from 2 parallel walls (like an alleyway) — what must be done for the third side?",
+      "options": ["A full third wall in the middle", "A tefach-wide wall on any side", "A tefach-wide wall in the middle", "A board of 4+ tefachim within 3 tefachim of one wall", "Machlokes B&D"],
+      "correct": 4,
+      "explain": "Rav Yehuda's ruling (a tefach, positioned anywhere) and the harder no-standard-walls case (a 4+ tefach board within 3 tefachim) are genuinely different answers to related but distinct configurations."
+    },
+    {
+      "q": "How is the (expanded) tefach wall actually constructed and positioned?",
+      "options": ["Perpendicular to either wall", "An expanded tefach within 3 tefachim of any wall", "A doorway-shape (tzuras ha'petach)", "A doorway-shape with a tefach opposite the emerging wall", "Machokes all the above"],
+      "correct": 4,
+      "explain": "Between Shmuel/Levi, Rabbi Simon (or R' Yehoshua ben Levi), and Rava's three separately-reported versions, essentially every one of these methods appears as somebody's actual position — genuinely disputed across the board."
+    },
+    {
+      "q": "Since the extra tefach counts as a wall for sukkah, it would also be considered a wall for the purposes of carrying on Shabbos.",
+      "options": ["True, all year", "True, on Sukkot", "False", "Machlokes A&B", "Machlokes A&C"],
+      "correct": 3,
+      "explain": "Rava's miggo argument (sukkah-wall status carries over to Shabbos-wall status) applies specifically to Shabbos during Sukkot — and Abaye's challenge, even after being answered, leaves genuine dispute about the scope of that carryover."
+    }
+  ]
+}

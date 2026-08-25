@@ -1,0 +1,26 @@
+{
+  "id": "7b-practice",
+  "daf": "7b",
+  "title": "Sukkah 7b — Practice Quiz",
+  "source": "Questions and correct answers taken directly from the Dafyomi Advancement Forum quiz for Sukkah 7 (dafyomi.co.il/sukah/quiz/su-qz-007.htm), questions 3, 5–6.",
+  "questions": [
+    {
+      "q": "Do the walls of a sukkah need to provide shade (i.e. does the sun/shade rule count sunlight leaking through wall-gaps)?",
+      "options": ["Yes", "No", "May not provide shade", "Only if they don't reach the sechach", "Machlokes A&B"],
+      "correct": 4,
+      "explain": "The Rabbis hold only sechach-driven sunlight counts; Rabbi Yoshiya, deriving from the Ark's curtain being called \"sechach,\" holds wall-driven sunlight counts too — a real machloket."
+    },
+    {
+      "q": "\"Sukkah dirat keva be'ina\" (a sukkah must be a permanent-feeling dwelling).",
+      "options": ["True", "False", "Only to permit carrying in it on Shabbos", "Machlokes A&B", "Machlokes A&C"],
+      "correct": 4,
+      "explain": "Abaye's list shows a wide range of Tannaim converging on this intuition at different thresholds — but it isn't a flat universal rule; other positions and narrower applications remain live."
+    },
+    {
+      "q": "May one build a sukkah on a ship?",
+      "options": ["Yes", "No", "We're concerned they may get seasick", "As long as it's within 4 amos of the coast", "Machlokes A&B"],
+      "correct": 4,
+      "explain": "Rabban Gamliel deems a boat-sukkah unfit; Rabbi Akiva deems it fit — a direct machloket, resolved (per Tosfos) around whether the structure can withstand an ordinary sea-wind."
+    }
+  ]
+}
