@@ -1,0 +1,26 @@
+{
+  "id": "6b-practice",
+  "daf": "6b",
+  "title": "Sukkah 6b — Practice Quiz",
+  "source": "Questions and correct answers taken directly from the Dafyomi Advancement Forum quiz for Sukkah 6 (dafyomi.co.il/sukah/quiz/su-qz-006.htm), questions 4–6.",
+  "questions": [
+    {
+      "q": "\"Miuto she'eino makpid\" (an interposition covering a minority of the body, that one doesn't mind) is chotzetz (invalidates immersion).",
+      "options": ["True, d'Oraisa", "Gazru (the Rabbis decreed it) because of miuto ha'makpid (minority, minded)", "Gazru because of rubo she'eino makpid (majority, not minded)", "False", "Machokes C&D"],
+      "correct": 3,
+      "explain": "The Gemara explicitly declines to extend the rabbinic decree this far — stacking a decree on a decree. Minority-not-minded stays uninvalidating even rabbinically."
+    },
+    {
+      "q": "How many walls does a sukkah need?",
+      "options": ["3", "4", "2.5", "3.5", "Machlokes A&B"],
+      "correct": 4,
+      "explain": "The Rabbis hold two full walls plus a token third (3 total); Rabbi Shimon holds three full walls plus a token fourth (4 total) — a genuine machloket, not a single agreed number."
+    },
+    {
+      "q": "A verse is read one way and written another (yesh eim la'mikra vs. yesh eim la'masoret) — which governs?",
+      "options": ["The way it's read (aloud)", "The way it's written (spelled)", "Always the lenient reading", "Always the stringent reading", "Machlokes A&B"],
+      "correct": 4,
+      "explain": "This is exactly the root machloket between the Rabbis (written/masoret governs) and Rabbi Shimon (read/mikra governs) over the sukkah's wall count — genuinely disputed, not resolved to one method."
+    }
+  ]
+}

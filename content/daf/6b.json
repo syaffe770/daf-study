@@ -1,0 +1,87 @@
+{
+  "id": "6b",
+  "daf": 6,
+  "amud": "b",
+  "masechta": "Sukkah",
+  "ref": "Sukkah 6b",
+  "title": "Two and a Handbreadth, or Three and a Handbreadth?",
+  "subtitle": "Finishing the interposition rules, then the real machloket on this amud: how many walls a sukkah actually needs.",
+  "sources": "Gemara text: Sefaria (William Davidson Edition). Structure and quiz questions 4-6 cross-checked against the Dafyomi Advancement Forum (dafyomi.co.il) quiz for Sukkah 6. Tosfos: dafyomi.co.il's \"Point by Point Summary of Tosfos\" (Yaakov Montrose, Kollel Iyun Hadaf).",
+
+  "before": [
+    "6a narrowed the oral tradition about mikveh-interpositions down to hair specifically. This amud narrows it once more — down to a particular combination of how much of the body is covered and whether the person actually minds.",
+    "Then the amud turns to the Mishnah's next requirement: a sukkah needs three walls. Two need to be full walls — but how big must the third be? A tefach is enough, according to a beraita. That single beraita turns out to hide a real machloket about whether a sukkah needs three walls at all, or four."
+  ],
+
+  "flow": [
+    { "type": "step", "label": "The oral tradition, precisely stated", "sub": "d'Oraisa: a majority-covered, minded-about interposition invalidates. The Rabbis extend it by decree to majority-not-minded and minority-minded — but stop there, refusing to stack a decree on a decree", "tone": "accent" },
+    { "type": "step", "label": "Partitions: works for Rabbi Yehuda (no verse at all, pure oral tradition) — but what about Rabbi Meir, who can derive 10 tefachim from a verse?" },
+    { "type": "answer", "label": "For Rabbi Meir the oral tradition teaches something else: gud (extending a wall), lavud (bridging a small gap), and dofen akuma (curved wall)" },
+    { "type": "source", "label": "New mishnah clause: a sukkah needs three walls", "tone": "accent" },
+    { "type": "branch", "label": "Beraita: how big must the third wall be?", "items": [
+      { "label": "The Rabbis", "sub": "two full walls, third even just a tefach — 3 walls total", "tone": "gold" },
+      { "label": "Rabbi Shimon", "sub": "three full walls, fourth even just a tefach — 4 walls total", "tone": "gold" }
+    ]},
+    { "type": "note", "label": "Why they actually disagree", "sub": "how many times \"sukkot\" is written/read in the verses, and whether the first mention counts toward the total — several alternate framings offered, including a totally different rationale for Rabbi Shimon from Isaiah" },
+    { "type": "step", "label": "Practical question: where does that minimal tefach-wall actually go?", "sub": "opposite the gap left by the end of a real wall — continues onto 7a" }
+  ],
+  "flowCaption": "One more narrowing of the interposition rule, then the real wall-count machloket.",
+
+  "opinions": [
+    { "who": "The Rabbis (on wall count)", "stance": "lenient", "stanceClass": "lenient", "claim": "A sukkah needs two full walls and a third of even just a tefach — three walls total.", "basis": "Reads the verses' repetitions of \"sukkot\" via \"yesh eim la'masoret\" (the written spelling governs), yielding three after subtracting the verse needed for the mitzvah itself." },
+    { "who": "Rabbi Shimon (on wall count)", "stance": "strict", "stanceClass": "strict", "claim": "A sukkah needs three full walls and a fourth of even just a tefach — four walls total.", "basis": "Reads the same verses via \"yesh eim la'mikra\" (the spoken vocalization governs, all plural), yielding four; alternatively, from Isaiah 4:6's description of a sukkah as shelter from heat, storm, and rain — read as implying more coverage." }
+  ],
+
+  "script": [
+    { "type": "source", "speaker": "The oral tradition, precisely stated", "quote": "דְּבַר תּוֹרָה, רוּבּוֹ וּמַקְפִּיד עָלָיו — חוֹצֵץ, וְשֶׁאֵינוֹ מַקְפִּיד עָלָיו — אֵינוֹ חוֹצֵץ.", "gloss": "By Torah law: an interposition covering the majority of the body, that the person minds, invalidates the immersion. One he doesn't mind about doesn't. The Sages then extended this by decree to majority-not-minded and minority-minded (each borrowing severity from the case they resemble)." },
+    { "type": "question", "speaker": "Gemara asks", "quote": "וְלִיגְזַר נָמֵי עַל מִיעוּטוֹ שֶׁאֵינוֹ מַקְפִּיד...", "gloss": "Why not extend the decree one step further, to minority-not-minded too?" },
+    { "type": "answer", "speaker": "Gemara answers", "quote": "הִיא גּוּפָא גְּזֵירָה, וַאֲנַן נֵיקוּם וְנִגְזֹר גְּזֵירָה לִגְזֵירָה?!", "gloss": "That extension is already itself a decree — we don't pile a second decree on top of a decree." },
+    { "type": "question", "speaker": "Category three: partitions", "quote": "הָנִיחָא לְרַבִּי יְהוּדָה, אֶלָּא לְרַבִּי מֵאִיר — מַאי אִיכָּא לְמֵימַר?", "gloss": "The 10-tefachim partition minimum being oral tradition works fine for Rabbi Yehuda, who has no clean verse for it. But Rabbi Meir holds all cubits were 6 tefachim, so he <i>can</i> derive 10 tefachim from a verse — so what would the oral tradition even be teaching him?" },
+    { "type": "resolution", "speaker": "Answered", "quote": "כִּי אֲתַאי הִלְכְתָא — לְגוּד, וְלָבוּד, וְדוֹפֶן עֲקוּמָּה.", "gloss": "For Rabbi Meir, the oral tradition teaches the related mechanics instead: extending a wall upward (gud), bridging a gap under 3 tefachim (lavud), and the curved-wall allowance (dofen akuma) — none of which are written anywhere." },
+    { "type": "source", "speaker": "New mishnah clause", "quote": "וְשֶׁאֵין לָהּ שָׁלֹשׁ דְּפָנוֹת.", "gloss": "Also invalid: a sukkah without three walls." },
+    { "type": "source", "speaker": "Beraita", "quote": "שְׁתַּיִם כְּהִלְכָתָן, וּשְׁלִישִׁית אֲפִילּוּ טֶפַח. רַבִּי שִׁמְעוֹן אוֹמֵר: שָׁלֹשׁ כְּהִלְכָתָן, וּרְבִיעִית אֲפִילּוּ טֶפַח.", "gloss": "The Rabbis: two standard walls, and a third of even just a tefach. Rabbi Shimon: three standard walls, and a fourth of even just a tefach." },
+    { "type": "question", "speaker": "Gemara asks", "quote": "בְּמַאי קָמִיפַּלְגִי?", "gloss": "What's the actual root of this machloket?" },
+    { "type": "answer", "speaker": "First answer", "quote": "רַבָּנַן סָבְרִי: יֵשׁ אֵם לַמָּסוֹרֶת, וְרַבִּי שִׁמְעוֹן סָבַר: יֵשׁ אֵם לַמִּקְרָא.", "gloss": "The Rabbis hold the written spelling governs; Rabbi Shimon holds the spoken vocalization governs. \"Basukkot\" appears twice spelled singular and once spelled plural (but all three read the same way aloud) across the two key verses — count differently by each method, subtract one for the mitzvah itself, and you land on three walls one way, four the other." },
+    { "type": "note", "speaker": "Three alternative framings offered", "gloss": "The Gemara offers three more ways to locate the actual root dispute: (1) both agree the vocalization governs, and instead disagree whether sechach itself needs its own verse; (2) both agree the spelling governs, and disagree whether the oral tradition comes to <i>reduce</i> a wall to a tefach or <i>add</i> a whole extra wall; (3) both agree on reduction and spelling, and disagree only about whether a word's very first appearance counts toward a numeric count at all." },
+    { "type": "source", "speaker": "A completely different rationale for Rabbi Shimon", "quote": "רַב מַתְנָה אָמַר: טַעְמֵיהּ דְּרַבִּי שִׁמְעוֹן מֵהָכָא: ״וְסוּכָּה תִּהְיֶה לְצֵל יוֹמָם מֵחוֹרֶב וּלְמַחְסֶה וּלְמִסְתּוֹר מִזֶּרֶם וּמִמָּטָר״.", "gloss": "Rav Mattana: Rabbi Shimon's view actually comes from Isaiah's description of a sukkah as shade, refuge, and cover from storm and rain — a structure offering that much protection needs more than the bare minimum of walls." },
+    { "type": "question", "speaker": "Looking ahead", "quote": "וְאוֹתוֹ טֶפַח הֵיכָן מַעֲמִידוֹ?", "gloss": "Practically — where does that minimal tefach-wide third wall actually get positioned? Rav: opposite the gap at the end of one of the real walls. Rav Kahana and Rav Asi press him further on this — continued on 7a." }
+  ],
+
+  "tosfos": [
+    {
+      "dh": "תוספות ד״ה דבר תורה",
+      "dhEn": "d'Var Torah",
+      "summary": "A difficulty with limiting this oral tradition to hair specifically, since interpositions on the skin itself seem to have their own, stricter rule.",
+      "points": [
+        { "type": "question", "label": "(b) Question #1", "he": "וקשה לר״ת מהא דאמרינן פרק הערל... נכרית מעוברת שנתגיירה בנה אין צריך טבילה", "en": "Rabbeinu Tam raises a difficulty from Yevamot (78a): if skin-interpositions worked the way this opinion assumes, a much sharper question could have been asked there than the one the Gemara actually asks." },
+        { "type": "answer", "label": "(e) Answer", "he": "וי״ל דאצטריך לבית הסתרים", "en": "The verse is needed specifically for hidden parts of the body (Kiddushin 25a) — resolving the tension without abandoning the hair-specific reading." }
+      ]
+    },
+    {
+      "dh": "תוספות ד״ה ורבי שמעון",
+      "dhEn": "v'Rebbi Shimon",
+      "summary": "A long series of difficulties (condensed here) with the general rule that a Tanna is consistently \"mikra\" or \"masoret\" across the Talmud — several cases show the same Tanna apparently switching sides.",
+      "points": [
+        { "type": "question", "label": "Core difficulty", "he": "כולהו מודו דדרשינן מקרא ומסורת... אלא במילתא דמיכחשי אהדדי פליגי", "en": "Everyone actually uses both mikra and masoret in general — they only diverge where the two methods contradict each other. But several sugyot elsewhere (Sanhedrin, Kiddushin, Kerisus, Pesachim) show Rabbi Akiva and Rabbi Shimon apparently landing on the opposite method from the one attributed to them here." },
+        { "type": "answer", "label": "One resolution offered", "he": "דאין לומר דכיון דהוו לכתחילה שנים חשוב מצות... ", "en": "Tosfos works through each apparent contradiction case by case (largely reconciling them by showing the other sugyot turn on a different, unrelated point) rather than abandoning the mikra/masoret framework itself." }
+      ]
+    },
+    {
+      "dh": "תוספות ד״ה בדורשין",
+      "dhEn": "b'Dorshin",
+      "summary": "Whether \"we don't derive from a first occurrence\" is a universal rule or something narrower — Tosfos disagrees with Rashi's version from Sanhedrin.",
+      "points": [
+        { "type": "question", "label": "(a)-(b) Disagreement with Rashi", "he": "ולא כמו שפי' הקונטרס בריש סנהדרין גבי תלתא אלהים כתיבי בפרשה", "en": "Rashi's explanation of the parallel principle in Sanhedrin (3b) doesn't fit the way it's used here." },
+        { "type": "note", "label": "(d) Open question", "he": "וכל הני דבריש סנהדרין... צריך לדקדק דדרשינן כולהו למניינא", "en": "Several other sugyot count every occurrence toward a total without excluding the first — Tosfos flags this as needing further reconciliation, without fully resolving it." }
+      ]
+    },
+    {
+      "dh": "תוספות ד״ה וסוכה",
+      "dhEn": "v'Sukkah",
+      "summary": "The Yerushalmi's version of Rabbi Shimon's Isaiah-based reasoning, counting each phrase of the verse as its own wall.",
+      "points": [
+        { "type": "note", "label": "(a) The Yerushalmi's count", "he": "טעמא דר״ש מן הדא קרייה וסוכה תהיה לצל יומם מחורב... הרי אחת... הרי שנים... ורבנן אמרי מזרם וממטר אחת", "en": "\"From the heat\" is one wall; \"refuge and cover\" is two more; \"from storm and rain\" is two more still, per Rabbi Shimon's count. The Rabbis read \"storm and rain\" together as only one." }
+      ]
+    }
+  ]
+}

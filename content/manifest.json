@@ -38,10 +38,15 @@
         { "id": "5b", "amud": "b", "title": "From the Ark to the Temple — Landing on 10 Tefachim", "status": "available" }
       ]
     },
-    { "daf": 6, "label": "Daf 6", "theme": "Coming soon", "amudim": [
-      { "id": "6a", "amud": "a", "title": "Coming soon", "status": "locked" },
-      { "id": "6b", "amud": "b", "title": "Coming soon", "status": "locked" }
-    ]},
+    {
+      "daf": 6,
+      "label": "Daf 6",
+      "theme": "A whole verse mined for measures; are measures really Torah-derived; the machloket over how many walls a sukkah needs",
+      "amudim": [
+        { "id": "6a", "amud": "a", "title": "A Whole Torah Verse of Measurements", "status": "available" },
+        { "id": "6b", "amud": "b", "title": "Two and a Handbreadth, or Three and a Handbreadth?", "status": "available" }
+      ]
+    },
     { "daf": 7, "label": "Daf 7", "theme": "Coming soon", "amudim": [
       { "id": "7a", "amud": "a", "title": "Coming soon", "status": "locked" },
       { "id": "7b", "amud": "b", "title": "Coming soon", "status": "locked" }
@@ -68,7 +73,7 @@
     ]}
   ],
   "quizzes": {
-    "practice": ["2a", "2b", "3a", "3b", "4a", "4b", "5a", "5b"],
+    "practice": ["2a", "2b", "3a", "3b", "4a", "4b", "5a", "5b", "6a", "6b"],
     "milestone": []
   }
 }

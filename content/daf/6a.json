@@ -1,0 +1,81 @@
+{
+  "id": "6a",
+  "daf": 6,
+  "amud": "a",
+  "masechta": "Sukkah",
+  "ref": "Sukkah 6a",
+  "title": "A Whole Torah Verse of Measurements",
+  "subtitle": "Wheat, barley, grapes, figs, pomegranates, olives, dates — one verse read as a catalog of halachic measures, then whether \"measures\" are really written in the Torah at all.",
+  "sources": "Gemara text: Sefaria (William Davidson Edition). Structure and quiz questions 1-3 cross-checked against the Dafyomi Advancement Forum (dafyomi.co.il) quiz for Sukkah 6. Tosfos: dafyomi.co.il's \"Point by Point Summary of Tosfos\" (Yaakov Montrose, Kollel Iyun Hadaf).",
+
+  "before": [
+    "5b ended mid-objection: the Gemara claimed \"measures\" (like the sukkah's 10 tefachim) are oral tradition, not Torah-derived — then immediately challenged itself, since a verse about the seven species is read as a whole catalog of measures. This amud runs through that catalog, one species at a time.",
+    "Then the same push-and-pull repeats for two more categories — interpositions that invalidate a mikveh immersion, and the minimum height of a partition — each time asking: is this really from a verse, or is the verse just a mnemonic support for something transmitted orally?"
+  ],
+
+  "flow": [
+    { "type": "step", "label": "The seven-species verse, read as seven measures", "sub": "wheat → tzaraat-house timing · barley → a bone fragment's impurity · grapes → a nazir's wine · figs → Shabbos carrying · pomegranates → when a broken vessel stops being a vessel · olive-oil → most measures generally · dates → Yom Kippur eating", "tone": "accent" },
+    { "type": "note", "label": "Gemara catches its own overreach", "sub": "\"a land whose measures are olives\" can't literally mean all of them — this verse lists several that aren't olive-sized. Corrected to \"most.\"" },
+    { "type": "question", "label": "So are measures Torah-derived after all?" },
+    { "type": "answer", "label": "No — the verse is a mere support (asmachta); the real source is oral tradition", "tone": "accent" },
+    { "type": "branch", "label": "Same question, asked again for two more categories", "items": [
+      { "label": "Interpositions (chatzitzin)", "sub": "challenged from an explicit verse — but the oral tradition turns out to cover a narrower case (hair) than the verse does (skin)", "tone": "gold" },
+      { "label": "Partitions (mechitzin)", "sub": "the 10-tefachim minimum — continues onto 6b, where it turns out to depend on whose cubit-count you follow", "tone": "gold" }
+    ]}
+  ],
+  "flowCaption": "A whole verse mined for measures, then the same \"verse or oral tradition\" question run twice more.",
+
+  "opinions": [
+    { "who": "Rav Chanin", "stance": "svara", "stanceClass": "svara", "claim": "The entire verse \"a land of wheat, and barley, and vines, and figs, and pomegranates, a land of olive oil and honey\" is stated specifically to teach halachic measures — one per item.", "basis": "Deuteronomy 8:8, read as a structured list rather than a description of the land's produce." },
+    { "who": "Gemara's resolution (on measures generally)", "stance": "strict", "stanceClass": "strict", "claim": "Halachic measures are not actually derived from this verse — they're halachah l'Moshe mi'Sinai (transmitted orally), and the verse is only an asmachta, a supportive mnemonic.", "basis": "If the measures were truly textual, they'd be spelled out per-halachah in the Torah itself — they aren't." }
+  ],
+
+  "script": [
+    { "type": "source", "speaker": "The seven species, one by one", "gloss": "<b>Wheat</b> — the time to eat half a loaf, for how long tzaraat-impurity is delayed when entering an afflicted house while dressed. <b>Barley</b> — a bone fragment that size transmits impurity by touch or carrying, but not by \"tent.\" <b>Grapes</b> — a quarter-log of wine, the amount that makes a nazir liable. <b>Figs</b> — a dried-fig-bulk, the minimum for Shabbos carrying liability. <b>Pomegranates</b> — the size hole that ends a wooden vessel's ability to hold impurity. <b>Olive oil</b> — most measures generally. <b>Honey</b> (dates) — a large date-bulk, the minimum for Yom Kippur eating liability." },
+    { "type": "challenge", "speaker": "Gemara catches itself", "quote": "״כָּל שִׁיעוּרֶיהָ״ סָלְקָא דַּעְתָּךְ?! הָא אִיכָּא הָנֵי דְּאָמְרִינַן!", "gloss": "Wait — \"a land whose measures are ALL olive-sized\" can't be literal, since this very list just gave several measures that aren't olive-bulks." },
+    { "type": "resolution", "speaker": "Corrected", "quote": "אֶלָּא אֵימָא: שֶׁרוֹב שִׁיעוּרֶיהָ כְּזֵיתִים.", "gloss": "Say instead: most of its measures are olive-sized — true for the bulk of forbidden-food and impurity laws, even if this list's other items aren't." },
+    { "type": "challenge", "speaker": "Gemara challenges the whole premise", "quote": "אַלְמָא דְּאוֹרָיְיתָא נִינְהוּ!", "gloss": "So measures really are Torah-derived, from this verse — not oral tradition after all!" },
+    { "type": "resolution", "speaker": "Rejected", "quote": "וְתִסְבְּרָא? שִׁיעוּרִין מִי כְּתִיבִי? אֶלָּא הִלְכְתָא נִינְהוּ, וּקְרָא אַסְמַכְתָּא בְּעָלְמָא הוּא.", "gloss": "Think about it — are these measures actually spelled out per-law anywhere in the Torah? They're not. They're halachah l'Moshe mi'Sinai; the verse is only a supportive mnemonic (asmachta), not the real source." },
+    { "type": "challenge", "speaker": "Same question, category two", "quote": "חֲצִיצִין דְּאוֹרָיְיתָא נִינְהוּ! דִּכְתִיב: ״וְרָחַץ אֶת בְּשָׂרוֹ בַּמַּיִם״.", "gloss": "What about interpositions that invalidate a mikveh immersion — isn't that explicitly textual? \"He shall bathe his flesh in water\" implies nothing may come between the flesh and the water." },
+    { "type": "resolution", "speaker": "Narrowed, not rejected", "gloss": "When the orally-transmitted halachah \"arrives,\" it's not teaching about skin at all (that part genuinely is textual) — it's teaching about <i>hair</i>: per Rabbah bar bar Chana, one knotted hair interposes, three don't, and the law for two is unknown." },
+    { "type": "challenge", "speaker": "Pushed again", "quote": "שְׂעָרוֹ נָמֵי דְּאוֹרָיְיתָא נִינְהוּ!", "gloss": "But hair is textual too — the extra word \"et\" in \"et besaro\" (his flesh) includes what's subordinate to the flesh, meaning hair!" },
+    { "type": "resolution", "speaker": "Narrowed again, continuing to 6b", "gloss": "Then the oral tradition must be teaching something even narrower still — a distinction the Gemara spells out on 6b, between a majority one is particular about versus a minority one isn't." }
+  ],
+
+  "tosfos": [
+    {
+      "dh": "תוספות ד״ה גפן",
+      "dhEn": "Gefen",
+      "summary": "Whether \"a quarter-log of wine for a nazir\" means drinking that amount, or using it to measure something else entirely — Rashi vs. Rabbeinu Tam read different texts of the underlying sugya in Nazir.",
+      "points": [
+        { "type": "answer", "label": "(a)-(b) Rashi's readings", "he": "פי׳ בקונטרס כדי רביעית... ובריש עירובין פי׳ בקונטרס גפן כדי רביעית יין לנזיר לחייבו מלקות", "en": "Rashi (here, and again in Eruvin) explains straightforwardly: a nazir who drinks a quarter-log of wine is liable for lashes." },
+        { "type": "answer", "label": "(i) Rabbeinu Tam's text", "he": "ור״ת גריס שם בנזיר ת״ק לא מדמה להו לכל איסורי נזיר לאכילה", "en": "Rabbeinu Tam has a different text of the parallel sugya in Nazir, under which the amount for <i>eating</i> (grapes, pits, skins) is universally an olive-bulk, and only drinking wine itself is measured by a quarter-log — avoiding a difficulty about mixing eating- and drinking-measures." }
+      ]
+    },
+    {
+      "dh": "תוספות ד״ה כל כלי",
+      "dhEn": "Kol Kli",
+      "summary": "Reconciling the pomegranate-sized-hole rule here with a parallel Gemara in Shabbos that uses an olive-sized hole instead.",
+      "points": [
+        { "type": "question", "label": "(b) Implied Question", "he": "והא דאמר בסוף המצניע חמש מדות בכלי חרס ניקב כמוציא זית טהור מלקבל זיתים", "en": "Shabbos (95b) says a hole the size of an olive already purifies an earthenware vessel from holding olives — contradicting our pomegranate measure." },
+        { "type": "answer", "label": "(c) Answer", "he": "היינו אם יחדו לרמונים אבל סתמו כמוציא זית", "en": "That's specifically for a vessel designated for olives; a vessel with no specific designation needs the larger, pomegranate-sized hole." }
+      ]
+    },
+    {
+      "dh": "תוספות ד״ה שיעורן",
+      "dhEn": "Shiuran",
+      "summary": "What the Mishnah in Keilim means by a hole \"the size of three pomegranates holding onto each other\" — not three pomegranates' worth of hole, just one pomegranate of a specific middling size.",
+      "points": [
+        { "type": "answer", "label": "(b)-(c) Two explanations", "he": "יש לפרש דהא דנקט שלשה רמונים אחוזים... עוד יש לפרש דנקט שלשה אחוזים זה בזה משום דרמון דגדל יחידי... גדול יותר מדאי", "en": "Either: a hole big enough that three pomegranates could fall out one after another without jamming; or: \"three growing together\" identifies the specific middling pomegranate-size meant (solo-grown ones are oversized, four-clustered ones undersized)." }
+      ]
+    },
+    {
+      "dh": "תוספות ד״ה אלא הלכתא",
+      "dhEn": "Ela Hilchasa",
+      "summary": "Our sugya's version helps correct the text of a parallel discussion in Yoma about measures vs. punishments.",
+      "points": [
+        { "type": "note", "label": "(a)-(e) Textual correction", "he": "מכאן קשה לגירסת הספרים דבפ׳ בתרא דיומא... ומתוך כך גריס התם בקונטרס עונשין מיכתב כתיבי", "en": "Some texts of Yoma (80a) have the challenge \"aren't measures written?\" — but our sugya already establishes the verse is a mere asmachta, so that challenge wouldn't make sense there. Rashi's version fixes it: the real challenge in Yoma is about <i>punishments</i>, not measures." }
+      ]
+    }
+  ]
+}

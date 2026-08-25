@@ -1,0 +1,26 @@
+{
+  "id": "6a-practice",
+  "daf": "6a",
+  "title": "Sukkah 6a — Practice Quiz",
+  "source": "Questions and correct answers taken directly from the Dafyomi Advancement Forum quiz for Sukkah 6 (dafyomi.co.il/sukah/quiz/su-qz-006.htm), questions 1–3.",
+  "questions": [
+    {
+      "q": "One walks into a tzaraat-afflicted house wearing his hat (and other garments). Does the hat become impure?",
+      "options": ["Yes, immediately", "Yes, after kdei achilat pras", "No — only he is", "A (immediately) if he is carrying it, B (delayed) if he is wearing it", "B (delayed) if he is carrying it, A (immediately) if he is wearing it"],
+      "correct": 3,
+      "explain": "Per the Mishnah: if he's carrying his garments (not wearing them), both he and the items become impure immediately. If he's wearing them, he becomes impure immediately but the worn items stay pure until enough time passes to eat a half-loaf of bread."
+    },
+    {
+      "q": "\"Kli ba'alei batim, shiuran k'rimonim\" (homeowners' vessels' measure is pomegranate-sized) means what?",
+      "options": ["Eat your pomegranates", "If I ask for a homeowner's vessel, I must be given one the size of a pomegranate", "Homeowners' vessels don't become tamei unless they're this big", "Homeowners keep using their vessels until a hole reaches pomegranate size — at which point a formerly-tamei vessel is no longer a \"vessel\" at all, and becomes tahor", "Machlokes B&C"],
+      "correct": 3,
+      "explain": "It's about when a broken vessel stops counting as a vessel (and so can no longer hold ritual impurity) — not about a minimum size to become impure in the first place."
+    },
+    {
+      "q": "Two hairs tied together — is that an interposition (chatzitzah)?",
+      "options": ["True", "False", "Only on the head", "Safeik (uncertain)", "Machlokes A&B"],
+      "correct": 3,
+      "explain": "Rabbah bar bar Chana states it directly: one tied hair interposes, three don't, and for two — \"I don't know.\""
+    }
+  ]
+}
