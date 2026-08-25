@@ -56,10 +56,15 @@
         { "id": "7b", "amud": "b", "title": "Roofing Over an Alleyway, Then: Does a Sukkah Need to Feel Permanent?", "status": "available" }
       ]
     },
-    { "daf": 8, "label": "Daf 8", "theme": "Coming soon", "amudim": [
-      { "id": "8a", "amud": "a", "title": "Coming soon", "status": "locked" },
-      { "id": "8b", "amud": "b", "title": "Coming soon", "status": "locked" }
-    ]},
+    {
+      "daf": 8,
+      "label": "Daf 8",
+      "theme": "The geometry of a round sukkah; a potter's nested booths; two mnemonics for pre-existing structures that make a kosher sukkah",
+      "amudim": [
+        { "id": "8a", "amud": "a", "title": "The Geometry of a Round Sukkah", "status": "available" },
+        { "id": "8b", "amud": "b", "title": "Anyone's Sukkah, and a Mezuzah for the Inner Booth", "status": "available" }
+      ]
+    },
     { "daf": 9, "label": "Daf 9", "theme": "Coming soon", "amudim": [
       { "id": "9a", "amud": "a", "title": "Coming soon", "status": "locked" },
       { "id": "9b", "amud": "b", "title": "Coming soon", "status": "locked" }
@@ -78,7 +83,7 @@
     ]}
   ],
   "quizzes": {
-    "practice": ["2a", "2b", "3a", "3b", "4a", "4b", "5a", "5b", "6a", "6b", "7a", "7b"],
+    "practice": ["2a", "2b", "3a", "3b", "4a", "4b", "5a", "5b", "6a", "6b", "7a", "7b", "8a", "8b"],
     "milestone": []
   }
 }

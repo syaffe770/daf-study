@@ -1,0 +1,75 @@
+{
+  "id": "8a",
+  "daf": 8,
+  "amud": "a",
+  "masechta": "Sukkah",
+  "ref": "Sukkah 8a",
+  "title": "The Geometry of a Round Sukkah",
+  "subtitle": "Working out exactly why Rabbi Yochanan's 24-amos circumference is bigger than the math strictly requires — and whether that's a problem.",
+  "sources": "Gemara text: Sefaria (William Davidson Edition). Structure and quiz questions 1-3 cross-checked against the Dafyomi Advancement Forum (dafyomi.co.il) quiz for Sukkah 8. Tosfos: dafyomi.co.il's \"Point by Point Summary of Tosfos\" (Yaakov Montrose, Kollel Iyun Hadaf).",
+
+  "before": [
+    "7b ended with a math problem: Rabbi Yochanan requires a round sukkah to seat 24 people, but a quick calculation suggested 12 should be enough to match Rabbi's 4×4-amos square minimum. This amud is that calculation, done properly and re-checked twice.",
+    "It's real geometry — inscribed circles and squares, the ratio between a square's side and its diagonal — used entirely in service of one halachic number. Watch for the Gemara correcting its own math twice before landing on an answer it's satisfied with."
+  ],
+
+  "flow": [
+    { "type": "step", "label": "First correction: a circle inscribed in a square isn't the same as a square inscribed in a circle", "sub": "the two ratios go in different directions — Rabbi Yochanan's case is the harder one" },
+    { "type": "step", "label": "Precise calculation: a circumference of 16⅘ amos should suffice", "sub": "using the rule that a square's diagonal is about 1.4× its side" },
+    { "type": "branch", "label": "So why does Rabbi Yochanan require 24?", "items": [
+      { "label": "First attempt: he wasn't being precise", "sub": "rejected — the gap (24 vs. 16.8) is too large to wave away as imprecision", "tone": "bad" },
+      { "label": "Second attempt: he's counting 3 people per 2 amos, not 1 per amos", "sub": "gets to 16.8 amos almost exactly — but still doesn't explain 24", "tone": "gold" },
+      { "label": "Third attempt: he's measuring the inner circle formed by the seated people, not the sukkah's own wall", "sub": "gets to 18 amos — closer, and this time the imprecision runs toward stringency, which is acceptable", "tone": "good" }
+    ]},
+    { "type": "note", "label": "A completely different calculation offered", "sub": "the Sages of Caesarea propose measuring by area instead of length — but the Gemara notes real-world measurement doesn't actually bear this out, continuing onto 8b" }
+  ],
+  "flowCaption": "A halachic number gets a real geometric derivation, corrected twice before landing.",
+
+  "opinions": [
+    { "who": "Rabbi Yochanan", "stance": "strict", "stanceClass": "strict", "claim": "A round, furnace-shaped sukkah needs a circumference large enough to seat 24 people.", "basis": "Matches Rabbi's 4×4-amos square minimum, converted to a circle — via a calculation the Gemara has to reconstruct and correct." },
+    { "who": "Mar Keshisha, son of Rav Chisda", "stance": "svara", "stanceClass": "svara", "claim": "People don't each take a full amah when seated — three people fit in two amos.", "basis": "A more realistic seating-density assumption, bringing the required circumference down to 16⅘ amos — very close to the precise geometric minimum." },
+    { "who": "Rav Asi", "stance": "svara", "stanceClass": "svara", "claim": "Rabbi Yochanan's 24-amos figure measures the inner circle formed by the seated people themselves, not the sukkah's own outer wall.", "basis": "Produces 18 amos as the precise requirement — closer to 24 than any prior attempt, and importantly errs toward stringency rather than leniency." }
+  ],
+
+  "script": [
+    { "type": "answer", "speaker": "First correction", "quote": "הָנֵי מִילֵּי בְּעִיגּוּלָא, אֲבָל בְּרִיבּוּעָא — בָּעֲיָא טְפֵי.", "gloss": "The earlier 12-amos estimate only works for a circle inscribed <i>inside</i> a square. Rabbi's case needs the reverse — a square (4×4 amos) inscribed inside a circle — which requires a larger circumference." },
+    { "type": "question", "speaker": "Gemara quantifies", "quote": "מִכְּדֵי כַּמָּה מְרוּבָּע יוֹתֵר עַל הָעִיגּוּל — רְבִיעַ, בְּשִׁיתְּסַר סַגִּי?", "gloss": "A square's perimeter exceeds an inscribed circle's circumference by a quarter — so 16 amos should be enough. Still not 24." },
+    { "type": "answer", "speaker": "Second correction", "quote": "הָנֵי מִילֵּי בְּעִיגּוּל דְּנָפֵיק מִגּוֹ רִיבּוּעָא, אֲבָל רִיבּוּעָא דְּנָפֵיק מִגּוֹ עִגּוּלָא — בָּעֵינַן טְפֵי, מִשּׁוּם מוּרְשָׁא דְקַרְנָתָא.", "gloss": "That ratio runs the other direction too. For a square <i>circumscribed by</i> a circle (our actual case), the circle needs to be bigger still, to clear the square's protruding corners." },
+    { "type": "step", "speaker": "Gemara does the precise math", "quote": "כׇּל אַמְּתָא בְּרִיבּוּעָא אַמְּתָא וּתְרֵי חוּמְשֵׁי בַּאֲלַכְסוֹנָא, בְּשִׁיבְסַר נְכֵי חוּמְשָׁא סַגִּיא?", "gloss": "Using the rule that a square's diagonal is about 1⅖ times its side (so a 4-amos square has a diagonal, and thus a circumscribing circle's diameter, of about 5⅗ amos), the precise minimum circumference comes out to 17 amos minus a fifth — not 24." },
+    { "type": "resolution", "speaker": "First explanation offered", "gloss": "Rabbi Yochanan simply wasn't being precise — he rounded up." },
+    { "type": "challenge", "speaker": "Gemara rejects it", "quote": "אֵימוֹר דְּאָמְרִינַן לָא דָּק פּוּרְתָּא, טוּבָא מִי אָמְרִינַן לָא דָּק?", "gloss": "\"Not being precise\" can excuse a small gap — not a difference of more than 7 amos." },
+    { "type": "opinion", "speaker": "Mar Keshisha's correction", "quote": "מִי סָבְרַתְּ גַּבְרָא בְּאַמְּתָא יָתֵיב, תְּלָתָא גַּבְרֵי בְּתַרְתֵּי אַמְּתָא יָתְבִי.", "gloss": "You're assuming each person needs a full amah of seating space — really, three people fit in two amos. On that basis, 24 people need 16 amos of circumference, very close to the precise 16⅘ figure." },
+    { "type": "challenge", "speaker": "Gemara pushes again", "quote": "אֵימוֹר דְּאָמְרִינַן לָא דָּק לְחוּמְרָא, לְקוּלָּא מִי אָמְרִינַן לָא דָּק?", "gloss": "\"Not precise\" is more tolerable when it makes the law stricter than necessary. But this correction would make Rabbi Yochanan's number a touch <i>lenient</i> relative to the precise minimum — and we don't excuse imprecision that direction." },
+    { "type": "opinion", "speaker": "Rav Asi's reframing", "quote": "לְעוֹלָם גַּבְרָא בְּאַמְּתָא יָתֵיב, וְרַבִּי יוֹחָנָן מְקוֹם גַּבְרֵי לָא קָחָשֵׁיב.", "gloss": "Actually, each person does take a full amah — but Rabbi Yochanan's 24 amos measures only the inner circle traced by the seated people themselves, not the sukkah's actual outer wall circumference." },
+    { "type": "resolution", "speaker": "Checked and accepted", "quote": "כַּמָּה הָווּ לְהוּ — תַּמְנֵי סְרֵי, בְּשִׁיבְסַר נְכֵי חוּמְשָׁא סַגִּיא! הַיְינוּ דְּלָא דָּק וּלְחוּמְרָא לָא דָּק.", "gloss": "That inner circle works out to 18 amos — compared to the precise 17-minus-a-fifth minimum, this is imprecision toward the <i>stringent</i> side, which is acceptable. This explanation stands." },
+    { "type": "source", "speaker": "A different approach altogether, continuing to 8b", "quote": "רַבָּנַן דְּקֵיסָרִי... עִיגּוּלָא דְּנָפֵיק מִגּוֹ רִיבּוּעָא — רִבְעָא.", "gloss": "The Sages of Caesarea propose a different framework entirely, based on area rather than length — continued on 8b." }
+  ],
+
+  "tosfos": [
+    {
+      "dh": "תוספות ד״ה כמה",
+      "dhEn": "Kamah",
+      "summary": "A geometric proof (condensed here) that the \"square is a quarter bigger than an inscribed circle\" rule is about area, not the length of a string wrapped around the shape.",
+      "points": [
+        { "type": "question", "label": "(a)-(b) Why circumference alone doesn't prove it", "he": "אין להוכיח דבר זה מהא דטבלא מרובעת... דאין מביאין ראיה מחוט ההיקף", "en": "You might think a 3×3 square (perimeter 12) versus a circle of diameter 3 (circumference ~9) proves the ratio — but that's the wrong comparison. Splitting a 4×4 square into unit squares gives 16, while a circle of the same diameter holds only about 12 — the same quarter-ratio, but derived from area, not the perimeter/circumference numbers themselves." },
+        { "type": "answer", "label": "(c) A cleaner geometric proof", "he": "אם באנו לכוין החשבון... שתעשה נקודה של משהו ותקיפנה בחוטין הרבה", "en": "Tosfos constructs the ratio directly: build up a circular Tefach out of concentric threads, cut and unfold them into a triangle, and the resulting area comes out to exactly three-quarters of an equivalent square — confirming the quarter-difference geometrically." }
+      ]
+    },
+    {
+      "dh": "תוספות ד״ה כל אמתא",
+      "dhEn": "Kol Amta",
+      "summary": "Proving that a square's diagonal is actually a bit more than exactly 1⅖ times its side — the Gemara's figure is a rounded approximation.",
+      "points": [
+        { "type": "answer", "label": "Proof by area", "he": "אם תעשה ריבוע של עשר על עשר ותחלק אותו שתי וערב... נמצא דאין בו חציו של חיצון", "en": "A 10×10 square split into diagonal-based quarters gives an inner diamond of exactly 50 square units (half the outer square). But if the diagonal were exactly 1⅖ times the side (giving a 7×7 inner square), that inner square would only measure 49 — not quite half. So the true ratio must be very slightly more than 1⅖." }
+      ]
+    },
+    {
+      "dh": "תוספות ד״ה רבי יוחנן",
+      "dhEn": "Rebbi Yochanan",
+      "summary": "The Gemara's own resolution (Rav Asi's) doesn't actually match how Rabbi Yochanan's measure is used elsewhere.",
+      "points": [
+        { "type": "question", "label": "(a) Observation", "he": "על חנם דחק ליישב דברי ר' יוחנן דעל כרחך מקום גברי קחשיב", "en": "The Gemara's effort here seems unnecessary — Rabbi Yochanan's own parallel ruling in Eruvin (76a), about a round window needing a 24-tefachim circumference, only makes sense if he <i>does</i> count the people's own space, the very possibility just rejected. The explanation that actually fits there is the Caesarean judges' area-based approach instead." }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "id": "8a-practice",
+  "daf": "8a",
+  "title": "Sukkah 8a — Practice Quiz",
+  "source": "Questions and correct answers taken directly from the Dafyomi Advancement Forum quiz for Sukkah 8 (dafyomi.co.il/sukah/quiz/su-qz-008.htm), questions 1–4.",
+  "questions": [
+    {
+      "q": "A circle is inscribed within a square. How much larger is the square than the circle?",
+      "options": ["10%", "20%", "25%", "30%", "40%"],
+      "correct": 2,
+      "explain": "A square's perimeter (and, per Tosfos, its area relative to an inscribed circle) exceeds the circle's by a quarter."
+    },
+    {
+      "q": "How much bigger is the diagonal of a square than its sides?",
+      "options": ["10%", "20%", "25%", "30%", "40%"],
+      "correct": 4,
+      "explain": "The Gemara's rule: a square's diagonal is about 1⅖ (140%) of its side — 40% more."
+    },
+    {
+      "q": "\"Lo dak\" (he wasn't precise) — in which direction do we accept that kind of imprecision?",
+      "options": ["Not at all", "L'chumra (toward stringency)", "L'kula (toward leniency)", "It's not true that we do", "Machlokes B&C"],
+      "correct": 1,
+      "explain": "The Gemara explicitly accepts \"not precise\" only when the result errs toward a stricter requirement than the bare minimum — not when it would under-require."
+    },
+    {
+      "q": "How big does a round sukkah actually have to be, precisely (before accounting for Rabbi Yochanan's own rounding)?",
+      "options": ["24 amos", "18 amos", "16.8 amos", "Much smaller — we hold dirat arai", "Machlokes C&D"],
+      "correct": 2,
+      "explain": "Mar Keshisha's correction (3 people per 2 amos, not 1 per amos) brings the precise minimum circumference to 16⅘ amos — very close to the exact geometric figure of 17 minus a fifth."
+    }
+  ]
+}

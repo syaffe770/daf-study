@@ -1,0 +1,20 @@
+{
+  "id": "8b-practice",
+  "daf": "8b",
+  "title": "Sukkah 8b — Practice Quiz",
+  "source": "Questions and correct answers taken directly from the Dafyomi Advancement Forum quiz for Sukkah 8 (dafyomi.co.il/sukah/quiz/su-qz-008.htm), questions 5–6.",
+  "questions": [
+    {
+      "q": "A potter's hut has an inner and outer room. What is their status regarding mezuzah?",
+      "options": ["Both need it", "Neither needs it", "Inner needs it", "Outer needs it", "Machlokes A&B"],
+      "correct": 2,
+      "explain": "The inner room is lived in year-round (a real house, needing a mezuzah, but not a valid sukkah); the outer room is just a passage/shop-front (a valid sukkah, exempt from mezuzah)."
+    },
+    {
+      "q": "What does GaNBaKh have going for it that RaKBaSh doesn't, as far as sukkah is concerned?",
+      "options": ["It is \"sukkah\" in gematria", "It comes first in alphabetical order", "It is a more solid (permanent-feeling) dwelling", "The people who use those booths are obligated in sukkah", "Machlokes C&D"],
+      "correct": 2,
+      "explain": "GaNBaKh's cases (gentile, woman, animal, Samaritan) are sturdy, permanent-style structures, which is why that Tanna finds them obviously valid first — even though none of their builders were obligated in the mitzvah. RaKBaSh's cases have the opposite going for them: their builders were obligated, even though the structures are only seasonal."
+    }
+  ]
+}
